@@ -12,23 +12,17 @@ struct ContentView: View {
     @StateObject private var viewModel = ContentViewModel()
     
     var body: some View {
-        
             ZStack {
                 if viewModel.showMainView {
                     NavigationView {
-                        Group {
-                            switch viewModel.navigateToScreen {
-                            case "timerEndNotification":
-                                CompleteView()
-                                    .onAppear { viewModel.navigateToScreen = "" } // 값 초기화
-                            default:
-                                MainView()
-                            }
+                        Group{
+                            MainView()
                         }
                     }
                     .navigationBarBackButtonHidden()
                 } else {
-                    SplashView()
+                    Text("navigateToScreen : ")
+//                    SplashView()
                         .onAppear {
                             viewModel.handleAppLaunch()
                         }

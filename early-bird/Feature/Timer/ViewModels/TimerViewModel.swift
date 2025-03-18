@@ -4,6 +4,7 @@
 //
 //  Created by JAYOU KOO on 3/9/25.
 //
+
 import SwiftUI
 import UIKit
 import Combine
@@ -14,7 +15,6 @@ class TimerViewModel: ObservableObject {
     @Published var endTime: Date
     @Published var timerActive: Bool = false
     @Published var showNextView: Bool = false
-    @AppStorage("navigateToScreen") private var navigateToScreen: String = ""
     
     private var timer: Timer?
     private let model = TimerModel()
@@ -28,8 +28,8 @@ class TimerViewModel: ObservableObject {
     }
     
     var formattedTime: String {
-        let minutes = (timeRemaining % 360000) / 60000
-        let seconds = (timeRemaining % 60000) / 1000
+        let minutes = (timeRemaining / 60000) % 60
+        let seconds = (timeRemaining / 1000) % 60
         return String(format: "%02d:%02d.", minutes, seconds)
     }
     
@@ -38,18 +38,26 @@ class TimerViewModel: ObservableObject {
         return String(format: "%02d", milliseconds / 10)
     }
     
+    func excuteTimer() {
+        print("🔹 excuteTimer() 실행됨")
+        
+        // 앱 잠금 시간이 최소 900초(15분)이므로 최소 900초 이상 잠금 설정
+        AppLimiter.shared.startBlockingAllApps(for: min(TimeInterval(model.initialTime / 1000), 900))
+        
+        startTimer()
+        
+        clickLog()
+    }
+    
     func startTimer() {
         timer?.invalidate()
         timeRemaining = model.initialTime
         var seconds = (timeRemaining % 60000) / 1000
         self.endTime = Date().addingTimeInterval(Double(model.initialTime) / 1000)
-        print(Date())
-        print(endTime)
         timerActive = true
         
-        clickLog()
-        
         scheduleNotification(identifier: "timerEndNotification")
+    
         self.feedbackGenerator.impactOccurred()
         
         timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { [weak self] _ in
@@ -81,8 +89,8 @@ class TimerViewModel: ObservableObject {
     // 🔹 2. 2분 뒤 알림 예약
     func scheduleNotification(identifier: String) {
             let content = UNMutableNotificationContent()
-            content.title = "⏰ 타이머 종료!"
-            content.body = "2분이 지났어요. 다음 단계로 이동하세요."
+            content.title = "계속 몰입해봐요❗️❗️❗️"
+            content.body = "그래도 다른 앱 차단을 풀고 싶다면,\n 얼리버드 앱에 접속해주세요!"
             content.sound = .default
 
             let trigger = UNTimeIntervalNotificationTrigger(

@@ -43,6 +43,10 @@ struct CompleteView: View {
                     showNextView = true
                 }
             }
+            .onAppear {
+                HapticFeedbackManager.triggerHapticFeedbackPattern()
+                AppLimiter.shared.stopBlocking()
+            }
         }
         .navigationBarBackButtonHidden()
     }
@@ -56,6 +60,7 @@ struct CompleteView: View {
             showNextView = true
         }
     }
+    
 }
 
 struct CompleteView_Previews: PreviewProvider {

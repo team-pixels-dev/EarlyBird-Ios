@@ -10,23 +10,37 @@ import SwiftUI
 import Combine
 import UserNotifications
 
+@MainActor
 class ContentViewModel: ObservableObject {
     @Published var showMainView = false
-    @AppStorage("navigateToScreen") var navigateToScreen: String = ""
+    @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
 
     init() {
-        requestNotificationPermission()
+        Task{
+            await requestFamilyControlsPermission()
+            await requestNotificationPermission()
+        }
     }
 
     /// 알림 권한 요청
-    private func requestNotificationPermission() {
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
-            if let error = error {
-                print("🔴 알림 권한 요청 오류: \(error.localizedDescription)")
-            } else if granted {
+    private func requestNotificationPermission() async {
+        do {
+            let granted = try await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
+            if granted {
                 print("✅ 알림 권한 허용됨")
             } else {
                 print("⚠️ 알림 권한 거부됨")
+            }
+        } catch {
+            print("🔴 알림 권한 요청 오류: \(error.localizedDescription)")
+        }
+    }
+    
+    private func requestFamilyControlsPermission() async {
+        if !isFamilyControlsRequested {
+            AppLimiter.shared.requestAuthorization()
+            DispatchQueue.main.async {
+                self.isFamilyControlsRequested = true
             }
         }
     }

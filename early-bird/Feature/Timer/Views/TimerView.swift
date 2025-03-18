@@ -22,7 +22,7 @@ struct TimerView: View {
                 
             }
             WideButton(
-                buttonText: "시작!", buttonAction: viewModel.startTimer, disabled: false
+                buttonText: "시작!", buttonAction: viewModel.excuteTimer, disabled: false
             )
             .disabled(viewModel.timerActive)
             .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height - 170)

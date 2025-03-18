@@ -23,7 +23,6 @@ struct MainView: View {
                 .padding(.bottom, 24)
             }
             
-            
             Spacer()
         }
         .padding()
