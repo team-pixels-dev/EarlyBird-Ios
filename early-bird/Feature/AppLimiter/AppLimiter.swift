@@ -1,21 +1,20 @@
 //
-//  early_birdApp.swift
+//  AppLimiterApp.swift
 //  early-bird
 //
-//  Created by JAYOU KOO on 2/12/25.
+//  Created by JAYOU KOO on 3/9/25.
 //
 
 import SwiftUI
 import FamilyControls
 
-@main
-struct early_birdApp: App {
+struct AppLimiterApp: App {
     // 자식에게 전달해줄 FamlyViewModel StateObject 선언
     @StateObject var familyViewModel = FamilyViewModel()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
                 .environmentObject(familyViewModel) // familyViewModel을 모든 자식 트리에 전달 t
                 .onAppear(){
                     // 앱이 실행 되자마자 Family Controls 권한을 묻는다
@@ -33,6 +32,6 @@ struct early_birdApp: App {
                        
                     }
                 }
-        }.environment(\.theme, Theme())
+        }
     }
 }
