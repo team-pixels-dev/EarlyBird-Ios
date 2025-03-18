@@ -44,8 +44,7 @@ struct CompleteView: View {
                 }
             }
         }
-        .navigationBarBackButtonHidden(true)
-        .popGestureDisabled()
+        .navigationBarBackButtonHidden()
     }
     
     func complete() {

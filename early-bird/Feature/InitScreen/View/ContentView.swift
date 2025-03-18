@@ -27,7 +27,6 @@ struct ContentView: View {
                         }
                     }
                     .navigationBarBackButtonHidden()
-                    .popGestureDisabled()
                 } else {
                     SplashView()
                         .onAppear {

@@ -19,7 +19,7 @@ struct TimerView: View {
                     .font(.custom("Pretendard-ExtraBold", size: 36))
                     .foregroundColor(Theme.wrongColor)
                     .padding(.bottom, 10.0)
-                    
+                
             }
             WideButton(
                 buttonText: "시작!", buttonAction: viewModel.startTimer, disabled: false

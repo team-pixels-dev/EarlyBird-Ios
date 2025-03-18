@@ -11,6 +11,7 @@ import UserNotifications
 
 class TimerViewModel: ObservableObject {
     @Published var timeRemaining: Int
+    @Published var endTime: Date
     @Published var timerActive: Bool = false
     @Published var showNextView: Bool = false
     @AppStorage("navigateToScreen") private var navigateToScreen: String = ""
@@ -23,34 +24,46 @@ class TimerViewModel: ObservableObject {
     init() {
         feedbackGenerator.prepare()
         self.timeRemaining = model.initialTime
+        self.endTime = Date().addingTimeInterval(Double(model.initialTime) / 1000)
     }
     
     var formattedTime: String {
-        let minutes = (timeRemaining % 360000) / 6000
-        let seconds = (timeRemaining % 6000) / 100
+        let minutes = (timeRemaining % 360000) / 60000
+        let seconds = (timeRemaining % 60000) / 1000
         return String(format: "%02d:%02d.", minutes, seconds)
     }
     
     var formattedTimeMs: String {
-        let milliseconds = timeRemaining % 100
-        return String(format: "%02d", milliseconds)
+        let milliseconds = timeRemaining % 1000
+        return String(format: "%02d", milliseconds / 10)
     }
     
     func startTimer() {
         timer?.invalidate()
         timeRemaining = model.initialTime
+        var seconds = (timeRemaining % 60000) / 1000
+        self.endTime = Date().addingTimeInterval(Double(model.initialTime) / 1000)
+        print(Date())
+        print(endTime)
         timerActive = true
+        
+        clickLog()
         
         scheduleNotification(identifier: "timerEndNotification")
         self.feedbackGenerator.impactOccurred()
         
         timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { [weak self] _ in
             guard let self = self else { return }
+            
             if self.timeRemaining > 0 {
-                self.timeRemaining -= 1
+//              self.timeRemaining -= 1
+                self.timeRemaining = max(Int(self.endTime.timeIntervalSince(Date()) * 1000), 0)
                 
-                // 매 1초(즉, 100 단위)마다 진동 발생
-                if self.timeRemaining % 100 == 0 {
+                let newSeconds = (timeRemaining % 60000) / 1000
+                
+                // 매 1초마다 진동 발생
+                if newSeconds != seconds {
+                    seconds = newSeconds
                     self.feedbackGenerator.impactOccurred()
                 }
             } else {
@@ -73,7 +86,7 @@ class TimerViewModel: ObservableObject {
             content.sound = .default
 
             let trigger = UNTimeIntervalNotificationTrigger(
-                timeInterval: TimeInterval(model.initialTime / 100), repeats: false
+                timeInterval: TimeInterval(model.initialTime / 1000), repeats: false
             )
             let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
 
@@ -85,4 +98,14 @@ class TimerViewModel: ObservableObject {
                 }
             }
         }
+    
+    func clickLog(){
+        let ClickLogData = ClickLogJson(
+            clientId: ClientIDManager.getClientID(),
+            clickType: "timer-start-button-click",
+            clickTime: formatDate(Date())
+        )
+        
+        sendPostRequest(to: "/api/v1/log/click", with: ClickLogData){_ in }
+    }
 }

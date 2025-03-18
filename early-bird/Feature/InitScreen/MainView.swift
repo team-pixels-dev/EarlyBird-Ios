@@ -11,8 +11,7 @@ struct MainView: View {
         VStack(spacing: 0) {
             MainHeaderView().padding(.top, 24)
             
-            NavigationLink(destination: TimerView().navigationBarBackButtonHidden()
-                .popGestureDisabled()) {
+            NavigationLink(destination: TimerView()) {
                 CardViewVer2(
                     buttonText: "지금 당장 시작하기",
                     description: "자괴감 방지 기능 스트레스 감소",

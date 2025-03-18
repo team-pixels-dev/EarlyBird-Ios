@@ -14,7 +14,7 @@ final class PopGestureManager {
     private init() {}
     
     // 뒤로가기 제스처를 허용하는지 확인 변수
-    private(set) var isAllowPopGesture = true
+    private(set) var isAllowPopGesture = false
     
     // 뒤로가기 제스처를 허용하는 변수 업데이트
     func updateAllowPopGesture(_ bool: Bool) {
@@ -35,20 +35,20 @@ extension UINavigationController: @retroactive UIGestureRecognizerDelegate {
     }
 }
 
-struct PopGestureDisabledViewModifier: ViewModifier {
+struct PopGestureAbledViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .task {
-                PopGestureManager.shared.updateAllowPopGesture(false)
+                PopGestureManager.shared.updateAllowPopGesture(true)
             }
             .onDisappear {
-                PopGestureManager.shared.updateAllowPopGesture(true)
+                PopGestureManager.shared.updateAllowPopGesture(false)
             }
     }
 }
 
 extension View {
-    func popGestureDisabled() -> some View {
-        modifier(PopGestureDisabledViewModifier())
+    func popGestureAabled() -> some View {
+        modifier(PopGestureAbledViewModifier())
     }
 }
