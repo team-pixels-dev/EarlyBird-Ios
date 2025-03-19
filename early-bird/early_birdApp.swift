@@ -10,9 +10,12 @@ import FamilyControls
 
 @main
 struct early_birdApp: App {
+    @StateObject private var appStateManager = AppStateManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InitView()
         }.environment(\.theme, Theme())
+        .environmentObject(appStateManager)
     }
 }

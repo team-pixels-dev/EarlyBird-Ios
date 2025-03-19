@@ -18,6 +18,7 @@ struct TextFeedbackModal: View {
     @Binding var showModal: Bool
     @State private var submittedText: String = ""
     @State private var inputText: String = ""
+    @EnvironmentObject var appStateManager: AppStateManager
     
     var body: some View {
         VStack(spacing:0) {
@@ -42,7 +43,7 @@ struct TextFeedbackModal: View {
                 Text("제출하기")
                     .frame(maxWidth: .infinity)
                     .frame(height: 48.0)
-                    .background(inputText.isEmpty ? Theme.disabledColor : Theme.primaryColor)
+                    .background(Theme.primaryColor)
                     .foregroundColor(.white)
             }
             
@@ -54,18 +55,25 @@ struct TextFeedbackModal: View {
         .transition(.scale)
         .alert("제출완료", isPresented: $showSubmitAlert) {
             Button("확인", role: .cancel) {
-                showModal = false
+                closeModal()
             }
         } message: {
             Text("소중한 의견 감사합니다.")
         }
     }
     
+    func closeModal() {
+        showModal = false
+        appStateManager.lastAppState = .home
+    }
+    
     func sendTextFeedBack() {
-        if (inputText.isEmpty){return}
+        if (inputText.isEmpty){
+            closeModal()
+            return
+        }
         
         submittedText = inputText
-        
         
         let TextFeedBackData = TextFeedBackJson(
             comment: submittedText,
@@ -78,11 +86,9 @@ struct TextFeedbackModal: View {
             case .success(_):
                 showSubmitAlert = true
             case .failure(_):
-                showModal = false
+                closeModal()
                 break
             }
         }
-        
-        
     }
 }

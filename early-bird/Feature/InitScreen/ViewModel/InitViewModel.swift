@@ -11,7 +11,7 @@ import Combine
 import UserNotifications
 
 @MainActor
-class ContentViewModel: ObservableObject {
+class InitViewModel: ObservableObject {
     @Published var showMainView = false
     @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
 
@@ -47,7 +47,7 @@ class ContentViewModel: ObservableObject {
 
     /// 앱 실행 후 초기 동작 (스플래시뷰 -> 메인뷰 전환)
     func handleAppLaunch() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             withAnimation {
                 self.showMainView = true
             }

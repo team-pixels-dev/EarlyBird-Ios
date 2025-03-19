@@ -7,11 +7,15 @@
 import SwiftUI
 
 struct MainView: View {
+    @EnvironmentObject var appStateManager: AppStateManager
+    @State private var gotoTimerView: Bool = false
+    @State private var gotoCompleteView: Bool = false
+    
     var body: some View {
         VStack(spacing: 0) {
             MainHeaderView().padding(.top, 24)
             
-            NavigationLink(destination: TimerView()) {
+            NavigationLink(destination: TimerView(appStateManager: appStateManager)) {
                 CardViewVer2(
                     buttonText: "지금 당장 시작하기",
                     description: "자괴감 방지 기능 스트레스 감소",
@@ -23,11 +27,36 @@ struct MainView: View {
                 .padding(.bottom, 24)
             }
             
+            // TimerView 이동 준비
+            NavigationLink(destination: TimerView(appStateManager: appStateManager), isActive: $gotoTimerView){
+                EmptyView()
+            }
+            
+            // CompleteView 이동 준비
+            NavigationLink(destination: CompleteView(), isActive: $gotoCompleteView){
+                EmptyView()
+            }
+            
             Spacer()
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         .background(Theme.appBackgroundColor)
+        .navigationBarBackButtonHidden()
+        .onAppear{
+            // lastAppState가 .timerStarted일 경우
+            if(appStateManager.lastAppState == .timerStarted){
+                // 타이머 종료 시점까지 남음 시간 계산
+                let timeRemaining = Int(appStateManager.timerEndTime.timeIntervalSince(Date()) * 1000)
+                
+                // 타이머 종료 시점에 임계함에 따라 타이머 또는 완료 화면으로 이동
+                if (timeRemaining > 0) {
+                    gotoTimerView = true
+                } else {
+                    gotoCompleteView = true
+                }
+            }
+        }
     }
 }
 

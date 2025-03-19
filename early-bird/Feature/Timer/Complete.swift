@@ -11,6 +11,7 @@ struct CompleteView: View {
     @State var showNextView: Bool = false
     @State private var showNPSModal = false
     @State private var showTextFeedbackModal = false
+    @EnvironmentObject var appStateManager: AppStateManager
     
     var body: some View {
         NavigationView {
@@ -23,7 +24,7 @@ struct CompleteView: View {
                 Spacer()
                 WideButton(buttonText: "완료", buttonAction: {complete()}, disabled: false)
                 
-                NavigationLink(destination: ContentView(), isActive: $showNextView) {
+                NavigationLink(destination: MainView(), isActive: $showNextView) {
                     EmptyView()
                 }
             }
@@ -40,10 +41,12 @@ struct CompleteView: View {
             }
             .onChange(of: showTextFeedbackModal) {
                 if !showTextFeedbackModal {
+                    appStateManager.lastAppState = .home
                     showNextView = true
                 }
             }
             .onAppear {
+                appStateManager.lastAppState = .completed
                 HapticFeedbackManager.triggerHapticFeedbackPattern()
                 AppLimiter.shared.stopBlocking()
             }
@@ -57,6 +60,7 @@ struct CompleteView: View {
         if (attendanceCount == 1 || attendanceCount == 3 || attendanceCount == 7){
             showNPSModal = true
         } else {
+            appStateManager.lastAppState = .home
             showNextView = true
         }
     }
