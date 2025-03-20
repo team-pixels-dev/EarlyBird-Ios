@@ -15,13 +15,17 @@ struct WideButton: View {
         Button(action: buttonAction){
             ZStack {
                 RoundedRectangle(cornerRadius: 30)
-                    .fill(Theme.primaryColor)
+                    .foregroundColor(Theme.primaryColor) // fill 대신 foregroundColor 사용
                     .frame(width: 350, height: 64)
-                    .shadow(color: Color(Theme.secondaryColor), radius: 2, x: 1, y: 8)
+                    .shadow(color: Theme.secondaryColor.opacity(0.5), radius: 2, x: 1, y: 8)
                     Text(buttonText)
                         .font(.system(size: 30))
                         .foregroundColor(Theme.brightTextColor)
             }
         }.disabled(disabled)
     }
+}
+
+#Preview {
+    WideButton(buttonText: "test", buttonAction: {}, disabled: false)
 }

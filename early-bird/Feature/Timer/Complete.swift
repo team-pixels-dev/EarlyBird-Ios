@@ -34,13 +34,13 @@ struct CompleteView: View {
             .modal(isPresented: $showTextFeedbackModal) {
                 TextFeedbackModal(showModal: $showTextFeedbackModal)
             }
-            .onChange(of: showNPSModal) {
-                if !showNPSModal { // showNPSModal이 false가 될 때
+            .onChange(of: showNPSModal) { newValue in
+                if !newValue { // showNPSModal이 false가 될 때
                     showTextFeedbackModal = true
                 }
             }
-            .onChange(of: showTextFeedbackModal) {
-                if !showTextFeedbackModal {
+            .onChange(of: showTextFeedbackModal) { newValue in
+                if !newValue {
                     appStateManager.lastAppState = .home
                     showNextView = true
                 }

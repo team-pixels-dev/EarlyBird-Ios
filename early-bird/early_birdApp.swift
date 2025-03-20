@@ -15,7 +15,8 @@ struct early_birdApp: App {
     var body: some Scene {
         WindowGroup {
             InitView()
+                .environmentObject(appStateManager)
         }.environment(\.theme, Theme())
-        .environmentObject(appStateManager)
+        
     }
 }
