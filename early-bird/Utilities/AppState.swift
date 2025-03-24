@@ -21,10 +21,10 @@ class AppStateManager: ObservableObject {
     
     // 타이머 종료 시점 저장
     @AppStorage("timerEndTime") private var timerEndTimeRaw: Double = 0  // Date를 Double로 저장
-
+    
     var lastAppState: AppState {
         get { AppState(rawValue: lastAppStateRaw) ?? .home }
-        set { lastAppStateRaw = newValue.rawValue }
+        set {  DispatchQueue.main.async {self.lastAppStateRaw = newValue.rawValue} }
     }
 
     var timerEndTime: Date {
@@ -32,6 +32,6 @@ class AppStateManager: ObservableObject {
         get { Date(timeIntervalSince1970: timerEndTimeRaw) }
         
         // double를 Date로 저장
-        set { timerEndTimeRaw = newValue.timeIntervalSince1970 }
+        set {  DispatchQueue.main.async {self.timerEndTimeRaw = newValue.timeIntervalSince1970} }
     }
 }

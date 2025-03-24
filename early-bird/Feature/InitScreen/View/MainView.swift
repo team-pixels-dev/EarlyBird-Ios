@@ -18,7 +18,7 @@ struct MainView: View {
             NavigationLink(destination: TimerView(appStateManager: appStateManager)) {
                 CardViewVer2(
                     buttonText: "지금 당장 시작하기",
-                    description: "자괴감 방지 기능 스트레스 감소",
+                    description: "자괴감 방지 가능, 스트레스 감소",
                     buttonAction: {
                         print("지금 당장 시작하기 버튼 클릭")
                     },

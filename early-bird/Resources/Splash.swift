@@ -14,6 +14,7 @@ struct SplashView: View {
             .scaledToFit()
             .frame(width: 214, height: 80)
             .navigationBarBackButtonHidden()
+            .background(Theme.appBackgroundColor)
     }
 }
 

@@ -16,7 +16,7 @@ struct early_birdApp: App {
         WindowGroup {
             InitView()
                 .environmentObject(appStateManager)
+                .background(Theme.appBackgroundColor)
         }.environment(\.theme, Theme())
-        
     }
 }

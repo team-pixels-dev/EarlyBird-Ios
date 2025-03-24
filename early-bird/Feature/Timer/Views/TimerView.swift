@@ -24,10 +24,10 @@ struct TimerView: View {
                     .font(.custom("Pretendard-ExtraBold", size: 36))
                     .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
                     .padding(.bottom, 10.0)
-            }
+            }.background(Theme.appBackgroundColor)
             if (!viewModel.timerActive){
                 WideButton(
-                    buttonText: "시작!", buttonAction: {viewModel.startTimer(autoStart: false)}, disabled: false
+                    buttonText: "시작!", buttonAction: {viewModel.checkPermissionsAndStartTimer(autoStart: false)}, disabled: false
                 )
                 .disabled(viewModel.timerActive)
                 .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height - 170)
@@ -36,6 +36,15 @@ struct TimerView: View {
             NavigationLink(destination: CompleteView(), isActive: $viewModel.showNextView) {
                 EmptyView()
             }
+        }
+        .background(Theme.appBackgroundColor)
+        .alert("필수 권한이 없습니다.", isPresented: $viewModel.showPermissionErrorMsgModal) {
+            Button("확인") {
+                viewModel.tryGetPermission()
+                viewModel.showPermissionErrorMsgModal = false
+            }
+        } message: {
+            Text("앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림")
         }
         .navigationBarBackButtonHidden()
     }

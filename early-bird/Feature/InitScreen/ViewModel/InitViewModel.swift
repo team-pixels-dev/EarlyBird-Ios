@@ -14,40 +14,25 @@ import UserNotifications
 class InitViewModel: ObservableObject {
     @Published var showMainView = false
     @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
+    @AppStorage("isNotificationRequested") private var isNotificationRequested: Bool = false
+    private var getPermssion = GetPermission()
 
     init() {
         Task{
-            await requestFamilyControlsPermission()
-            await requestNotificationPermission()
-        }
-    }
-
-    /// 알림 권한 요청
-    private func requestNotificationPermission() async {
-        do {
-            let granted = try await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
-            if granted {
-                print("✅ 알림 권한 허용됨")
-            } else {
-                print("⚠️ 알림 권한 거부됨")
-            }
-        } catch {
-            print("🔴 알림 권한 요청 오류: \(error.localizedDescription)")
-        }
-    }
-    
-    private func requestFamilyControlsPermission() async {
-        if !isFamilyControlsRequested {
-            AppLimiter.shared.requestAuthorization()
-            DispatchQueue.main.async {
+            if !isFamilyControlsRequested {
+                await getPermssion.requestFamilyControlsPermission()
                 self.isFamilyControlsRequested = true
+            }
+            if !isNotificationRequested {
+                await getPermssion.requestNotificationPermission()
+                self.isNotificationRequested = true
             }
         }
     }
 
     /// 앱 실행 후 초기 동작 (스플래시뷰 -> 메인뷰 전환)
     func handleAppLaunch() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             withAnimation {
                 self.showMainView = true
             }

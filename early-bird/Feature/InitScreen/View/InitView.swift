@@ -21,7 +21,7 @@ struct InitView: View {
                         viewModel.handleAppLaunch()
                     }
             }
-        }
+        }.background(Theme.appBackgroundColor)
     }
 }
 

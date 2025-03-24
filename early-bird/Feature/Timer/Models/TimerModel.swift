@@ -8,7 +8,7 @@
 import Foundation
 
 struct TimerModel {
-    let initialTime: Int = 2 * 60 * 1000 // 2분 (밀리초 단위)
+    let initialTime: Int = 1 * 10 * 1000 // 2분 (밀리초 단위)
 }
 
 struct ClickLogJson : Codable{
@@ -16,3 +16,4 @@ struct ClickLogJson : Codable{
     let clickType : String
     let clickTime : String
 }
+
