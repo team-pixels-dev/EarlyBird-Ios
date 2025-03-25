@@ -4,6 +4,9 @@
 //
 //  Created by JAYOU KOO on 3/4/25.
 //
+
+// 뒤로가기 제스쳐 관리
+
 import SwiftUI
 import UIKit
 

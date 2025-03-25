@@ -4,6 +4,9 @@
 //
 //  Created by JAYOU KOO on 3/17/25.
 //
+
+// https 통신
+
 import SwiftUI
 import Foundation
 

@@ -14,20 +14,21 @@ struct NPSModal: View {
     let columns = Array(repeating: GridItem(.fixed(48), spacing: 12), count: 4)
 
     var body: some View {
-        VStack {
-            Text("얼리버드를 주변에 얼마나 추천하고 싶으신가요?")
+        VStack(alignment: .leading) {
+            Text("얼리버드를 주변에 얼마나\n추천하고 싶으신가요?")
+                .font(.custom("Pretendard-SemiBold", size: 16))
                 .font(.headline)
-                .multilineTextAlignment(.center)
+                .multilineTextAlignment(.leading)
                 .padding(.top, 20)
+                .padding(.leading, 20)
 
             HStack {
                 Text("추천 안해요")
+                    .font(.custom("Pretendard-Medium", size: 12))
                     .foregroundColor(.gray)
                 Spacer()
-                Text("정말 추천해요")
-                    .foregroundColor(.gray)
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 20)
             .padding(.top, 5)
 
             VStack(spacing: 0) {
@@ -47,19 +48,28 @@ struct NPSModal: View {
                     Spacer()
                 }
             }
+            
+            HStack {
+                Spacer()
+                Text("정말 추천 해요")
+                    .font(.custom("Pretendard-Medium", size: 12))
+                    .foregroundColor(.gray)
+            }
+            .padding(.horizontal, 20)
             Spacer()
         
             // 제출 버튼
             Button(action: {
                 sendRating(rating: selectedRating)
                 showModal = false
+                print("제출")
             }) {
                 Text("제출하기")
                     .font(.headline)
                     .frame(maxWidth: .infinity, minHeight: 54)
                     .background(selectedRating != -1 ? Theme.primaryColor : Theme.disabledColor)
                     .foregroundColor(.white)
-            }
+            }.disabled(selectedRating == -1)
         }
         .frame(width: 270, height: 380)
         .background(Color.white)
@@ -72,7 +82,7 @@ struct NPSModal: View {
             selectedRating = rating
         }) {
             Text("\(rating)")
-                .font(.title3)
+                .font(.custom("Pretendard-SemiBold", size: 16))
                 .fontWeight(.bold)
                 .frame(width: 48, height: 48) // 버튼 크기 고정
                 .background(selectedRating == rating ? Theme.primaryColor : Theme.notSelectedColor)

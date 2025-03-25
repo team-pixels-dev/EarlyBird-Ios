@@ -5,6 +5,7 @@
 //  Created by JAYOU KOO on 3/18/25.
 //
 
+// 햅틱 피드벡 관리
 
 import UIKit
 

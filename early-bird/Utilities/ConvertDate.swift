@@ -4,6 +4,9 @@
 //
 //  Created by JAYOU KOO on 3/18/25.
 //
+
+// 날짜 형식 변환
+
 import Foundation
 
 func formatDate(_ date: Date) -> String {

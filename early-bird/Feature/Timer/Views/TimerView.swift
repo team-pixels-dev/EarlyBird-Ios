@@ -9,7 +9,7 @@ import SwiftUI
 struct TimerView: View {
     @EnvironmentObject var appStateManager: AppStateManager
     @StateObject private var viewModel: TimerViewModel
-
+    
     init(appStateManager: AppStateManager) {
         _viewModel = StateObject(wrappedValue: TimerViewModel(appStateManager: appStateManager))
     }
@@ -24,7 +24,7 @@ struct TimerView: View {
                     .font(.custom("Pretendard-ExtraBold", size: 36))
                     .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
                     .padding(.bottom, 10.0)
-            }.background(Theme.appBackgroundColor)
+            }
             if (!viewModel.timerActive){
                 WideButton(
                     buttonText: "시작!", buttonAction: {viewModel.checkPermissionsAndStartTimer(autoStart: false)}, disabled: false
@@ -37,7 +37,7 @@ struct TimerView: View {
                 EmptyView()
             }
         }
-        .background(Theme.appBackgroundColor)
+        .applyBackground()
         .alert("필수 권한이 없습니다.", isPresented: $viewModel.showPermissionErrorMsgModal) {
             Button("확인") {
                 viewModel.tryGetPermission()

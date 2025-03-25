@@ -28,7 +28,7 @@ struct CompleteView: View {
                     EmptyView()
                 }
             }
-            .background(Theme.appBackgroundColor)
+            .applyBackground()
             .modal(isPresented: $showNPSModal) {
                 NPSModal(showModal: $showNPSModal)
             }

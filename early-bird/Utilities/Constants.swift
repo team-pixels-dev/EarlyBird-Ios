@@ -5,6 +5,8 @@
 //  Created by JAYOU KOO on 3/17/25.
 //
 
+// 클라이언트 ID 생성, baseURL 저장
+
 import Foundation
 
 struct Constants {

@@ -13,11 +13,11 @@ struct MainView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            MainHeaderView().padding(.top, 24)
+            MainHeaderView().padding(.top, 54)
             
             NavigationLink(destination: TimerView(appStateManager: appStateManager)) {
-                CardViewVer2(
-                    buttonText: "지금 당장 시작하기",
+                CardViewVer(
+                    buttonText: "지금 2분 집중 시작",
                     description: "자괴감 방지 가능, 스트레스 감소",
                     buttonAction: {
                         print("지금 당장 시작하기 버튼 클릭")
@@ -39,9 +39,8 @@ struct MainView: View {
             
             Spacer()
         }
-        .padding()
+        .applyBackground()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-        .background(Theme.appBackgroundColor)
         .navigationBarBackButtonHidden()
         .onAppear{
             // lastAppState가 .timerStarted일 경우
@@ -73,29 +72,30 @@ struct MainHeaderView: View {
                 .font(.custom("Pretendard-SemiBold", size: 28))
                 .foregroundColor(Theme.mainTextColor1)
         }
-        .padding(.bottom, 80)
+        .padding(.bottom, 70)
+        .padding(.leading, 25)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
-struct CardViewVer2: View {
+struct CardViewVer: View {
     let buttonText: String
     let description: String
     let buttonAction: () -> Void
     let color: String
     
     var body: some View {
-        VStack(alignment: .center, spacing: 35) {
+        VStack(alignment: .center, spacing: 45) {
             Text(description)
-                .font(.system(size: 16))
+                .font(.custom("Pretendard-SemiBold", size: 16))
                 .foregroundColor(color == "tint" ? Theme.brightTextColor : Theme.mainTextColor2)
-            Image("fireIcon")
+            Image("LockIcon")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 34, height: 39)
+                .frame(width: 50, height: 67)
             HStack {
                 Text(buttonText)
-                    .font(.system(size: 20))
+                    .font(.custom("Pretendard-Bold", size: 20))
                     .foregroundColor(Theme.mainTextColor2)
                 Image("lineArrowIcon")
                     .resizable()
@@ -106,18 +106,14 @@ struct CardViewVer2: View {
             .background(color == "tint" ? Theme.backgroundColor : Theme.primaryColor)
             .cornerRadius(10)
         }
-        .frame(width: 355, height: 232)
+        .frame(width: 366, height: 270)
         .background(color == "tint" ? Theme.primaryColor : Theme.backgroundColor)
         .cornerRadius(10)
     }
 }
 
-// 추가 뷰 및 스타일 정의는 그대로 유지
-
-struct ScaleButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .scaleEffect(configuration.isPressed ? 0.9 : 1.0)
-            .animation(.easeInOut, value: configuration.isPressed)
-    }
+#Preview {
+    MainView()
+        .environmentObject(AppStateManager())
 }
+

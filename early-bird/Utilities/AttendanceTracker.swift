@@ -5,6 +5,8 @@
 //  Created by JAYOU KOO on 3/18/25.
 //
 
+// 출석 확인 로직
+
 import SwiftUI
 
 struct AttendanceTracker {

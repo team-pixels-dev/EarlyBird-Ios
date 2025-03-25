@@ -4,6 +4,9 @@
 //
 //  Created by JAYOU KOO on 3/24/25.
 //
+
+// 앱 권한 설정
+
 import SwiftUI
 import Combine
 import UserNotifications
