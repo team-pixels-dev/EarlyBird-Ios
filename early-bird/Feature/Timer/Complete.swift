@@ -16,13 +16,25 @@ struct CompleteView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Spacer()
+                VStack{
+                    Spacer()
+                    Image("mascotSmileFace")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 166, height: 165)
+                        .transition(.opacity)
+                }
+                .frame(height: 180)
+                .padding(.bottom, 20)
+                .padding(.top, 136)
+                
                 Text("얼리버드와 함께라면\n혼자선 어려운 일도\n쉽게 시작할 수 있어요!")
                     .font(.custom("Pretendard-SemiBold", size: 28))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Theme.mainTextColor2)
                 Spacer()
                 WideButton(buttonText: "완료", buttonAction: {complete()}, disabled: false)
+                    .padding(.bottom, 40)
                 
                 NavigationLink(destination: MainView(), isActive: $showNextView) {
                     EmptyView()
@@ -70,6 +82,6 @@ struct CompleteView: View {
 
 struct CompleteView_Previews: PreviewProvider {
     static var previews: some View {
-        CompleteView()
+        CompleteView().environmentObject(AppStateManager())
     }
 }

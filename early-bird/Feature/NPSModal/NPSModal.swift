@@ -17,6 +17,7 @@ struct NPSModal: View {
         VStack(alignment: .leading) {
             Text("얼리버드를 주변에 얼마나\n추천하고 싶으신가요?")
                 .font(.custom("Pretendard-SemiBold", size: 16))
+                .foregroundColor(Theme.mainTextColor2)
                 .font(.headline)
                 .multilineTextAlignment(.leading)
                 .padding(.top, 20)

@@ -24,11 +24,13 @@ struct TextFeedbackModal: View {
         VStack(spacing:0) {
             // 멀티라인 텍스트 입력 필드
             TextEditor(text: $inputText)
-                .font(.custom("Pretendard-Ragular", size: 18))
+                .font(.custom("Pretendard-Regular", size: 18))
                 .frame(maxHeight: .infinity)
+                .scrollContentBackground(.hidden)
+                .foregroundColor(Theme.mainTextColor)
+                .background(Theme.notSelectedColor)
                 .padding(.leading, 20.0)
                 .padding(.top, 16.0)
-                .background(Color.clear)
                 .cornerRadius(8)
                 .overlay(alignment: .topLeading) {
                     Text("서비스에 대한 피드백을 300자 이내로 작성해주세요")
@@ -49,7 +51,7 @@ struct TextFeedbackModal: View {
             
         }
         .frame(width: 342, height: 243)
-        .background(Theme.backgroundColor)
+        .background(Theme.notSelectedColor)
         .cornerRadius(12)
         .shadow(radius: 20)
         .transition(.scale)
@@ -90,5 +92,30 @@ struct TextFeedbackModal: View {
                 break
             }
         }
+    }
+}
+
+struct TextFeedbackModal_Previews: PreviewProvider {
+    static var previews: some View {
+        // 더미용 상태값과 AppStateManager 생성
+        StatefulPreviewWrapper(true) { binding in
+            TextFeedbackModal(showModal: binding)
+                .environmentObject(AppStateManager())
+        }
+    }
+}
+
+// Preview용 Binding 생성 도우미
+struct StatefulPreviewWrapper<Value>: View {
+    @State var value: Value
+    var content: (Binding<Value>) -> AnyView
+
+    init(_ initialValue: Value, content: @escaping (Binding<Value>) -> some View) {
+        _value = State(initialValue: initialValue)
+        self.content = { binding in AnyView(content(binding)) }
+    }
+
+    var body: some View {
+        content($value)
     }
 }

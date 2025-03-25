@@ -10,6 +10,10 @@ struct MainView: View {
     @EnvironmentObject var appStateManager: AppStateManager
     @State private var gotoTimerView: Bool = false
     @State private var gotoCompleteView: Bool = false
+    @State private var showAlert = false
+    @State private var showPasswordPrompt = false
+    
+    private let shakePublisher = NotificationCenter.default.publisher(for: .deviceDidShakeNotification)
     
     var body: some View {
         VStack(spacing: 0) {
@@ -54,7 +58,14 @@ struct MainView: View {
                 } else {
                     gotoCompleteView = true
                 }
-            }
+            }   
+        }
+        .onReceive(shakePublisher) { _ in
+            showAlert = true
+        }
+        .teamMemberAlert(isPresented: $showAlert, showPasswordPrompt: $showPasswordPrompt)
+        .sheet(isPresented: $showPasswordPrompt) {
+            PasswordPromptSheet(isPresented: $showPasswordPrompt)
         }
     }
 }
