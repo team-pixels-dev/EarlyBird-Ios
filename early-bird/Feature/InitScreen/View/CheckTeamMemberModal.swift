@@ -40,18 +40,24 @@ struct PasswordPromptSheet: View {
         VStack(spacing: 20) {
             Text("코드를 입력해주세요")
                 .font(.headline)
-            SecureField("코드", text: $password)
+            TextField("코드", text: $password)
                 .textFieldStyle(.roundedBorder)
                 .padding()
             HStack {
                 Button("취소") {
+                    isPresented = false
                     password = ""
-                    resultMessage = "팀원 인증이 완료되었습니다."
                 }
                 Button("확인") {
-                    isTeamMember = (password == "changetheworld")
+                    if password == "changetheworld" {
+                        isTeamMember = true
+                        resultMessage = "팀원 인증이 완료되었습니다."
+                    } else {
+                        isTeamMember = false
+                        resultMessage = "코드가 일치하지 않습니다."
+                    }
+                    showResultAlert = true
                     password = ""
-                    resultMessage = "코드가 일치하지 않습니다."
                 }
             }
         }
