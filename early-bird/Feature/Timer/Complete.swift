@@ -33,7 +33,7 @@ struct CompleteView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(Theme.mainTextColor2)
                 Spacer()
-                WideButton(buttonText: "완료", buttonAction: {complete()}, disabled: false)
+                WideButton(buttonText: "complete_done_button_text", buttonAction: {complete()}, disabled: false)
                     .padding(.bottom, 40)
                 
                 NavigationLink(destination: MainView(), isActive: $showNextView) {

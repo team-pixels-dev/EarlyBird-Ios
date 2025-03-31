@@ -99,11 +99,13 @@
 				};
 			};
 			buildConfigurationList = C8F873ED2D5CD94A00EC2145 /* Build configuration list for PBXProject "early-bird" */;
-			developmentRegion = ko;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
 				ko,
+				en,
+				"en-GB",
 			);
 			mainGroup = C8F873E92D5CD94A00EC2145;
 			minimizedProjectReferenceProxies = 1;
@@ -197,6 +199,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -253,6 +256,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

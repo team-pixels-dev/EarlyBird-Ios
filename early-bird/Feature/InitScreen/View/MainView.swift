@@ -21,8 +21,8 @@ struct MainView: View {
             
             NavigationLink(destination: TimerView(appStateManager: appStateManager)) {
                 CardViewVer(
-                    buttonText: "지금 2분 집중 시작",
-                    description: "자괴감 방지 가능, 스트레스 감소",
+                    buttonText: "main_start_button_text1",
+                    description: "main_card_description1",
                     buttonAction: {
                         print("지금 당장 시작하기 버튼 클릭")
                     },
@@ -90,10 +90,10 @@ struct MainHeaderView: View {
 }
 
 struct CardViewVer: View {
-    let buttonText: String
-    let description: String
+    let buttonText: LocalizedStringKey
+    let description: LocalizedStringKey
     let buttonAction: () -> Void
-    let color: String
+    let color: LocalizedStringKey
     
     var body: some View {
         VStack(alignment: .center, spacing: 45) {

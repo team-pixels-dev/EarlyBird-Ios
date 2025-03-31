@@ -21,7 +21,7 @@ class TimerViewModel: ObservableObject {
    
     private var dispatchTimer: DispatchSourceTimer?
     private let model = TimerModel()
-    private let feedbackGenerator = UIImpactFeedbackGenerator(style: .heavy)
+    private let feedbackGenerator = UIImpactFeedbackGenerator(style: .soft)
     
     private var appStateManager: AppStateManager
     private var getPermission = GetPermission()

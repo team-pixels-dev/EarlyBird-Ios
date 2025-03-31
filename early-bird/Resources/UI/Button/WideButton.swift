@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WideButton: View {
-    let buttonText: String
+    let buttonText: LocalizedStringKey
     let buttonAction : () -> Void
     let disabled: Bool
     var body: some View {

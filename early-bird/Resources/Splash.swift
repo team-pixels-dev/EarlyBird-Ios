@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct SplashView: View {
+    // 현재 국가 코드 가져오기
+    private var regionCode: String {
+        Locale.current.region?.identifier ?? "default"
+    }
+
     var body: some View {
         Image("splash")
             .resizable()
@@ -17,6 +22,7 @@ struct SplashView: View {
             .applyBackground()
     }
 }
+
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {

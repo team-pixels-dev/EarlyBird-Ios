@@ -48,7 +48,7 @@ struct TimerView: View {
                 VStack{
                     Spacer()
                     WideButton(
-                        buttonText: "시작!", buttonAction: {viewModel.checkPermissionsAndStartTimer(autoStart: false)}, disabled: false
+                        buttonText: "timer_start_button_text", buttonAction: {viewModel.checkPermissionsAndStartTimer(autoStart: false)}, disabled: false
                     )
                     .disabled(viewModel.timerActive)
                     .padding(.bottom, 40)
