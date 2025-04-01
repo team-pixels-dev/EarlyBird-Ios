@@ -6,17 +6,26 @@
 	<dict>
 		<key>AppActivityMonitor.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>early-bird.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C8A81ECF2D9C2483005F6190</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C8F873F12D5CD94A00EC2145</key>
 		<dict>
 			<key>primary</key>
