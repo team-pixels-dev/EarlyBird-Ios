@@ -6,7 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8A81ED32D9C2483005F6190 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
+		C8A81EDB2D9C2483005F6190 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A81ED92D9C2483005F6190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8F873EA2D5CD94A00EC2145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A81ECF2D9C2483005F6190;
+			remoteInfo = AppActivityMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8A81EE02D9C2483005F6190 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8A81EDB2D9C2483005F6190 /* AppActivityMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
 		C8F873F22D5CD94A00EC2145 /* early-bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "early-bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -18,9 +49,24 @@
 			);
 			target = C8F873F12D5CD94A00EC2145 /* early-bird */;
 		};
+		C8A81EDF2D9C2483005F6190 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C8A81ED42D9C2483005F6190 /* AppActivityMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C8A81EDF2D9C2483005F6190 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */,
+			);
+			path = AppActivityMonitor;
+			sourceTree = "<group>";
+		};
 		C8F873F42D5CD94A00EC2145 /* early-bird */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +78,14 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C8A81ECD2D9C2483005F6190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A81ED32D9C2483005F6190 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F873EF2D5CD94A00EC2145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8A81ED12D9C2483005F6190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8F873E92D5CD94A00EC2145 = {
 			isa = PBXGroup;
 			children = (
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
+				C8A81ED42D9C2483005F6190 /* AppActivityMonitor */,
+				C8A81ED12D9C2483005F6190 /* Frameworks */,
 				C8F873F32D5CD94A00EC2145 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C8F873F22D5CD94A00EC2145 /* early-bird.app */,
+				C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +126,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A81EDC2D9C2483005F6190 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */;
+			buildPhases = (
+				C8A81ECC2D9C2483005F6190 /* Sources */,
+				C8A81ECD2D9C2483005F6190 /* Frameworks */,
+				C8A81ECE2D9C2483005F6190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C8A81ED42D9C2483005F6190 /* AppActivityMonitor */,
+			);
+			name = AppActivityMonitor;
+			packageProductDependencies = (
+			);
+			productName = AppActivityMonitor;
+			productReference = C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C8F873F12D5CD94A00EC2145 /* early-bird */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8F874002D5CD94C00EC2145 /* Build configuration list for PBXNativeTarget "early-bird" */;
@@ -68,10 +155,12 @@
 				C8F873EE2D5CD94A00EC2145 /* Sources */,
 				C8F873EF2D5CD94A00EC2145 /* Frameworks */,
 				C8F873F02D5CD94A00EC2145 /* Resources */,
+				C8A81EE02D9C2483005F6190 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C8A81EDA2D9C2483005F6190 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
@@ -90,9 +179,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					C8A81ECF2D9C2483005F6190 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					C8F873F12D5CD94A00EC2145 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -115,11 +207,19 @@
 			projectRoot = "";
 			targets = (
 				C8F873F12D5CD94A00EC2145 /* early-bird */,
+				C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C8A81ECE2D9C2483005F6190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F873F02D5CD94A00EC2145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +230,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C8A81ECC2D9C2483005F6190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F873EE2D5CD94A00EC2145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,7 +246,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C8A81EDA2D9C2483005F6190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */;
+			targetProxy = C8A81ED92D9C2483005F6190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		C8A81EDD2D9C2483005F6190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppActivityMonitor/AppActivityMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KH5U6PJ48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppActivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8A81EDE2D9C2483005F6190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppActivityMonitor/AppActivityMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KH5U6PJ48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppActivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C8F873FE2D5CD94C00EC2145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,7 +440,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -309,7 +480,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -344,6 +515,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C8A81EDC2D9C2483005F6190 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A81EDD2D9C2483005F6190 /* Debug */,
+				C8A81EDE2D9C2483005F6190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C8F873ED2D5CD94A00EC2145 /* Build configuration list for PBXProject "early-bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

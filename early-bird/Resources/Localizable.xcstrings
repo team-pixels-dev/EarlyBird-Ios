@@ -91,6 +91,52 @@
     "Select a date to view schedules" : {
 
     },
+    "timer_end_noti_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Another “5 more minutes”...\nGuess how many years you’ve lost?"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Another “5 more minutes”...\nGuess how many years you’ve wasted?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그래도 다른 앱 차단을 풀고 싶다면,\n얼리버드 앱에 접속해주세요!"
+          }
+        }
+      }
+    },
+    "timer_end_noti_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start right now❗️❗❗"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start straight away❗❗❗"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "계속 몰입해봐요❗️❗️❗️"
+          }
+        }
+      }
+    },
     "timer_start_button_text" : {
       "extractionState" : "manual",
       "localizations" : {

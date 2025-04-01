@@ -56,7 +56,7 @@ class TimerViewModel: ObservableObject {
         dispatchTimer = nil
         
         // 앱 차단
-        AppLimiter.shared.startBlockingAllApps(for: min(TimeInterval(model.initialTime / 1000), 900))
+        AppLimiter.shared.startBlockingAllApps(for: max(TimeInterval(model.initialTime / 1000), 900))
         // 로컬 알림 등록
         scheduleNotification(identifier: "timerEndNotification")
 
@@ -116,8 +116,10 @@ class TimerViewModel: ObservableObject {
     // 🔹 2. 2분 뒤 알림 예약
     func scheduleNotification(identifier: String) {
             let content = UNMutableNotificationContent()
-            content.title = "계속 몰입해봐요❗️❗️❗️"
-            content.body = "그래도 다른 앱 차단을 풀고 싶다면,\n 얼리버드 앱에 접속해주세요!"
+//            content.title = "계속 몰입해봐요❗️❗️❗️"
+//            content.body = "그래도 다른 앱 차단을 풀고 싶다면,\n 얼리버드 앱에 접속해주세요!"
+            content.title = NSLocalizedString("timer_end_noti_title", comment: "")
+            content.body = NSLocalizedString("timer_end_noti_body", comment: "")
             content.sound = .default
 
             let trigger = UNTimeIntervalNotificationTrigger(

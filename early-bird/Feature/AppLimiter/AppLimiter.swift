@@ -28,8 +28,11 @@ class AppLimiter: ObservableObject {
 
        store.shield.applicationCategories = .all()
        
-       let now = Calendar.current.dateComponents([.hour, .minute], from: Date())
-       let endTime = Calendar.current.dateComponents([.hour, .minute], from: Date().addingTimeInterval(duration))
+       let now = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date())
+       let endTime = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date().addingTimeInterval(duration))
+       
+       print("start time : " , now)
+       print("end time : " , endTime)
        
        let schedule = DeviceActivitySchedule(
            intervalStart: now,
@@ -38,8 +41,12 @@ class AppLimiter: ObservableObject {
        )
        
        do {
-           try deviceActivityCenter.startMonitoring(DeviceActivityName("GlobalAppLimit"), during: schedule)
-           print("모든 앱이 \(Int(duration))초 동안 차단됩니다.")
+           // during: schedule 을 인자로 받는데, 이는 모니터링과 관계가 있고 DeviceActivityName의 실행 종료 시점을 직접 제어하지는 않는다.
+           try deviceActivityCenter.startMonitoring(
+            DeviceActivityName("GlobalAppLimit"),
+            during: schedule
+           )
+           print("모든 앱이 \(Int(duration)/60)분 동안 차단됩니다.")
        } catch {
            print("차단 스케줄 설정 중 오류 발생: \(error)")
        }
@@ -54,7 +61,8 @@ class AppLimiter: ObservableObject {
     func stopBlocking() {
         store.shield.applications = Set<ApplicationToken>() // 빈 Set으로 초기화
         store.shield.applicationCategories = ShieldSettings.ActivityCategoryPolicy.none // 카테고리 차단도 해제
-        print("앱 차단이 해제되었습니다.")
+        deviceActivityCenter.stopMonitoring([DeviceActivityName("GlobalAppLimit")]) // 모니터링 중단
+        print("앱 차단이 해제되고 모니터링도 중단되었습니다.")
     }
     
     // FamilyControls 권한 요청
