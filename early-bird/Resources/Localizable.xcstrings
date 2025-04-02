@@ -97,18 +97,18 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Another “5 more minutes”...\nGuess how many years you’ve lost?"
+            "value" : "Want to unblock apps? Just open EarlyBird!"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Another “5 more minutes”...\nGuess how many years you’ve wasted?"
+            "value" : "Need to lift the block? Simply open EarlyBird!"
           }
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "그래도 다른 앱 차단을 풀고 싶다면,\n얼리버드 앱에 접속해주세요!"
           }
         }
@@ -120,18 +120,18 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start right now❗️❗❗"
+            "value" : "Keep going — you’ve got this! 💪"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start straight away❗❗❗"
+            "value" : "Keep focused — great job! 🔒"
           }
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "계속 몰입해봐요❗️❗️❗️"
           }
         }
