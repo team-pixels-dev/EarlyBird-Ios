@@ -1,0 +1,18 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Info.plist",
+  "tables" : {
+    "InfoPlist" : [
+      {
+        "comment" : "Bundle display name",
+        "key" : "CFBundleDisplayName",
+        "value" : "얼리버드"
+      },
+      {
+        "comment" : "Bundle name",
+        "key" : "CFBundleName",
+        "value" : "early-bird"
+      }
+    ]
+  },
+  "version" : 1
+}

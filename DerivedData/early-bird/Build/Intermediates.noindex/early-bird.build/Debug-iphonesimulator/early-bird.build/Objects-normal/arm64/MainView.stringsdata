@@ -1,0 +1,80 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/MainView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "main_start_button_text1",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "main_card_description1",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "tint",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "나는",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "할 일을 미루지 않는",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "사람이다.",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "tint",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "tint",
+        "location": {
+          "startingColumn": 84,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "tint",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 123
+        }
+      }
+    ]
+  },
+  "version": 1
+}

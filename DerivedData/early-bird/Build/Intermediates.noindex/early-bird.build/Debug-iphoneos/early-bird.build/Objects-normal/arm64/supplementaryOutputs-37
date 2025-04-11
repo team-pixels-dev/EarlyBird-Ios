@@ -1,0 +1,30 @@
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Models/TimerModel.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.d"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.swiftdeps"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.dia"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/ViewModels/TimerViewModel.swift":
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.swiftdeps"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.dia"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.o"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/TextFeedback.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.d"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.swiftdeps"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.o"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.swiftconstvalues"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.dia"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/NPSModal.swift":
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.swiftdeps"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.dia"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.d"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.o"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Onboard/view/Onboard_1View.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.d"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.swiftdeps"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.dia"

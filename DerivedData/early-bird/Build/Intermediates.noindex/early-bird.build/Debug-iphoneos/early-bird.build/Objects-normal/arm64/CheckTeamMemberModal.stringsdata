@@ -1,0 +1,72 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/CheckTeamMemberModal.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "EarlyBird 팀원이신가요?",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "네",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "아니요",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "코드를 입력해주세요",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "코드",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "취소",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "확인",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "확인",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

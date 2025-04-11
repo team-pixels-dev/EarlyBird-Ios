@@ -1,0 +1,130 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/CalendarScreen\/CalendarScreenView.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "No schedules for this week",
+        "location" : {
+          "startingColumn" : 26,
+          "startingLine" : 31,
+          "startingOffset" : 1136
+        }
+      },
+      {
+        "key" : "Select a date to view schedules",
+        "location" : {
+          "startingColumn" : 22,
+          "startingLine" : 35,
+          "startingOffset" : 1274
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "%arg - %arg",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 24,
+          "startingOffset" : 846
+        }
+      },
+      {
+        "key" : "yyyy-MM-dd",
+        "location" : {
+          "startingColumn" : 32,
+          "startingLine" : 51,
+          "startingOffset" : 1704
+        }
+      },
+      {
+        "key" : "2023-10-23",
+        "location" : {
+          "startingColumn" : 47,
+          "startingLine" : 53,
+          "startingOffset" : 1764
+        }
+      },
+      {
+        "key" : "2023-10-29",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 54,
+          "startingOffset" : 1823
+        }
+      },
+      {
+        "key" : "%arg - %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 55,
+          "startingOffset" : 1856
+        }
+      },
+      {
+        "key" : "Meeting with team",
+        "location" : {
+          "startingColumn" : 13,
+          "startingLine" : 56,
+          "startingOffset" : 1927
+        }
+      },
+      {
+        "key" : "Lunch with friends",
+        "location" : {
+          "startingColumn" : 13,
+          "startingLine" : 57,
+          "startingOffset" : 1960
+        }
+      },
+      {
+        "key" : "Gym session",
+        "location" : {
+          "startingColumn" : 13,
+          "startingLine" : 58,
+          "startingOffset" : 1994
+        }
+      },
+      {
+        "key" : "2023-10-30",
+        "location" : {
+          "startingColumn" : 47,
+          "startingLine" : 61,
+          "startingOffset" : 2065
+        }
+      },
+      {
+        "key" : "2023-11-05",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 62,
+          "startingOffset" : 2124
+        }
+      },
+      {
+        "key" : "%arg - %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 63,
+          "startingOffset" : 2157
+        }
+      },
+      {
+        "key" : "Project deadline",
+        "location" : {
+          "startingColumn" : 13,
+          "startingLine" : 64,
+          "startingOffset" : 2228
+        }
+      },
+      {
+        "key" : "Doctor's appointment",
+        "location" : {
+          "startingColumn" : 13,
+          "startingLine" : 65,
+          "startingOffset" : 2260
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

@@ -1,0 +1,32 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/InitScreen\/ViewModel\/InitViewModel.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "isFamilyControlsRequested",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 16,
+          "startingOffset" : 253
+        }
+      },
+      {
+        "key" : "isNotificationRequested",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 17,
+          "startingOffset" : 350
+        }
+      },
+      {
+        "key" : "\/api\/v1\/log\/visit-event",
+        "location" : {
+          "startingColumn" : 29,
+          "startingLine" : 36,
+          "startingOffset" : 1013
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

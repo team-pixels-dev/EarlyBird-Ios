@@ -1,0 +1,216 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Resources\/Theme\/Theme.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "#F9F9F9",
+        "location" : {
+          "startingColumn" : 50,
+          "startingLine" : 12,
+          "startingOffset" : 183
+        }
+      },
+      {
+        "key" : "#F9F9F9",
+        "location" : {
+          "startingColumn" : 67,
+          "startingLine" : 12,
+          "startingOffset" : 200
+        }
+      },
+      {
+        "key" : "#00A2CB",
+        "location" : {
+          "startingColumn" : 44,
+          "startingLine" : 13,
+          "startingOffset" : 254
+        }
+      },
+      {
+        "key" : "#00A2CB",
+        "location" : {
+          "startingColumn" : 61,
+          "startingLine" : 13,
+          "startingOffset" : 271
+        }
+      },
+      {
+        "key" : "#36CAF0",
+        "location" : {
+          "startingColumn" : 46,
+          "startingLine" : 14,
+          "startingOffset" : 327
+        }
+      },
+      {
+        "key" : "#36CAF0",
+        "location" : {
+          "startingColumn" : 63,
+          "startingLine" : 14,
+          "startingOffset" : 344
+        }
+      },
+      {
+        "key" : "#A7A7A7",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 15,
+          "startingOffset" : 399
+        }
+      },
+      {
+        "key" : "#A7A7A7",
+        "location" : {
+          "startingColumn" : 62,
+          "startingLine" : 15,
+          "startingOffset" : 416
+        }
+      },
+      {
+        "key" : "#F7F7F7",
+        "location" : {
+          "startingColumn" : 48,
+          "startingLine" : 16,
+          "startingOffset" : 474
+        }
+      },
+      {
+        "key" : "#F7F7F7",
+        "location" : {
+          "startingColumn" : 65,
+          "startingLine" : 16,
+          "startingOffset" : 491
+        }
+      },
+      {
+        "key" : "#FFFFFF",
+        "location" : {
+          "startingColumn" : 47,
+          "startingLine" : 18,
+          "startingOffset" : 593
+        }
+      },
+      {
+        "key" : "#FFFFFF",
+        "location" : {
+          "startingColumn" : 64,
+          "startingLine" : 18,
+          "startingOffset" : 610
+        }
+      },
+      {
+        "key" : "#000000",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 19,
+          "startingOffset" : 665
+        }
+      },
+      {
+        "key" : "#000000",
+        "location" : {
+          "startingColumn" : 62,
+          "startingLine" : 19,
+          "startingOffset" : 682
+        }
+      },
+      {
+        "key" : "#343434",
+        "location" : {
+          "startingColumn" : 46,
+          "startingLine" : 20,
+          "startingOffset" : 738
+        }
+      },
+      {
+        "key" : "#343434",
+        "location" : {
+          "startingColumn" : 63,
+          "startingLine" : 20,
+          "startingOffset" : 755
+        }
+      },
+      {
+        "key" : "#4C4C4C",
+        "location" : {
+          "startingColumn" : 46,
+          "startingLine" : 21,
+          "startingOffset" : 811
+        }
+      },
+      {
+        "key" : "#4C4C4C",
+        "location" : {
+          "startingColumn" : 63,
+          "startingLine" : 21,
+          "startingOffset" : 828
+        }
+      },
+      {
+        "key" : "#8D8D8D",
+        "location" : {
+          "startingColumn" : 52,
+          "startingLine" : 22,
+          "startingOffset" : 890
+        }
+      },
+      {
+        "key" : "#8D8D8D",
+        "location" : {
+          "startingColumn" : 69,
+          "startingLine" : 22,
+          "startingOffset" : 907
+        }
+      },
+      {
+        "key" : "#575757",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 23,
+          "startingOffset" : 962
+        }
+      },
+      {
+        "key" : "#575757",
+        "location" : {
+          "startingColumn" : 62,
+          "startingLine" : 23,
+          "startingOffset" : 979
+        }
+      },
+      {
+        "key" : "#B3B3B3",
+        "location" : {
+          "startingColumn" : 41,
+          "startingLine" : 24,
+          "startingOffset" : 1030
+        }
+      },
+      {
+        "key" : "#B3B3B3",
+        "location" : {
+          "startingColumn" : 58,
+          "startingLine" : 24,
+          "startingOffset" : 1047
+        }
+      },
+      {
+        "key" : "FF6666",
+        "location" : {
+          "startingColumn" : 42,
+          "startingLine" : 25,
+          "startingOffset" : 1099
+        }
+      },
+      {
+        "key" : "FF6666",
+        "location" : {
+          "startingColumn" : 58,
+          "startingLine" : 25,
+          "startingOffset" : 1115
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

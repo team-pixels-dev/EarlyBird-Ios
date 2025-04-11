@@ -1,0 +1,40 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/AttendanceTracker.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "attendanceDates",
+        "location" : {
+          "startingColumn" : 33,
+          "startingLine" : 14,
+          "startingOffset" : 236
+        }
+      },
+      {
+        "key" : "✅ 출석 완료! 총 출석 횟수: %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 30,
+          "startingOffset" : 929
+        }
+      },
+      {
+        "key" : "⚠️ 이미 오늘 출석했음.",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 32,
+          "startingOffset" : 1025
+        }
+      },
+      {
+        "key" : "yyyy-MM-dd",
+        "location" : {
+          "startingColumn" : 32,
+          "startingLine" : 43,
+          "startingOffset" : 1358
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

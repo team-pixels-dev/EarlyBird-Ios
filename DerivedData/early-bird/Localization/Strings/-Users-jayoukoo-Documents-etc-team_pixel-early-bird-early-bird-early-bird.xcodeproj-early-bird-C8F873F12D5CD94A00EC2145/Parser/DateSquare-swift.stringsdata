@@ -1,0 +1,19 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/CalendarScreen\/DateSquare.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "%arg",
+        "location" : {
+          "startingColumn" : 22,
+          "startingLine" : 30,
+          "startingOffset" : 839
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+
+    ]
+  },
+  "version" : 1
+}

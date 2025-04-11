@@ -1,0 +1,24 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/AppState.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "lastAppState",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 20,
+          "startingOffset" : 316
+        }
+      },
+      {
+        "key" : "timerEndTime",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 23,
+          "startingOffset" : 452
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

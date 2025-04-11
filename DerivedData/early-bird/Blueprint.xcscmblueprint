@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A5B5F041413E5BC36CB0375FA13AB231B21F5F01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A5B5F041413E5BC36CB0375FA13AB231B21F5F01" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0AB4A7BE-2ACB-41E6-AED0-EC7BC29E04E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A5B5F041413E5BC36CB0375FA13AB231B21F5F01" : "early-bird\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "early-bird",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "early-bird.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/team-pixels-dev\/early-bird-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5B5F041413E5BC36CB0375FA13AB231B21F5F01"
+    }
+  ]
+}

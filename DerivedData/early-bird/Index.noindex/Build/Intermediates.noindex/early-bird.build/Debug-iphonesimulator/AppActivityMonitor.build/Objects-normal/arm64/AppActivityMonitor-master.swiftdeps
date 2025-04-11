@@ -1,0 +1,6 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "09880eb590e816b609b755b2a1ef13335b942bba2f9964e9d9151e08620df683"
+build_start_time: [1744250685, 678396000]
+build_end_time: [1744250687, 845980000]
+inputs:
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/AppActivityMonitor/DeviceActivityMonitorExtension.swift": [1744121177, 924160975]

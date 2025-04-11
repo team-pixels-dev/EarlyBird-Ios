@@ -1,0 +1,146 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/InitScreen\/View\/CheckTeamMemberModal.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "EarlyBird 팀원이신가요?",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 15,
+          "startingOffset" : 369
+        }
+      },
+      {
+        "key" : "네",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 16,
+          "startingOffset" : 450
+        }
+      },
+      {
+        "key" : "아니요",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 19,
+          "startingOffset" : 534
+        }
+      },
+      {
+        "key" : "코드를 입력해주세요",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 41,
+          "startingOffset" : 1235
+        }
+      },
+      {
+        "key" : "코드",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 43,
+          "startingOffset" : 1322
+        }
+      },
+      {
+        "key" : "취소",
+        "location" : {
+          "startingColumn" : 24,
+          "startingLine" : 47,
+          "startingOffset" : 1468
+        }
+      },
+      {
+        "key" : "확인",
+        "location" : {
+          "startingColumn" : 24,
+          "startingLine" : 51,
+          "startingOffset" : 1595
+        }
+      },
+      {
+        "key" : "확인",
+        "location" : {
+          "startingColumn" : 76,
+          "startingLine" : 66,
+          "startingOffset" : 2223
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "isTeamMember",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 12,
+          "startingOffset" : 244
+        }
+      },
+      {
+        "key" : "isTeamMember",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 34,
+          "startingOffset" : 958
+        }
+      },
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 43,
+          "startingLine" : 35,
+          "startingOffset" : 1055
+        }
+      },
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 48,
+          "startingLine" : 37,
+          "startingOffset" : 1158
+        }
+      },
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 32,
+          "startingLine" : 49,
+          "startingOffset" : 1551
+        }
+      },
+      {
+        "key" : "changetheworld",
+        "location" : {
+          "startingColumn" : 36,
+          "startingLine" : 52,
+          "startingOffset" : 1642
+        }
+      },
+      {
+        "key" : "팀원 인증이 완료되었습니다.",
+        "location" : {
+          "startingColumn" : 41,
+          "startingLine" : 54,
+          "startingOffset" : 1745
+        }
+      },
+      {
+        "key" : "코드가 일치하지 않습니다.",
+        "location" : {
+          "startingColumn" : 41,
+          "startingLine" : 57,
+          "startingOffset" : 1901
+        }
+      },
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 32,
+          "startingLine" : 60,
+          "startingOffset" : 2036
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

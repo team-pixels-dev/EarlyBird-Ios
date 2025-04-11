@@ -1,0 +1,116 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/Timer\/ViewModels\/TimerViewModel.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "comment" : "",
+        "key" : "timer_end_noti_title",
+        "location" : {
+          "startingColumn" : 47,
+          "startingLine" : 121,
+          "startingOffset" : 3990
+        }
+      },
+      {
+        "comment" : "",
+        "key" : "timer_end_noti_body",
+        "location" : {
+          "startingColumn" : 46,
+          "startingLine" : 122,
+          "startingOffset" : 4072
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "%02d:%02d.",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 45,
+          "startingOffset" : 1334
+        }
+      },
+      {
+        "key" : "%02d",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 50,
+          "startingOffset" : 1489
+        }
+      },
+      {
+        "key" : "timerEndNotification",
+        "location" : {
+          "startingColumn" : 42,
+          "startingLine" : 61,
+          "startingOffset" : 1856
+        }
+      },
+      {
+        "key" : "🔴 알림 예약 실패: %arg",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 132,
+          "startingOffset" : 4551
+        }
+      },
+      {
+        "key" : "✅ %arg 알림 예약 완료",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 134,
+          "startingOffset" : 4662
+        }
+      },
+      {
+        "key" : "⚠️ 알림 권한이 거부되어 설정 앱으로 유도 필요",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 156,
+          "startingOffset" : 5359
+        }
+      },
+      {
+        "key" : "✅ 이미 알림 권한 있음",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 162,
+          "startingOffset" : 5696
+        }
+      },
+      {
+        "key" : "Family controls permission not granted",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 173,
+          "startingOffset" : 6074
+        }
+      },
+      {
+        "key" : "Notification permission not granted",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 182,
+          "startingOffset" : 6424
+        }
+      },
+      {
+        "key" : "timer-start-button-click",
+        "location" : {
+          "startingColumn" : 24,
+          "startingLine" : 199,
+          "startingOffset" : 6984
+        }
+      },
+      {
+        "key" : "\/api\/v1\/log\/click",
+        "location" : {
+          "startingColumn" : 29,
+          "startingLine" : 203,
+          "startingOffset" : 7101
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

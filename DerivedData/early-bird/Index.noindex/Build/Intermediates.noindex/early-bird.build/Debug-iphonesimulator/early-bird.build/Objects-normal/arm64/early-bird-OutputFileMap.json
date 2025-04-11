@@ -1,0 +1,120 @@
+{
+  "" : {
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/Objects-normal/arm64/early-bird-master.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/Objects-normal/arm64/early-bird-master.dia",
+    "emit-module-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/Objects-normal/arm64/early-bird-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/Objects-normal/arm64/early-bird-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/Objects-normal/arm64/early-bird-master.swiftdeps"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphonesimulator/early-bird.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/AppDelegate.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/AppLimiter/AppLimiter.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/CalendarScreenView.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/CalenderScreenExtensions.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/DateSquare.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/WeekCalendarView.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/Model/Visit.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/CheckTeamMemberModal.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/InitView.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/MainView.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/ViewModel/InitViewModel.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/NPSModal.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/TextFeedback.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Onboard/view/Onboard_1View.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Complete.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Models/TimerModel.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/ViewModels/TimerViewModel.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Views/TimerView.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Splash.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Appearance.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Theme.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/WebColor.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/UI/Button/WideButton.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AppState.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AttendanceTracker.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/BackgroundModifier.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/ClientIDManager.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Constants.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/ConvertDate.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Extension/ModalExtension.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/GetPermssion.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/HapticFeedbackManager.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/SendRequest.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Shake/Shake.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/UINavigationController.swift" : {
+
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/early_birdApp.swift" : {
+
+  }
+}

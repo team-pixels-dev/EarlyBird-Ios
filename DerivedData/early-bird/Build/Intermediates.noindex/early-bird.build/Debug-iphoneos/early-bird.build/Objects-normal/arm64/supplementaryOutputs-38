@@ -1,0 +1,30 @@
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Appearance.swift":
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.swiftconstvalues"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.dia"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.swiftdeps"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.o"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Views/TimerView.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.dia"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.o"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.swiftconstvalues"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.swiftdeps"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Complete.swift":
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.dia"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.swiftdeps"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.d"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Theme.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.d"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.swiftdeps"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.dia"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.o"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.swiftconstvalues"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/WebColor.swift":
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.o"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.dia"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.swiftdeps"

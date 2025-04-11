@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "xojit"
+  },
+  "buildDescriptionID" : "7ee165b3b2630c0277f48a9050d3b010",
+  "configuredTargets" : [
+    {
+      "guid" : "d91e35069cffefdad6fb3df67a445afdac303e45c91fbc9011500eb3728695be"
+    }
+  ],
+  "containerPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Products",
+      "derivedDataPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,5",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "D0FD71DD-25C4-4FF1-9BD0-17698A1914DB",
+          "TARGET_DEVICE_MODEL" : "iPhone14,5",
+          "TARGET_DEVICE_OS_VERSION" : "18.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

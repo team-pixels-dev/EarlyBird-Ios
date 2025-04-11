@@ -1,0 +1,378 @@
+{
+  "" : {
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early-bird-master.dia",
+    "emit-module-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early-bird-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early-bird-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early-bird-master.swiftdeps"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/AppDelegate.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/AppLimiter/AppLimiter.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppLimiter~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/CalendarScreenView.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalendarScreenView~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/CalenderScreenExtensions.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CalenderScreenExtensions~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/DateSquare.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/DateSquare~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/WeekCalendarView.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WeekCalendarView~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/Model/Visit.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Visit~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/CheckTeamMemberModal.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/CheckTeamMemberModal~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/InitView.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitView~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/View/MainView.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/MainView~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/InitScreen/ViewModel/InitViewModel.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/InitViewModel~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/NPSModal.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/NPSModal~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/TextFeedback.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TextFeedback~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Onboard/view/Onboard_1View.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Onboard_1View~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Complete.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Complete~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Models/TimerModel.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerModel~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/ViewModels/TimerViewModel.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerViewModel~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Views/TimerView.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/TimerView~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Splash.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Appearance.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Appearance~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/Theme.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Theme~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Theme/WebColor.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WebColor~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/UI/Button/WideButton.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AppState.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AttendanceTracker.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/BackgroundModifier.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/ClientIDManager.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Constants.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/ConvertDate.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ConvertDate~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Extension/ModalExtension.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/GetPermssion.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/GetPermssion~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/HapticFeedbackManager.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/HapticFeedbackManager~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/SendRequest.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/SendRequest~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Shake/Shake.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/UINavigationController.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/UINavigationController~partial.swiftmodule"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/early_birdApp.swift" : {
+    "const-values" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.swiftconstvalues",
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.dia",
+    "index-unit-output-path" : "/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.o",
+    "llvm-bc" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.bc",
+    "object" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.o",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp.swiftdeps",
+    "swiftmodule" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/early_birdApp~partial.swiftmodule"
+  }
+}

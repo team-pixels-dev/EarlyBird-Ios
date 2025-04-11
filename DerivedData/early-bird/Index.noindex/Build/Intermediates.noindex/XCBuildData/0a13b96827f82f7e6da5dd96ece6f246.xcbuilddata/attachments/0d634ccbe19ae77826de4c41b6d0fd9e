@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/AppActivityMonitor.build/Objects-normal/arm64/AppActivityMonitor-master.d",
+    "diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/AppActivityMonitor.build/Objects-normal/arm64/AppActivityMonitor-master.dia",
+    "emit-module-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/AppActivityMonitor.build/Objects-normal/arm64/AppActivityMonitor-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/AppActivityMonitor.build/Objects-normal/arm64/AppActivityMonitor-master-emit-module.dia",
+    "swift-dependencies" : "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Index.noindex/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/AppActivityMonitor.build/Objects-normal/arm64/AppActivityMonitor-master.swiftdeps"
+  },
+  "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/AppActivityMonitor/DeviceActivityMonitorExtension.swift" : {
+
+  }
+}

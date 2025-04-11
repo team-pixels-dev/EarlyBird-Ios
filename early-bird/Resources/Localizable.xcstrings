@@ -16,6 +16,12 @@
             "value" : "Task completed!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task completed!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24,9 +30,48 @@
         }
       }
     },
+    "confirm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확인"
+          }
+        }
+      }
+    },
+    "Confirm" : {
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        }
+      }
+    },
     "EarlyBird 팀원이신가요?" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you member of EarlyBird?"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Are you member of EarlyBird?"
@@ -86,10 +131,70 @@
       }
     },
     "No schedules for this week" : {
-
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No schedules for this week"
+          }
+        }
+      }
     },
     "Select a date to view schedules" : {
-
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a date to view schedules"
+          }
+        }
+      }
+    },
+    "submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제출하기"
+          }
+        }
+      }
+    },
+    "submitted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submitted"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submitted"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제출완료"
+          }
+        }
+      }
     },
     "timer_end_noti_body" : {
       "extractionState" : "manual",
@@ -146,6 +251,12 @@
             "value" : "Start!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -155,11 +266,24 @@
       }
     },
     "tint" : {
-
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tint"
+          }
+        }
+      }
     },
     "나는" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am a person"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "I am a person"
@@ -181,6 +305,12 @@
             "value" : "Yes"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yes"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -192,6 +322,12 @@
     "사람이다." : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "on time"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "on time"
@@ -235,6 +371,12 @@
             "value" : "Thanks for your feedback"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thanks for your feedback"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -251,6 +393,12 @@
             "value" : "No"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -262,6 +410,12 @@
     "앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To enable the app lock feature, the following permissions are required:\nPermissions: FamilyControls, Notifications"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "To enable the app lock feature, the following permissions are required:\nPermissions: FamilyControls, Notifications"
@@ -327,6 +481,12 @@
             "value" : "Highly recommend"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Highly recommend"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -335,41 +495,15 @@
         }
       }
     },
-    "제출완료" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Submitted"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "제출완료"
-          }
-        }
-      }
-    },
-    "제출하기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Submit"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "제출하기"
-          }
-        }
-      }
-    },
     "추천 안해요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wouldn’t recommend"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wouldn’t recommend"
@@ -391,6 +525,12 @@
             "value" : "Cancel"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -402,6 +542,12 @@
     "코드" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Code"
@@ -423,6 +569,12 @@
             "value" : "Type code here"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type code here"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -434,6 +586,12 @@
     "필수 권한이 없습니다." : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required permissions are missing."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Required permissions are missing."
@@ -455,6 +613,12 @@
             "value" : "Who gets things done"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Who gets things done"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -466,6 +630,12 @@
     "확인" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirm"

@@ -1,0 +1,146 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/InitScreen\/View\/MainView.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "나는",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 76,
+          "startingOffset" : 2707
+        }
+      },
+      {
+        "key" : "할 일을 미루지 않는",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 79,
+          "startingOffset" : 2853
+        }
+      },
+      {
+        "key" : "사람이다.",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 82,
+          "startingOffset" : 3019
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "main_start_button_text1",
+        "location" : {
+          "startingColumn" : 33,
+          "startingLine" : 24,
+          "startingOffset" : 753
+        }
+      },
+      {
+        "key" : "main_card_description1",
+        "location" : {
+          "startingColumn" : 34,
+          "startingLine" : 25,
+          "startingOffset" : 813
+        }
+      },
+      {
+        "key" : "지금 당장 시작하기 버튼 클릭",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 27,
+          "startingOffset" : 905
+        }
+      },
+      {
+        "key" : "tint",
+        "location" : {
+          "startingColumn" : 28,
+          "startingLine" : 29,
+          "startingOffset" : 999
+        }
+      },
+      {
+        "key" : "Pretendard-SemiBold",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 77,
+          "startingOffset" : 2747
+        }
+      },
+      {
+        "key" : "Pretendard-SemiBold",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 80,
+          "startingOffset" : 2914
+        }
+      },
+      {
+        "key" : "Pretendard-SemiBold",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 83,
+          "startingOffset" : 3066
+        }
+      },
+      {
+        "key" : "Pretendard-SemiBold",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 101,
+          "startingOffset" : 3606
+        }
+      },
+      {
+        "key" : "tint",
+        "location" : {
+          "startingColumn" : 43,
+          "startingLine" : 102,
+          "startingOffset" : 3682
+        }
+      },
+      {
+        "key" : "LockIcon",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 103,
+          "startingOffset" : 3755
+        }
+      },
+      {
+        "key" : "Pretendard-Bold",
+        "location" : {
+          "startingColumn" : 35,
+          "startingLine" : 109,
+          "startingOffset" : 3961
+        }
+      },
+      {
+        "key" : "lineArrowIcon",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 111,
+          "startingOffset" : 4072
+        }
+      },
+      {
+        "key" : "tint",
+        "location" : {
+          "startingColumn" : 34,
+          "startingLine" : 117,
+          "startingOffset" : 4297
+        }
+      },
+      {
+        "key" : "tint",
+        "location" : {
+          "startingColumn" : 30,
+          "startingLine" : 121,
+          "startingOffset" : 4459
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

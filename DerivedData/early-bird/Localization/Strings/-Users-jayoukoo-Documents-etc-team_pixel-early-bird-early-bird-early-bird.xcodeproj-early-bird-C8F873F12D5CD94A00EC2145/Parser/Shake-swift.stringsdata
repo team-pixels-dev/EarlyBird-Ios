@@ -1,0 +1,16 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/Shake\/Shake.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "deviceDidShakeNotification",
+        "location" : {
+          "startingColumn" : 63,
+          "startingLine" : 21,
+          "startingOffset" : 491
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

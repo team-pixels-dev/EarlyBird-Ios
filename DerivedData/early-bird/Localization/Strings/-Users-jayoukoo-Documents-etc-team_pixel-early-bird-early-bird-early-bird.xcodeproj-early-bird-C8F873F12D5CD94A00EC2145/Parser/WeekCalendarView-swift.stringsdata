@@ -1,0 +1,19 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/CalendarScreen\/WeekCalendarView.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "2025년 3월",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 28,
+          "startingOffset" : 708
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+
+    ]
+  },
+  "version" : 1
+}

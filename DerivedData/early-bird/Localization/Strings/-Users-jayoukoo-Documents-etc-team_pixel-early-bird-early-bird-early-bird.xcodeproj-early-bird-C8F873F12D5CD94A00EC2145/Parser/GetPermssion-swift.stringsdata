@@ -1,0 +1,32 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/GetPermssion.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "✅ 알림 권한 허용됨",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 23,
+          "startingOffset" : 496
+        }
+      },
+      {
+        "key" : "⚠️ 알림 권한 거부됨",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 25,
+          "startingOffset" : 570
+        }
+      },
+      {
+        "key" : "🔴 알림 권한 요청 오류: %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 28,
+          "startingOffset" : 654
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

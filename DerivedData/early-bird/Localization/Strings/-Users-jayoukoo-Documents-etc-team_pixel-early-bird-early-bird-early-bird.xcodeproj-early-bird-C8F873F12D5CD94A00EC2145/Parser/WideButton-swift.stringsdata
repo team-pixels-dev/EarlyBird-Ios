@@ -1,0 +1,27 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Resources\/UI\/Button\/WideButton.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "Pretendard-Bold",
+        "location" : {
+          "startingColumn" : 35,
+          "startingLine" : 22,
+          "startingOffset" : 654
+        }
+      },
+      {
+        "key" : "test",
+        "location" : {
+          "enclosingMacroStartingColumn" : 1,
+          "enclosingMacroStartingLine" : 29,
+          "startingColumn" : 28,
+          "startingLine" : 30,
+          "startingOffset" : 838
+        },
+        "visibility" : "preview"
+      }
+    ]
+  },
+  "version" : 1
+}

@@ -1,0 +1,24 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/ConvertDate.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "yyyy-MM-dd HH:mm:ss",
+        "location" : {
+          "startingColumn" : 28,
+          "startingLine" : 14,
+          "startingOffset" : 233
+        }
+      },
+      {
+        "key" : "ko_KR",
+        "location" : {
+          "startingColumn" : 43,
+          "startingLine" : 15,
+          "startingOffset" : 297
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

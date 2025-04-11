@@ -1,0 +1,176 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/SendRequest.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "%arg%arg",
+        "location" : {
+          "startingColumn" : 21,
+          "startingLine" : 14,
+          "startingOffset" : 282
+        }
+      },
+      {
+        "key" : "❌ 유효하지 않은 URL: %arg",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 16,
+          "startingOffset" : 381
+        }
+      },
+      {
+        "key" : "Invalid URL",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 17,
+          "startingOffset" : 470
+        }
+      },
+      {
+        "key" : "POST",
+        "location" : {
+          "startingColumn" : 26,
+          "startingLine" : 22,
+          "startingOffset" : 603
+        }
+      },
+      {
+        "key" : "application\/json",
+        "location" : {
+          "startingColumn" : 22,
+          "startingLine" : 23,
+          "startingOffset" : 631
+        }
+      },
+      {
+        "key" : "Content-Type",
+        "location" : {
+          "startingColumn" : 62,
+          "startingLine" : 23,
+          "startingOffset" : 671
+        }
+      },
+      {
+        "key" : "📤 전송할 JSON: %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 28,
+          "startingOffset" : 845
+        }
+      },
+      {
+        "key" : "❌ JSON 인코딩 실패: %arg",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 32,
+          "startingOffset" : 972
+        }
+      },
+      {
+        "key" : "📤 Request: %arg",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 40,
+          "startingOffset" : 1182
+        }
+      },
+      {
+        "key" : "❌ 요청 실패: %arg",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 44,
+          "startingOffset" : 1353
+        }
+      },
+      {
+        "key" : "❌ 잘못된 응답 형식",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 50,
+          "startingOffset" : 1598
+        }
+      },
+      {
+        "key" : "Invalid Response",
+        "location" : {
+          "startingColumn" : 53,
+          "startingLine" : 51,
+          "startingOffset" : 1681
+        }
+      },
+      {
+        "key" : "❌ 응답 데이터 없음",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 56,
+          "startingOffset" : 1846
+        }
+      },
+      {
+        "key" : "No Data",
+        "location" : {
+          "startingColumn" : 53,
+          "startingLine" : 57,
+          "startingOffset" : 1929
+        }
+      },
+      {
+        "key" : "✅ 성공적인 응답: %arg",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 63,
+          "startingOffset" : 2174
+        }
+      },
+      {
+        "key" : "❌ 데이터 디코딩 실패",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 66,
+          "startingOffset" : 2328
+        }
+      },
+      {
+        "key" : "Decoding Error",
+        "location" : {
+          "startingColumn" : 57,
+          "startingLine" : 67,
+          "startingOffset" : 2418
+        }
+      },
+      {
+        "key" : "Unknown Error",
+        "location" : {
+          "startingColumn" : 75,
+          "startingLine" : 71,
+          "startingOffset" : 2644
+        }
+      },
+      {
+        "key" : "❌ 서버 오류 (%arg): %arg",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 72,
+          "startingOffset" : 2682
+        }
+      },
+      {
+        "key" : "Server Error",
+        "location" : {
+          "startingColumn" : 45,
+          "startingLine" : 74,
+          "startingOffset" : 2810
+        }
+      },
+      {
+        "key" : "❌ JSON 인코딩 실패: %arg",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 80,
+          "startingOffset" : 3028
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

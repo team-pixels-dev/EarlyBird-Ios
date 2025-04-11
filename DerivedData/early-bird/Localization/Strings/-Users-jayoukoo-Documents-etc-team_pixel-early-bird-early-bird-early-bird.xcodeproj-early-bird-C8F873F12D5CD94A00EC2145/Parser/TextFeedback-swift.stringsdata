@@ -1,0 +1,90 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/NPSModal\/TextFeedback.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "서비스에 대한 피드백을 300자 이내로 작성해주세요",
+        "location" : {
+          "startingColumn" : 26,
+          "startingLine" : 36,
+          "startingOffset" : 1088
+        }
+      },
+      {
+        "key" : "submit",
+        "location" : {
+          "startingColumn" : 22,
+          "startingLine" : 45,
+          "startingOffset" : 1502
+        }
+      },
+      {
+        "key" : "submitted",
+        "location" : {
+          "startingColumn" : 16,
+          "startingLine" : 58,
+          "startingOffset" : 1916
+        }
+      },
+      {
+        "key" : "Confirm",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 59,
+          "startingOffset" : 1981
+        }
+      },
+      {
+        "key" : "소중한 의견 감사합니다.",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 63,
+          "startingOffset" : 2090
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 48,
+          "startingLine" : 19,
+          "startingOffset" : 376
+        }
+      },
+      {
+        "key" : "",
+        "location" : {
+          "startingColumn" : 44,
+          "startingLine" : 20,
+          "startingOffset" : 422
+        }
+      },
+      {
+        "key" : "Pretendard-Regular",
+        "location" : {
+          "startingColumn" : 31,
+          "startingLine" : 27,
+          "startingOffset" : 667
+        }
+      },
+      {
+        "key" : "Pretendard-Ragular",
+        "location" : {
+          "startingColumn" : 39,
+          "startingLine" : 39,
+          "startingOffset" : 1332
+        }
+      },
+      {
+        "key" : "\/api\/v1\/feedbacks\/comments",
+        "location" : {
+          "startingColumn" : 29,
+          "startingLine" : 86,
+          "startingOffset" : 2649
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

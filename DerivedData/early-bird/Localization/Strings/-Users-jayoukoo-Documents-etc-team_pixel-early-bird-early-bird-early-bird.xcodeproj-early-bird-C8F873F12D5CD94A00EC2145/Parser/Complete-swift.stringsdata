@@ -1,0 +1,42 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/Timer\/Complete.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "얼리버드와 함께라면\n혼자선 어려운 일도\n쉽게 시작할 수 있어요!",
+        "location" : {
+          "startingColumn" : 22,
+          "startingLine" : 31,
+          "startingOffset" : 843
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "mascotSmileFace",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 21,
+          "startingOffset" : 480
+        }
+      },
+      {
+        "key" : "Pretendard-SemiBold",
+        "location" : {
+          "startingColumn" : 35,
+          "startingLine" : 32,
+          "startingOffset" : 970
+        }
+      },
+      {
+        "key" : "complete_done_button_text",
+        "location" : {
+          "startingColumn" : 40,
+          "startingLine" : 36,
+          "startingOffset" : 1180
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

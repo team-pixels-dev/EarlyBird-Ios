@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EarlyBird 팀원이신가요?</key>
+	<string>EarlyBird 팀원이신가요?</string>
+	<key>complete_done_button_text</key>
+	<string>완료</string>
+	<key>confirm</key>
+	<string>확인</string>
+	<key>main_card_description1</key>
+	<string>자괴감 방지 가능, 스트레스 감소</string>
+	<key>main_start_button_text1</key>
+	<string>지금 2분 집중 시작</string>
+	<key>submit</key>
+	<string>제출하기</string>
+	<key>submitted</key>
+	<string>제출완료</string>
+	<key>timer_end_noti_body</key>
+	<string>그래도 다른 앱 차단을 풀고 싶다면,
+얼리버드 앱에 접속해주세요!</string>
+	<key>timer_end_noti_title</key>
+	<string>계속 몰입해봐요❗️❗️❗️</string>
+	<key>timer_start_button_text</key>
+	<string>시작!</string>
+	<key>나는</key>
+	<string>나는</string>
+	<key>네</key>
+	<string>네</string>
+	<key>사람이다.</key>
+	<string>사람이다.</string>
+	<key>서비스에 대한 피드백을 300자 이내로 작성해주세요</key>
+	<string>서비스에 대한 피드백을 300자 이내로 작성해주세요</string>
+	<key>소중한 의견 감사합니다.</key>
+	<string>소중한 의견 감사합니다.</string>
+	<key>아니요</key>
+	<string>아니요</string>
+	<key>앱 잠금 기능을 위해 필수 권한이 필요해요.
+권한 : FamilyControls, 알림</key>
+	<string>앱 잠금 기능을 위해 필수 권한이 필요해요.
+권한 : FamilyControls, 알림</string>
+	<key>얼리버드를 주변에 얼마나
+추천하고 싶으신가요?</key>
+	<string>얼리버드를 주변에 얼마나
+추천하고 싶으신가요?</string>
+	<key>얼리버드와 함께라면
+혼자선 어려운 일도
+쉽게 시작할 수 있어요!</key>
+	<string>얼리버드와 함께라면
+혼자선 어려운 일도
+쉽게 시작할 수 있어요!</string>
+	<key>정말 추천 해요</key>
+	<string>정말 추천 해요</string>
+	<key>추천 안해요</key>
+	<string>추천 안해요</string>
+	<key>취소</key>
+	<string>취소</string>
+	<key>코드</key>
+	<string>코드</string>
+	<key>코드를 입력해주세요</key>
+	<string>코드를 입력해주세요</string>
+	<key>필수 권한이 없습니다.</key>
+	<string>필수 권한이 없습니다.</string>
+	<key>할 일을 미루지 않는</key>
+	<string>할 일을 미루지 않는</string>
+	<key>확인</key>
+	<string>확인</string>
+</dict>
+</plist>

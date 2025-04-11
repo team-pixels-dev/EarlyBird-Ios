@@ -1,0 +1,32 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/ClientIDManager.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "clientID",
+        "location" : {
+          "startingColumn" : 38,
+          "startingLine" : 12,
+          "startingOffset" : 184
+        }
+      },
+      {
+        "key" : "isTeamMember",
+        "location" : {
+          "startingColumn" : 17,
+          "startingLine" : 13,
+          "startingOffset" : 211
+        }
+      },
+      {
+        "key" : "earlybird",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 19,
+          "startingOffset" : 473
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

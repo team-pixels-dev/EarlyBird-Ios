@@ -1,0 +1,7 @@
+Target dependency graph (4 targets)
+Target 'early-bird' in project 'early-bird'
+➜ Explicit dependency on target 'AppActivityMonitor' in project 'early-bird'
+Target 'early-bird' in project 'early-bird'
+➜ Explicit dependency on target 'AppActivityMonitor' in project 'early-bird'
+Target 'AppActivityMonitor' in project 'early-bird' (no dependencies)
+Target 'AppActivityMonitor' in project 'early-bird' (no dependencies)

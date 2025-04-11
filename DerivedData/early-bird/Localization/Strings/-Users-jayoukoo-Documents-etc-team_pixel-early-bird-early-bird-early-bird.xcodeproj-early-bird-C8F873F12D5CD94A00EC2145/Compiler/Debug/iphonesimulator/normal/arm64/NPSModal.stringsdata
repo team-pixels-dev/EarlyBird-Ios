@@ -1,0 +1,48 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/NPSModal.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "얼리버드를 주변에 얼마나\n추천하고 싶으신가요?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "추천 안해요",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "정말 추천 해요",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "submit",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 85
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Confirm</key>
+	<string>Confirm</string>
+	<key>EarlyBird 팀원이신가요?</key>
+	<string>Are you member of EarlyBird?</string>
+	<key>No schedules for this week</key>
+	<string>No schedules for this week</string>
+	<key>Select a date to view schedules</key>
+	<string>Select a date to view schedules</string>
+	<key>complete_done_button_text</key>
+	<string>Task completed!</string>
+	<key>confirm</key>
+	<string>Confirm</string>
+	<key>main_card_description1</key>
+	<string>Helps to avoid feelings of self-blame Eases stress</string>
+	<key>main_start_button_text1</key>
+	<string>Start right now!</string>
+	<key>submit</key>
+	<string>Submit</string>
+	<key>submitted</key>
+	<string>Submitted</string>
+	<key>timer_end_noti_body</key>
+	<string>Need to lift the block? Simply open EarlyBird!</string>
+	<key>timer_end_noti_title</key>
+	<string>Keep focused — great job! 🔒</string>
+	<key>timer_start_button_text</key>
+	<string>Start!</string>
+	<key>tint</key>
+	<string>tint</string>
+	<key>나는</key>
+	<string>I am a person</string>
+	<key>네</key>
+	<string>Yes</string>
+	<key>사람이다.</key>
+	<string>on time</string>
+	<key>서비스에 대한 피드백을 300자 이내로 작성해주세요</key>
+	<string>Drop your feedback on the service (300 characters max)</string>
+	<key>소중한 의견 감사합니다.</key>
+	<string>Thanks for your feedback</string>
+	<key>아니요</key>
+	<string>No</string>
+	<key>앱 잠금 기능을 위해 필수 권한이 필요해요.
+권한 : FamilyControls, 알림</key>
+	<string>To enable the app lock feature, the following permissions are required:
+Permissions: FamilyControls, Notifications</string>
+	<key>얼리버드를 주변에 얼마나
+추천하고 싶으신가요?</key>
+	<string>How likely are you to rate EarlyBird to others?</string>
+	<key>얼리버드와 함께라면
+혼자선 어려운 일도
+쉽게 시작할 수 있어요!</key>
+	<string>With Earlybird, starting is easy!</string>
+	<key>정말 추천 해요</key>
+	<string>Highly recommend</string>
+	<key>추천 안해요</key>
+	<string>Wouldn’t recommend</string>
+	<key>취소</key>
+	<string>Cancel</string>
+	<key>코드</key>
+	<string>Code</string>
+	<key>코드를 입력해주세요</key>
+	<string>Type code here</string>
+	<key>필수 권한이 없습니다.</key>
+	<string>Required permissions are missing.</string>
+	<key>할 일을 미루지 않는</key>
+	<string>Who gets things done</string>
+	<key>확인</key>
+	<string>Confirm</string>
+</dict>
+</plist>

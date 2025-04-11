@@ -1,0 +1,104 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/AppLimiter\/AppLimiter.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "차단 시도",
+        "location" : {
+          "startingColumn" : 14,
+          "startingLine" : 27,
+          "startingOffset" : 718
+        }
+      },
+      {
+        "key" : "start time : ",
+        "location" : {
+          "startingColumn" : 14,
+          "startingLine" : 35,
+          "startingOffset" : 1086
+        }
+      },
+      {
+        "key" : "end time : ",
+        "location" : {
+          "startingColumn" : 14,
+          "startingLine" : 36,
+          "startingOffset" : 1122
+        }
+      },
+      {
+        "key" : "GlobalAppLimit",
+        "location" : {
+          "startingColumn" : 32,
+          "startingLine" : 47,
+          "startingOffset" : 1580
+        }
+      },
+      {
+        "key" : "모든 앱이 %arg분 동안 차단됩니다.",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 50,
+          "startingOffset" : 1658
+        }
+      },
+      {
+        "key" : "차단 스케줄 설정 중 오류 발생: %arg",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 52,
+          "startingOffset" : 1756
+        }
+      },
+      {
+        "key" : "GlobalAppLimit",
+        "location" : {
+          "startingColumn" : 65,
+          "startingLine" : 65,
+          "startingOffset" : 2261
+        }
+      },
+      {
+        "key" : "앱 차단이 해제되고 모니터링도 중단되었습니다.",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 66,
+          "startingOffset" : 2318
+        }
+      },
+      {
+        "key" : "FamilyControls 권한 승인됨.",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 73,
+          "startingOffset" : 2589
+        }
+      },
+      {
+        "key" : "success",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 74,
+          "startingOffset" : 2644
+        }
+      },
+      {
+        "key" : "FamilyControls 권한 요청 실패: %arg",
+        "location" : {
+          "startingColumn" : 19,
+          "startingLine" : 76,
+          "startingOffset" : 2690
+        }
+      },
+      {
+        "key" : "fail",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 77,
+          "startingOffset" : 2758
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

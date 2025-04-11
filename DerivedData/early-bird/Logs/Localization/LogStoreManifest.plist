@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>FA11B4F1-B0D6-4E1E-B8E1-79092011C0B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.LocalizationLog</string>
+			<key>fileName</key>
+			<string>FA11B4F1-B0D6-4E1E-B8E1-79092011C0B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>signature</key>
+			<string>Sync Localizations</string>
+			<key>timeStartedRecording</key>
+			<real>765953030.28092098</real>
+			<key>timeStoppedRecording</key>
+			<real>765953030.61703598</real>
+			<key>title</key>
+			<string>Sync Localizations</string>
+			<key>uniqueIdentifier</key>
+			<string>FA11B4F1-B0D6-4E1E-B8E1-79092011C0B0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

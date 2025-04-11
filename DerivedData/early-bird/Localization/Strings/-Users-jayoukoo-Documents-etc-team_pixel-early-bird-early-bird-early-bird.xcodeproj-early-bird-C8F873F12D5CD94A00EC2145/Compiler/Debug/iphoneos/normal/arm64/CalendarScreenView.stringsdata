@@ -1,0 +1,24 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/CalendarScreenView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Select a date to view schedules",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "No schedules for this week",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      }
+    ]
+  },
+  "version": 1
+}

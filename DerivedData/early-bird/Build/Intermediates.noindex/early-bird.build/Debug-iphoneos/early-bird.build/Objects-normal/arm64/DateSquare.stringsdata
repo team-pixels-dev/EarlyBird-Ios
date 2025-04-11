@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/CalendarScreen/DateSquare.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 30
+        }
+      }
+    ]
+  },
+  "version": 1
+}

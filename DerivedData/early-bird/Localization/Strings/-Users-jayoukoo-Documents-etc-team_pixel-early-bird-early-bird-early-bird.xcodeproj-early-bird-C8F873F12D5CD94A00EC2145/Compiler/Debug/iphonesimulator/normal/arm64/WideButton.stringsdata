@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/UI/Button/WideButton.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "test",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

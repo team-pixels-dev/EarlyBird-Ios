@@ -1,0 +1,16 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/Onboard\/view\/Onboard_1View.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "onboardMascot",
+        "location" : {
+          "startingColumn" : 23,
+          "startingLine" : 15,
+          "startingOffset" : 214
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

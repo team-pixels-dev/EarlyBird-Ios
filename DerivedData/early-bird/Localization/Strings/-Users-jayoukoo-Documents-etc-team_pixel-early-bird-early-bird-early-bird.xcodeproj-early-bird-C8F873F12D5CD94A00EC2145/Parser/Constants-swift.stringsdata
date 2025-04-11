@@ -1,0 +1,16 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Utilities\/Constants.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "https:\/\/earlybirdteam.com",
+        "location" : {
+          "startingColumn" : 27,
+          "startingLine" : 13,
+          "startingOffset" : 181
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

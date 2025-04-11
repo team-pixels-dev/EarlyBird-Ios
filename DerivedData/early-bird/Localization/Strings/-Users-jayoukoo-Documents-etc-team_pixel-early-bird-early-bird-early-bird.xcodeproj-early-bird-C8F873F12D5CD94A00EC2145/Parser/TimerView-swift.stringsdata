@@ -1,0 +1,74 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Feature\/Timer\/Views\/TimerView.swift",
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "필수 권한이 없습니다.",
+        "location" : {
+          "startingColumn" : 16,
+          "startingLine" : 63,
+          "startingOffset" : 2440
+        }
+      },
+      {
+        "key" : "확인",
+        "location" : {
+          "startingColumn" : 20,
+          "startingLine" : 64,
+          "startingOffset" : 2548
+        }
+      },
+      {
+        "key" : "앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림",
+        "location" : {
+          "startingColumn" : 18,
+          "startingLine" : 69,
+          "startingOffset" : 2719
+        }
+      }
+    ],
+    "__PotentialKeys" : [
+      {
+        "key" : "mascotAngryFace",
+        "location" : {
+          "startingColumn" : 49,
+          "startingLine" : 18,
+          "startingOffset" : 468
+        }
+      },
+      {
+        "key" : "mascotNormalFace",
+        "location" : {
+          "startingColumn" : 69,
+          "startingLine" : 18,
+          "startingOffset" : 488
+        }
+      },
+      {
+        "key" : "Pretendard-ExtraBold",
+        "location" : {
+          "startingColumn" : 39,
+          "startingLine" : 38,
+          "startingOffset" : 1334
+        }
+      },
+      {
+        "key" : "Pretendard-ExtraBold",
+        "location" : {
+          "startingColumn" : 39,
+          "startingLine" : 41,
+          "startingOffset" : 1565
+        }
+      },
+      {
+        "key" : "timer_start_button_text",
+        "location" : {
+          "startingColumn" : 37,
+          "startingLine" : 51,
+          "startingOffset" : 1973
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/NPSModal/TextFeedback.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "submitted",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "서비스에 대한 피드백을 300자 이내로 작성해주세요",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "submit",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirm",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "소중한 의견 감사합니다.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 63
+        }
+      }
+    ]
+  },
+  "version": 1
+}

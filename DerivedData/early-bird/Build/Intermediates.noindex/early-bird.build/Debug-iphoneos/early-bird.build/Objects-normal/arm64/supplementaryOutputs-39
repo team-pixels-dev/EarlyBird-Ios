@@ -1,0 +1,30 @@
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Extension/ModalExtension.swift":
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.swiftdeps"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.swiftconstvalues"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.dia"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ModalExtension.d"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Shake/Shake.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.d"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.swiftdeps"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.swiftconstvalues"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Shake.dia"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/UI/Button/WideButton.swift":
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.dia"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.o"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.swiftconstvalues"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.d"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/WideButton.swiftdeps"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Resources/Splash.swift":
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.o"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.dia"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.swiftconstvalues"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Splash.swiftdeps"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AppState.swift":
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.swiftdeps"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.swiftconstvalues"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.d"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.o"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AppState.dia"

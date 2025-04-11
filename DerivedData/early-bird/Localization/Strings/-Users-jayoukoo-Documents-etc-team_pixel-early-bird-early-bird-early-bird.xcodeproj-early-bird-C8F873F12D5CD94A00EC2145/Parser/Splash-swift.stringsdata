@@ -1,0 +1,24 @@
+{
+  "source" : "\/Users\/jayoukoo\/Documents\/etc\/team_pixel\/early-bird\/early-bird\/early-bird\/Resources\/Splash.swift",
+  "tables" : {
+    "__PotentialKeys" : [
+      {
+        "key" : "default",
+        "location" : {
+          "startingColumn" : 46,
+          "startingLine" : 13,
+          "startingOffset" : 244
+        }
+      },
+      {
+        "key" : "splash",
+        "location" : {
+          "startingColumn" : 15,
+          "startingLine" : 17,
+          "startingOffset" : 301
+        }
+      }
+    ]
+  },
+  "version" : 1
+}

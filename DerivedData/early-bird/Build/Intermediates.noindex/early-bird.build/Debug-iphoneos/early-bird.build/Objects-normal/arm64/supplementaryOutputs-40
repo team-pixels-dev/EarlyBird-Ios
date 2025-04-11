@@ -1,0 +1,24 @@
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/AttendanceTracker.swift":
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.swiftdeps"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.o"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.dia"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/AttendanceTracker.swiftconstvalues"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/ClientIDManager.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.dia"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.swiftdeps"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/ClientIDManager.swiftconstvalues"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/BackgroundModifier.swift":
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.swiftdeps"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.o"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.swiftconstvalues"
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.d"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/BackgroundModifier.dia"
+"/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Utilities/Constants.swift":
+  dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.d"
+  const-values: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.swiftconstvalues"
+  object: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.o"
+  swift-dependencies: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.swiftdeps"
+  diagnostics: "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/DerivedData/early-bird/Build/Intermediates.noindex/early-bird.build/Debug-iphoneos/early-bird.build/Objects-normal/arm64/Constants.dia"

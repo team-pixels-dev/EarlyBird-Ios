@@ -1,0 +1,40 @@
+{
+  "source": "/Users/jayoukoo/Documents/etc/team_pixel/early-bird/early-bird/early-bird/Feature/Timer/Views/TimerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "필수 권한이 없습니다.",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "timer_start_button_text",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "확인",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 69
+        }
+      }
+    ]
+  },
+  "version": 1
+}
