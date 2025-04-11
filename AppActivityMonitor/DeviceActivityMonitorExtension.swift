@@ -2,7 +2,7 @@
 //  DeviceActivityMonitorExtension.swift
 //  AppActivityMonitor
 //
-//  Created by JAYOU KOO on 4/1/25.
+//  Created by JAYOU KOO on 4/10/25.
 //
 
 import DeviceActivity
@@ -26,6 +26,7 @@ class DeviceActivityMonitorExtension: DeviceActivityMonitor {
             store.shield.applicationCategories = ShieldSettings.ActivityCategoryPolicy.none
             print("✅ [Extension] 앱 차단 해제 완료 (intervalDidEnd)")
         }
+
         // Handle the end of the interval.
     }
     

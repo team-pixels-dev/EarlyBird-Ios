@@ -8,6 +8,8 @@
 		<string>com.apple.deviceactivity.monitor-extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).DeviceActivityMonitorExtension</string>
+        <key>DeviceActivityMonitor</key>
+        <string>ActivityMonitor</string>
 	</dict>
 </dict>
 </plist>

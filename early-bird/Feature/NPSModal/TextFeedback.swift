@@ -42,7 +42,7 @@ struct TextFeedbackModal: View {
             Button(action: {
                 sendTextFeedBack()
             }) {
-                Text("제출하기")
+                Text("submit")
                     .frame(maxWidth: .infinity)
                     .frame(height: 48.0)
                     .background(Theme.primaryColor)
@@ -55,8 +55,8 @@ struct TextFeedbackModal: View {
         .cornerRadius(12)
         .shadow(radius: 20)
         .transition(.scale)
-        .alert("제출완료", isPresented: $showSubmitAlert) {
-            Button("확인", role: .cancel) {
+        .alert("submitted", isPresented: $showSubmitAlert) {
+            Button("Confirm", role: .cancel) {
                 closeModal()
             }
         } message: {

@@ -65,7 +65,7 @@ struct NPSModal: View {
                 showModal = false
                 print("제출")
             }) {
-                Text("제출하기")
+                Text("submit")
                     .font(.headline)
                     .frame(maxWidth: .infinity, minHeight: 54)
                     .background(selectedRating != -1 ? Theme.primaryColor : Theme.disabledColor)

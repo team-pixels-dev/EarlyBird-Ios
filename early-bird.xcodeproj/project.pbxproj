@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8A81ED32D9C2483005F6190 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
-		C8A81EE82D9C4E0B005F6190 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A81EE42D9C4E0B005F6190 /* DeviceActivityMonitorExtension.swift */; };
+		C8A063962DA77E5F00378836 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
+		C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A0639C2DA77E5F00378836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8F873EA2D5CD94A00EC2145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A063942DA77E5F00378836;
+			remoteInfo = AppActivityMonitor;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C8A81EE02D9C2483005F6190 /* Embed Foundation Extensions */ = {
@@ -18,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -25,11 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
-		C8A81EE32D9C4E0B005F6190 /* AppActivityMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppActivityMonitor.entitlements; sourceTree = "<group>"; };
-		C8A81EE42D9C4E0B005F6190 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
-		C8A81EE52D9C4E0B005F6190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F873F22D5CD94A00EC2145 /* early-bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "early-bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,9 +49,24 @@
 			);
 			target = C8F873F12D5CD94A00EC2145 /* early-bird */;
 		};
+		C8A063A22DA77E5F00378836 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C8A063942DA77E5F00378836 /* AppActivityMonitor */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C8A063972DA77E5F00378836 /* AppActivityMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C8A063A22DA77E5F00378836 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */,
+			);
+			path = AppActivityMonitor;
+			sourceTree = "<group>";
+		};
 		C8F873F42D5CD94A00EC2145 /* early-bird */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -55,11 +78,11 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8A81ECD2D9C2483005F6190 /* Frameworks */ = {
+		C8A063922DA77E5F00378836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A81ED32D9C2483005F6190 /* DeviceActivity.framework in Frameworks */,
+				C8A063962DA77E5F00378836 /* DeviceActivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,21 +104,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C8A81EE62D9C4E0B005F6190 /* AppActivityMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				C8A81EE32D9C4E0B005F6190 /* AppActivityMonitor.entitlements */,
-				C8A81EE42D9C4E0B005F6190 /* DeviceActivityMonitorExtension.swift */,
-				C8A81EE52D9C4E0B005F6190 /* Info.plist */,
-			);
-			path = AppActivityMonitor;
-			sourceTree = "<group>";
-		};
 		C8F873E92D5CD94A00EC2145 = {
 			isa = PBXGroup;
 			children = (
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
-				C8A81EE62D9C4E0B005F6190 /* AppActivityMonitor */,
+				C8A063972DA77E5F00378836 /* AppActivityMonitor */,
 				C8A81ED12D9C2483005F6190 /* Frameworks */,
 				C8F873F32D5CD94A00EC2145 /* Products */,
 			);
@@ -105,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C8F873F22D5CD94A00EC2145 /* early-bird.app */,
-				C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */,
+				C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,23 +126,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */ = {
+		C8A063942DA77E5F00378836 /* AppActivityMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A81EDC2D9C2483005F6190 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */;
+			buildConfigurationList = C8A0639F2DA77E5F00378836 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */;
 			buildPhases = (
-				C8A81ECC2D9C2483005F6190 /* Sources */,
-				C8A81ECD2D9C2483005F6190 /* Frameworks */,
-				C8A81ECE2D9C2483005F6190 /* Resources */,
+				C8A063912DA77E5F00378836 /* Sources */,
+				C8A063922DA77E5F00378836 /* Frameworks */,
+				C8A063932DA77E5F00378836 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				C8A063972DA77E5F00378836 /* AppActivityMonitor */,
+			);
 			name = AppActivityMonitor;
 			packageProductDependencies = (
 			);
 			productName = AppActivityMonitor;
-			productReference = C8A81ED02D9C2483005F6190 /* AppActivityMonitor.appex */;
+			productReference = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		C8F873F12D5CD94A00EC2145 /* early-bird */ = {
@@ -144,6 +160,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C8A0639D2DA77E5F00378836 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
@@ -163,9 +180,9 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					C8A81ECF2D9C2483005F6190 = {
+					C8A063942DA77E5F00378836 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					C8F873F12D5CD94A00EC2145 = {
@@ -190,13 +207,13 @@
 			projectRoot = "";
 			targets = (
 				C8F873F12D5CD94A00EC2145 /* early-bird */,
-				C8A81ECF2D9C2483005F6190 /* AppActivityMonitor */,
+				C8A063942DA77E5F00378836 /* AppActivityMonitor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8A81ECE2D9C2483005F6190 /* Resources */ = {
+		C8A063932DA77E5F00378836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,11 +230,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C8A81ECC2D9C2483005F6190 /* Sources */ = {
+		C8A063912DA77E5F00378836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A81EE82D9C4E0B005F6190 /* DeviceActivityMonitorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +246,16 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C8A0639D2DA77E5F00378836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A063942DA77E5F00378836 /* AppActivityMonitor */;
+			targetProxy = C8A0639C2DA77E5F00378836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		C8A81EDD2D9C2483005F6190 /* Debug */ = {
+		C8A063A02DA77E5F00378836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppActivityMonitor/AppActivityMonitor.entitlements;
@@ -243,7 +267,7 @@
 				INFOPLIST_FILE = AppActivityMonitor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AppActivityMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -252,7 +276,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -260,10 +283,10 @@
 			};
 			name = Debug;
 		};
-		C8A81EDE2D9C2483005F6190 /* Release */ = {
+		C8A063A12DA77E5F00378836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = AppActivityMonitor/AppActivityMonitor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AppActivityMonitor/AppActivityMonitorRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -272,7 +295,7 @@
 				INFOPLIST_FILE = AppActivityMonitor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AppActivityMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,7 +304,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,6 +316,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -358,6 +381,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -418,7 +442,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -458,7 +482,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -493,11 +517,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8A81EDC2D9C2483005F6190 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */ = {
+		C8A0639F2DA77E5F00378836 /* Build configuration list for PBXNativeTarget "AppActivityMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A81EDD2D9C2483005F6190 /* Debug */,
-				C8A81EDE2D9C2483005F6190 /* Release */,
+				C8A063A02DA77E5F00378836 /* Debug */,
+				C8A063A12DA77E5F00378836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

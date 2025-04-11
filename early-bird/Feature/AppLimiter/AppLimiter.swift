@@ -25,8 +25,9 @@ class AppLimiter: ObservableObject {
     // 모든 앱 차단 (사용자가 시간 설정 가능)
    func startBlockingAllApps(for duration: TimeInterval) {
        print("차단 시도")
-
+       
        store.shield.applicationCategories = .all()
+       
        
        let now = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date())
        let endTime = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date().addingTimeInterval(duration))
