@@ -15,6 +15,7 @@ class InitViewModel: ObservableObject {
     @Published var showMainView = false
     @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
     @AppStorage("isNotificationRequested") private var isNotificationRequested: Bool = false
+    
     private var getPermssion = GetPermission()
 
     init() {

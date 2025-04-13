@@ -10,9 +10,15 @@
 import SwiftUI
 
 struct BackgroundModifier: ViewModifier {
+    let color: Color
+    
+    init(color: Color = Theme.appBackgroundColor) {
+        self.color = color
+    }
+    
     func body(content: Content) -> some View {
         ZStack {
-            Theme.appBackgroundColor.ignoresSafeArea(edges: .all)
+            color.ignoresSafeArea(edges: .all)
             content
         }
     }
@@ -21,5 +27,9 @@ struct BackgroundModifier: ViewModifier {
 extension View {
     func applyBackground() -> some View {
         self.modifier(BackgroundModifier())
+    }
+    
+    func applyBackgroundWhite() -> some View {
+        self.modifier(BackgroundModifier(color: Theme.brightTextColor))
     }
 }

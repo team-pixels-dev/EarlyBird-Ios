@@ -10,11 +10,17 @@ import SwiftUI
 struct InitView: View {
     @StateObject private var viewModel = InitViewModel()
     @EnvironmentObject var appStateManager: AppStateManager
+    @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
 
     var body: some View {
         NavigationView {
             if viewModel.showMainView {
-                MainView()
+                if isOnboardingShown {
+                    MainView()
+                } else {
+                    Onboard_1View()
+                }
+                
             } else {
                 SplashView()
                     .onAppear {

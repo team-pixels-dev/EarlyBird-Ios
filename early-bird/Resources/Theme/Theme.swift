@@ -22,7 +22,8 @@ struct Theme {
     static let descriptionTextColor = theme(light: "#8D8D8D", dark: "#8D8D8D")
     static let grayTextColor = theme(light: "#575757", dark: "#575757")
     static let grayColor = theme(light: "#B3B3B3", dark: "#B3B3B3")
-    static let wrongColor = theme(light: "FF6666", dark: "FF6666")
+    static let wrongColor = theme(light: "#FF6666", dark: "#FF6666")
+    static let textLabelBgColor = theme(light: "#F6F6F6", dark: "#F6F6F6")
     
     // 폰트 정의
     static let titleFont = Font.system(size: 24, weight: .bold)
