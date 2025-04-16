@@ -9,8 +9,8 @@
 import Foundation
 import SwiftUI
 
-class Onboard2ViewModel: ObservableObject {
-    @Published var inputText: String = UserInputManager.shared.stressText
+class Onboard3ViewModel: ObservableObject {
+    @Published var inputText: String = UserInputManager.shared.resolutionText
     @Published var visibleCount = 0
     @Published var showTextInput = false
 
@@ -21,8 +21,12 @@ class Onboard2ViewModel: ObservableObject {
     }
 
     let conversation: [(LocalizedStringKey, Color?, Double)] = [
-        ("나 요즘 자꾸 미루는 스스로한테 지쳐…\n너도 이제 그만 스트레스 받고 싶지 않아?", nil, 0.0),
-        ("(진짜 이유, 나한테만 살짝 말해줘!)", Theme.mainTextColor2, 3.5)
+        ("좋아! 이제 우리, 조금 가까워졌네 😊", nil, 0.0),
+        ("앞으로 어떤 사람이 되고 싶은지 알려줘!", nil, 1.5),
+        ("내가 널 도와줄게🤩", nil, 3.0)
+//        ("좋아! 이제 우리, 조금 가까워졌네 😊", nil, 0.0),
+//        ("앞으로 어떤 사람이 되고 싶은지 알려줘!", nil, 0.0),
+//        ("내가 널 도와줄게🤩", nil, 0.0)
     ]
 
     func startAnimationSequence() {
@@ -47,7 +51,15 @@ class Onboard2ViewModel: ObservableObject {
     }
 
     func submit() {
-        UserInputManager.shared.stressText = inputText
+        UserInputManager.shared.resolutionText = inputText
+        
+        let UserDescriptionData = UserDescription(
+            comment: inputText,
+            clientId: ClientIDManager.getClientID(),
+            createdAt: formatDate(Date())
+        )
+        
+        sendPostRequest(to: "/api/v1/onboarding/user-description", with: UserDescriptionData){_ in}
         coordinator.goToNext()
     }
 }

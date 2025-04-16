@@ -18,18 +18,18 @@ class InitViewModel: ObservableObject {
     
     private var getPermssion = GetPermission()
 
-    init() {
-        Task{
-            if !isFamilyControlsRequested {
-                await getPermssion.requestFamilyControlsPermission()
-                self.isFamilyControlsRequested = true
-            }
-            if !isNotificationRequested {
-                await getPermssion.requestNotificationPermission()
-                self.isNotificationRequested = true
-            }
-        }
-    }
+//    init() {
+//        Task{
+//            if !isFamilyControlsRequested {
+//                await getPermssion.requestFamilyControlsPermission()
+//                self.isFamilyControlsRequested = true
+//            }
+//            if !isNotificationRequested {
+//                await getPermssion.requestNotificationPermission()
+//                self.isNotificationRequested = true
+//            }
+//        }
+//    }
     
     func sendVisitLog() {
         let visitData = Visit(clientId: ClientIDManager.getClientID())

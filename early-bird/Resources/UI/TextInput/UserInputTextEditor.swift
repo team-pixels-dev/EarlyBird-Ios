@@ -7,26 +7,37 @@
 
 import SwiftUI
 
-struct UserInputTextEditor: View {
+struct CustomBigTextField: View {
     @Binding var text: String
     var placeholder: LocalizedStringKey
+    var maxLength: Int = 50
 
     var body: some View {
-        VStack {
-            TextEditor(text: $text)
-                .font(.custom("Pretendard-Regular", size: 18))
-                .padding(.leading, 20)
-                .padding(.top, 16)
-                .scrollContentBackground(.hidden)
-                .foregroundColor(Theme.mainTextColor)
-                .overlay(alignment: .topLeading) {
-                    FontText(text: placeholder, size: 18)
-                        .padding([.top, .leading], 25)
-                        .foregroundStyle(text.isEmpty ? .gray : .clear)
-                }
+        ZStack {
+            HStack(alignment: .top){
+                TextField("", text: $text)
+                    .font(.custom("Pretendard-Regular", size: 18))
+                    .padding(.leading, 25)
+                    .padding(.top, 23)
+                    .scrollContentBackground(.hidden)
+                    .foregroundColor(Theme.mainTextColor)
+                    .onChange(of: text) { newValue in
+                        if newValue.count > maxLength {
+                            text = String(newValue.prefix(maxLength))
+                        }
+                    }
+                Spacer()
+            }.frame(width: 337, height: 214, alignment: .top)
+            
+            HStack(alignment: .top){
+                FontText(text: placeholder, size: 18)
+                    .padding([.top, .leading], 25)
+                    .foregroundStyle(text.isEmpty ? .gray : .clear)
+                Spacer()
+            }.frame(width: 337, height: 214, alignment: .top)
         }
+        .frame(width: 337, height: 214)
         .background(Theme.textLabelBgColor)
         .cornerRadius(15)
-        .frame(width: 337, height: 214)
     }
 }

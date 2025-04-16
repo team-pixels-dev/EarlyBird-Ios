@@ -1,4 +1,12 @@
 //
+//  Onboard.swift
+//  early-bird
+//
+//  Created by JAYOU KOO on 4/17/25.
+//
+
+
+//
 //  Onboard1.swift
 //  early-bird
 //

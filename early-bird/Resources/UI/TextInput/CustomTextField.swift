@@ -1,32 +1,61 @@
+//
+//  CustomTextField.swift
+//  early-bird
+//
+//  Created by JAYOU KOO on 4/14/25.
+//
+
 import SwiftUI
+
+enum Field {
+    case mainInput
+}
 
 struct CustomTextField: View {
     @Binding var text: String
     var placeholder: LocalizedStringKey
-    var fontSize: CGFloat = 16
-    var cornerRadius: CGFloat = 8
-    var borderColor: Color = .secondary
-    var placeholderColor: Color = .gray
-    var width: CGFloat? = nil
-    var height: CGFloat = 44
+    var fontSize: CGFloat = 18
+    var cornerRadius: CGFloat = 50
+    var borderColor: Color = Theme.mainTextColor2
+    var placeholderColor: Color = Theme.mainTextColor2
+    var width: CGFloat = 249
+    var height: CGFloat = 40
+    var maxLength: Int {
+        if Locale.current.language.languageCode?.identifier == "ko" {
+            return 13
+        } else {
+            return 20
+        }
+    }
 
     var body: some View {
-        ZStack(alignment: .leading) {
+        ZStack {
             if text.isEmpty {
-                Text(placeholder)
-                    .foregroundColor(placeholderColor)
-                    .font(.custom("Pretendard-Regular", size: fontSize))
-                    .padding(.leading, 8)
+                // 가운데 정렬 placeholder
+                HStack {
+                    Spacer()
+                    FontText(text: placeholder, weight: .semiBold, size: fontSize)
+                        .foregroundColor(placeholderColor)
+                    Spacer()
+                }
             }
 
             TextField("", text: $text)
-                .font(.custom("Pretendard-Regular", size: fontSize))
-                .padding(8)
-                .background(Color.clear)
+                .textFieldStyle(PlainTextFieldStyle())
+                .font(.custom("Pretendard-SemiBold", size: fontSize))
+                .foregroundColor(Theme.mainTextColor)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 16)
+                .frame(height: height)
                 .overlay(
                     RoundedRectangle(cornerRadius: cornerRadius)
-                        .stroke(borderColor)
+                        .stroke(borderColor, lineWidth: 2)
                 )
+                .onChange(of: text) { newValue in
+                    if newValue.count > maxLength {
+                        text = String(newValue.prefix(maxLength))
+                    }
+                }
         }
         .frame(width: width, height: height)
     }

@@ -12,7 +12,14 @@ import SwiftUI
 class Onboard4ViewModel: ObservableObject {
     @Published var inputText: String = UserInputManager.shared.resolutionText
     @Published var visibleCount = 0
-    @Published var showTextInput = false
+    @Published var showBlock1 = false
+    @Published var showBlock2 = false
+    @Published var showBlock3 = false
+    @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
+    @AppStorage("isNotificationRequested") private var isNotificationRequested: Bool = false
+    @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
+    
+    private var getPermssion = GetPermission()
 
     private let coordinator: OnboardingCoordinator
 
@@ -20,46 +27,39 @@ class Onboard4ViewModel: ObservableObject {
         self.coordinator = coordinator
     }
 
-    let conversation: [(LocalizedStringKey, Color?, Double)] = [
-        ("좋아! 이제 우리, 조금 가까워졌네 😊", nil, 0.0),
-        ("앞으로 어떤 사람이 되고 싶은지 알려줘!", nil, 2.5),
-        ("내가 널 도와줄게🤩", nil, 3.5)
-//        ("좋아! 이제 우리, 조금 가까워졌네 😊", nil, 0.0),
-//        ("앞으로 어떤 사람이 되고 싶은지 알려줘!", nil, 0.0),
-//        ("내가 널 도와줄게🤩", nil, 0.0)
-    ]
 
     func startAnimationSequence() {
-        visibleCount = 0
-        showTextInput = false
-        
-        var time: Double = 0.0
-        for (index, (_, _, delay)) in conversation.enumerated() {
-            time += delay
-            DispatchQueue.main.asyncAfter(deadline: .now() + time) {
-                withAnimation(.easeOut(duration: 0.5)) {
-                    self.visibleCount = index + 1
-                }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            withAnimation(.easeOut(duration: 0.5)) {
+                self.showBlock1 = true
             }
         }
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + time + 0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             withAnimation(.easeOut(duration: 0.5)) {
-                self.showTextInput = true
+                self.showBlock2 = true
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            withAnimation(.easeOut(duration: 0.5)) {
+                self.showBlock3 = true
             }
         }
     }
 
-    func submit() {
-        UserInputManager.shared.resolutionText = inputText
-        
-        let UserDescriptionData = UserDescription(
-            comment: inputText,
-            clientId: ClientIDManager.getClientID(),
-            createdAt: formatDate(Date())
-        )
-        
-        sendPostRequest(to: "/api/v1/onboarding/user-description", with: UserDescriptionData){_ in}
-        coordinator.goToNext()
+    func getScreenTimePermison() {
+        Task{
+            if !isFamilyControlsRequested {
+                await getPermssion.requestFamilyControlsPermission()
+                self.isFamilyControlsRequested = true
+            }
+            if !isNotificationRequested {
+                await getPermssion.requestNotificationPermission()
+                self.isNotificationRequested = true
+            }
+            isOnboardingShown = true
+                        
+            coordinator.goToNext()
+            
+        }
     }
 }

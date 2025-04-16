@@ -1,3 +1,11 @@
+//
+//  OnboardingConversationView.swift
+//  early-bird
+//
+//  Created by JAYOU KOO on 4/14/25.
+//
+
+
 import SwiftUI
 
 struct OnboardingConversationView: View {
@@ -21,6 +29,6 @@ struct OnboardingConversationView: View {
             Spacer()
         }
         .frame(width: 336, height: 300, alignment: .leading)
-        .padding(.top, 90.0)
+        .padding(.top, 70.0)
     }
 }

@@ -1,31 +1,42 @@
 //
-//  AppState.swift
+//  UserInput.swift
 //  early-bird
 //
-//  Created by JAYOU KOO on 3/19/25.
+//  Created by JAYOU KOO on 4/13/25.
 //
 
-// 앱 상태 저장 매니저
+// 사용자 입력 저장 및 관리
 
 import SwiftUI
 
 class UserInputManager: ObservableObject {
     // 앱의 마지막 상태 저장
     @AppStorage("lastAppState") private var lastAppStateRaw: String = AppState.home.rawValue
+    // 싱글톤으로 정의
+    static let shared = UserInputManager()
     
-    // 타이머 종료 시점 저장
-    @AppStorage("timerEndTime") private var timerEndTimeRaw: Double = 0  // Date를 Double로 저장
+    // 미룸 이유 저장
+    @AppStorage("procrastinationText") private var procrastinationTextRaw: String = ""
     
-    var lastAppState: AppState {
-        get { AppState(rawValue: lastAppStateRaw) ?? .home }
-        set {  DispatchQueue.main.async {self.lastAppStateRaw = newValue.rawValue} }
+    // 스트레스 받기 싫은 이유 저장
+    @AppStorage("stressText") private var stressTextRaw: String = ""
+    
+    // 다짐 저장
+    @AppStorage("resolutionText") private var resolutionTextRaw: String = ""
+    
+    var procrastinationText: String {
+        get { self.procrastinationTextRaw }
+        set { self.procrastinationTextRaw = newValue }
     }
-
-    var timerEndTime: Date {
-        // Date를 double로 저장
-        get { Date(timeIntervalSince1970: timerEndTimeRaw) }
-        
-        // double를 Date로 저장
-        set {  DispatchQueue.main.async {self.timerEndTimeRaw = newValue.timeIntervalSince1970} }
+    
+    var stressText: String {
+        get { self.stressTextRaw }
+        set {self.stressTextRaw = newValue }
     }
+    
+    var resolutionText: String {
+        get { self.resolutionTextRaw }
+        set {self.resolutionTextRaw = newValue }
+    }
+    
 }

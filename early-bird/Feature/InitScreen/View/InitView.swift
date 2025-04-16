@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+//import Firebase
 
 struct InitView: View {
     @StateObject private var viewModel = InitViewModel()
     @EnvironmentObject var appStateManager: AppStateManager
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
+//    init() {
+//        FirebaseApp.configure()
+//    }
 
     var body: some View {
         NavigationView {
@@ -18,9 +22,8 @@ struct InitView: View {
                 if isOnboardingShown {
                     MainView()
                 } else {
-                    Onboard_1View()
+                    OnboardContainerView()
                 }
-                
             } else {
                 SplashView()
                     .onAppear {

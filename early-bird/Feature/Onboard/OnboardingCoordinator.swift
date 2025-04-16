@@ -17,6 +17,10 @@ class OnboardingCoordinator: ObservableObject {
         case .page1:
             currentStep = .page2
         case .page2:
+            currentStep = .page3
+        case .page3:
+            currentStep = .page4
+        case .page4:
             currentStep = .done
         default:
             break

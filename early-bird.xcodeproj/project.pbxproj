@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8A063962DA77E5F00378836 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
+		C81655582DB03153009D5CD8 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
+		C81655592DB03153009D5CD8 /* DeviceActivity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8B0B2132DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */; };
+		C8B0B2142DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +25,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C816555A2DB03153009D5CD8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C81655592DB03153009D5CD8 /* DeviceActivity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8A81EE02D9C2483005F6190 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,9 +50,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B6366DC7A4B45C044242CA4 /* Pods_early_bird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_early_bird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8F873F22D5CD94A00EC2145 /* early-bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "early-bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BEF91270109D199E03A90 /* Pods_AppActivityMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppActivityMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -82,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A063962DA77E5F00378836 /* DeviceActivity.framework in Frameworks */,
+				C81655582DB03153009D5CD8 /* DeviceActivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */,
+				DC5BEF91270109D199E03A90 /* Pods_AppActivityMonitor.framework */,
+				4B6366DC7A4B45C044242CA4 /* Pods_early_bird.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +129,7 @@
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
 				C8A063972DA77E5F00378836 /* AppActivityMonitor */,
 				C8A81ED12D9C2483005F6190 /* Frameworks */,
+				C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */,
 				C8F873F32D5CD94A00EC2145 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +153,7 @@
 				C8A063912DA77E5F00378836 /* Sources */,
 				C8A063922DA77E5F00378836 /* Frameworks */,
 				C8A063932DA77E5F00378836 /* Resources */,
+				C816555A2DB03153009D5CD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,8 +163,6 @@
 				C8A063972DA77E5F00378836 /* AppActivityMonitor */,
 			);
 			name = AppActivityMonitor;
-			packageProductDependencies = (
-			);
 			productName = AppActivityMonitor;
 			productReference = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -166,8 +185,6 @@
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
 			);
 			name = "early-bird";
-			packageProductDependencies = (
-			);
 			productName = "early-bird";
 			productReference = C8F873F22D5CD94A00EC2145 /* early-bird.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B0B2142DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B0B2132DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +296,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +328,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird.AppActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,7 +469,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -460,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -482,7 +509,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -500,7 +527,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.earlybirdteam2024.early-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,6 +1,73 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
+    "\"유튜브에 정신 팔려서…\"\n\"계획만 세우다 끝나서…\"\n\"잘할 자신이 없어서…\"" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Sucked into YouTube\"\n\"Stuck planning\"\n\"Felt insecure\""
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Lost in YouTube\"\n\"Just planned\"\n\"Didn’t feel ready\""
+          }
+        }
+      }
+    },
+    "\"하루가 그냥 낭비한 것 같아 허무해서…\"\n\"생각만 하다 결국 아무것도 못 해서…\"\n\"또 못 지켰다는 생각에 자존감 하락..\"" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Wasted the day\"\n\"Did nothing again\"\n\"Felt like a failure\""
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Day felt wasted\"\n\"Nothing got done\"\n\"Felt rubbish again\""
+          }
+        }
+      }
+    },
+    "(이번만이야. 1분도 안 걸려!)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Just this once—real quick!)"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Just this once—real quick!)"
+          }
+        }
+      }
+    },
+    "(진짜 이유, 나한테만 살짝 말해줘!)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Be real—just us!)"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Be real—just us!)"
+          }
+        }
+      }
+    },
     "%lld" : {
 
     },
@@ -81,6 +148,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "EarlyBird 팀원이신가요?"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key"
           }
         }
       }
@@ -275,6 +353,54 @@
         }
       }
     },
+    "개인정보는 안전하게 보호돼요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your info’s safe with me."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your info’s safe with me."
+          }
+        }
+      }
+    },
+    "그럼, 이제 출발이야!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Then let’s get started! 🚀"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Then let’s get started! 🚀"
+          }
+        }
+      }
+    },
+    "나 요즘 자꾸 미루는 스스로한테 지쳐…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’m tired of putting things off…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’m tired of putting things off…"
+          }
+        }
+      }
+    },
     "나는" : {
       "localizations" : {
         "en" : {
@@ -293,6 +419,89 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "나는"
+          }
+        }
+      }
+    },
+    "나는 더 이상 미뤄서 스트레스 받기 싫어!" : {
+
+    },
+    "나는 이제 얼리버드와" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am a person who..."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am a person who..."
+          }
+        }
+      }
+    },
+    "나랑 약속한거지?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You promised, right?"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You promised, right?"
+          }
+        }
+      }
+    },
+    "내가 널 도와줄게🤩" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’ll help you get there 🤩"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I’ll help you get there 🤩"
+          }
+        }
+      }
+    },
+    "내가 미루는 이유" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Why I procrastinate…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Why I procrastinate…"
+          }
+        }
+      }
+    },
+    "너도 이제 그만 스트레스 받고 싶지 않아?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You feel it too, right?"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You feel it too, right?"
           }
         }
       }
@@ -318,6 +527,74 @@
           }
         }
       }
+    },
+    "다음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        }
+      }
+    },
+    "미루기를 끝내기 위한 첫번째 약속" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "it’s our first step to stop procrastinating."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "it’s our first step to stop procrastinating."
+          }
+        }
+      }
+    },
+    "미루는예시" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✍️ Example:\n“Sucked into YouTube”\n“Stuck planning”\n“Felt insecure”"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✍️ Example:\n“Sucked into YouTube”\n“Stuck planning”\n“Felt insecure”"
+          }
+        }
+      }
+    },
+    "반가워! 나는 얼리버드야!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi, I’m Earlybird 🐣"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi, I’m Earlybird 🐣"
+          }
+        }
+      }
+    },
+    "사람이 될거야" : {
+
     },
     "사람이다." : {
       "localizations" : {
@@ -385,6 +662,22 @@
         }
       }
     },
+    "스크린타임 설정은 우리 둘 사이, " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen time isn’t just a setting—"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen time isn’t just a setting—"
+          }
+        }
+      }
+    },
     "아니요" : {
       "localizations" : {
         "en" : {
@@ -403,6 +696,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아니요"
+          }
+        }
+      }
+    },
+    "앞으로 어떤 사람이 되고 싶은지 알려줘!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Who do you want to be?"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Who do you want to be?"
           }
         }
       }
@@ -451,6 +760,22 @@
         }
       }
     },
+    "얼리버드야, 나 이제부터 진짜 약속할게." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Earlybird, this time it’s real."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Earlybird, this time it’s real."
+          }
+        }
+      }
+    },
     "얼리버드와 함께라면\n혼자선 어려운 일도\n쉽게 시작할 수 있어요!" : {
       "localizations" : {
         "en" : {
@@ -473,6 +798,57 @@
         }
       }
     },
+    "왜냐하면..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No more stress, because…"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No more stress, because…"
+          }
+        }
+      }
+    },
+    "우리가 잘 지내기 위해,\n너에 대해 조금만 알려줄 수 있을까?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before we begin,\nTell me a little about you"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before we begin,\nTell me a little about you"
+          }
+        }
+      }
+    },
+    "이야." : {
+
+    },
+    "자신과의 약속을 지키는" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " keeps my own promises"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "sticks to my own promises"
+          }
+        }
+      }
+    },
     "정말 추천 해요" : {
       "localizations" : {
         "en" : {
@@ -491,6 +867,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정말 추천 해요"
+          }
+        }
+      }
+    },
+    "좋아! 이제 우리, 조금 가까워졌네 😊" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Great! We’re already closer 😊"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Great! We’re already closer 😊"
           }
         }
       }
@@ -606,6 +998,7 @@
       }
     },
     "할 일을 미루지 않는" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
