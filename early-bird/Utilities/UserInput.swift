@@ -9,13 +9,7 @@
 
 import SwiftUI
 
-enum AppState: String, Codable {
-    case home
-    case timerStarted
-    case completed
-}
-
-class AppStateManager: ObservableObject {
+class UserInputManager: ObservableObject {
     // 앱의 마지막 상태 저장
     @AppStorage("lastAppState") private var lastAppStateRaw: String = AppState.home.rawValue
     
