@@ -15,6 +15,7 @@ class Onboard4ViewModel: ObservableObject {
     @Published var showBlock1 = false
     @Published var showBlock2 = false
     @Published var showBlock3 = false
+    @Published var screenTimeAccessClicked = false
     @AppStorage("isFamilyControlsRequested") private var isFamilyControlsRequested: Bool = false
     @AppStorage("isNotificationRequested") private var isNotificationRequested: Bool = false
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
@@ -47,6 +48,9 @@ class Onboard4ViewModel: ObservableObject {
     }
 
     func getScreenTimePermison() {
+        screenTimeAccessClicked = true
+        HapticFeedbackManager.triggerHapticFeedbackPattern()
+        
         Task{
             if !isFamilyControlsRequested {
                 await getPermssion.requestFamilyControlsPermission()

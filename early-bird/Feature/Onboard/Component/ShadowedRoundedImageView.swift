@@ -49,3 +49,17 @@ struct ShadowedRoundedImageView: View {
         }
     }
 }
+
+struct ShadowedRoundedImageViewWithotEffect: View {
+    @State private var isBlinking = false
+    @State private var handYOffset: CGFloat = 105;
+    
+    var body: some View {
+        ZStack {
+            Image("screenTimeAccess")
+                .resizable()
+                .frame(width: 263, height: 198)
+        }
+        .frame(height: 240.0)
+    }
+}

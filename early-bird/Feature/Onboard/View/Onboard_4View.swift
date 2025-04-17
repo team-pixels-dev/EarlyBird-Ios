@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Lottie
 
 struct Onboard_4View: View {
     @ObservedObject var viewModel: Onboard4ViewModel
@@ -63,9 +64,28 @@ struct Onboard_4View: View {
             if viewModel.showBlock3 {
                 Spacer()
                 
-                Button(action: {viewModel.getScreenTimePermison()}){
-                    ShadowedRoundedImageView()
-                    .padding()
+                ZStack{
+                    if viewModel.screenTimeAccessClicked{
+                        ShadowedRoundedImageViewWithotEffect()
+                        Color.black.opacity(0.25)
+                                    .frame(width: 263*1.02, height: 198*1.02)
+                                    .cornerRadius(20) // ShadowedRoundedImageView 모양에 맞게 조절
+                                    .padding()
+                                    .allowsHitTesting(false) // 버튼 누르기는 방해 안 되도록
+                        
+                        LottieView(animation: .named("LoadingAnimation"))
+                            .animationSpeed(0.75)
+                            .playbackMode(
+                                .playing(
+                                    .fromProgress(0.25, toProgress: 0.5, loopMode: .playOnce)
+                                )
+                            )
+                    } else {
+                        Button(action: {viewModel.getScreenTimePermison()}){
+                            ShadowedRoundedImageView()
+                                .padding()
+                        }
+                    }
                 }
                 
                 Spacer()
