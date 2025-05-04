@@ -582,13 +582,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hi, I’m Earlybird 🐣"
+            "value" : "Hi, I’m EarlyBird 🐣"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hi, I’m Earlybird 🐣"
+            "value" : "Hi, I’m EarlyBird 🐣"
           }
         }
       }
@@ -765,13 +765,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Earlybird, this time it’s real."
+            "value" : "EarlyBird, this time it’s real."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Earlybird, this time it’s real."
+            "value" : "EarlyBird, this time it’s real."
           }
         }
       }
@@ -781,13 +781,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Earlybird, getting started is easy!"
+            "value" : "With EarlyBird, getting started is easy!"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Earlybird, starting is easy!"
+            "value" : "With EarlyBird, starting is easy!"
           }
         },
         "ko" : {

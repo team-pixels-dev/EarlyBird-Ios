@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C81655582DB03153009D5CD8 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
-		C81655592DB03153009D5CD8 /* DeviceActivity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C89F4FBA2DB0AFE000656484 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C89F4FB92DB0AFE000656484 /* Lottie */; };
 		C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C8B0B2132DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */; };
@@ -26,17 +25,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C816555A2DB03153009D5CD8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C81655592DB03153009D5CD8 /* DeviceActivity.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C8A81EE02D9C2483005F6190 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,7 +143,6 @@
 				C8A063912DA77E5F00378836 /* Sources */,
 				C8A063922DA77E5F00378836 /* Frameworks */,
 				C8A063932DA77E5F00378836 /* Resources */,
-				C816555A2DB03153009D5CD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,7 +461,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -514,7 +501,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
