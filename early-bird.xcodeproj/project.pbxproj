@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C81655582DB03153009D5CD8 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
+		C84C737E2DC72E12005368D9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C84C737D2DC72E12005368D9 /* FirebaseAnalytics */; };
+		C84C73802DC72E69005368D9 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C84C737F2DC72E69005368D9 /* FirebaseCore */; };
+		C84C73822DC72E83005368D9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C84C73812DC72E83005368D9 /* FirebaseFirestore */; };
+		C84C73842DC72E95005368D9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C84C73832DC72E95005368D9 /* FirebaseAuth */; };
 		C89F4FBA2DB0AFE000656484 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C89F4FB92DB0AFE000656484 /* Lottie */; };
 		C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C8B0B2132DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */; };
-		C8B0B2142DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,6 @@
 		4B6366DC7A4B45C044242CA4 /* Pods_early_bird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_early_bird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
-		C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8F873F22D5CD94A00EC2145 /* early-bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "early-bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5BEF91270109D199E03A90 /* Pods_AppActivityMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppActivityMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +55,13 @@
 				Info.plist,
 			);
 			target = C8F873F12D5CD94A00EC2145 /* early-bird */;
+		};
+		C84C737B2DC72C07005368D9 /* Exceptions for "early-bird" folder in "AppActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = C8A063942DA77E5F00378836 /* AppActivityMonitor */;
 		};
 		C8A063A22DA77E5F00378836 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -77,6 +85,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C842E3512D803CE400414F23 /* Exceptions for "early-bird" folder in "early-bird" target */,
+				C84C737B2DC72C07005368D9 /* Exceptions for "early-bird" folder in "AppActivityMonitor" target */,
 			);
 			path = "early-bird";
 			sourceTree = "<group>";
@@ -96,6 +105,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84C737E2DC72E12005368D9 /* FirebaseAnalytics in Frameworks */,
+				C84C73842DC72E95005368D9 /* FirebaseAuth in Frameworks */,
+				C84C73822DC72E83005368D9 /* FirebaseFirestore in Frameworks */,
+				C84C73802DC72E69005368D9 /* FirebaseCore in Frameworks */,
 				C89F4FBA2DB0AFE000656484 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +132,6 @@
 				C8F873F42D5CD94A00EC2145 /* early-bird */,
 				C8A063972DA77E5F00378836 /* AppActivityMonitor */,
 				C8A81ED12D9C2483005F6190 /* Frameworks */,
-				C8B0B2122DB01B9F0043AFA2 /* GoogleService-Info.plist */,
 				C8F873F32D5CD94A00EC2145 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -209,6 +221,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				C89F4FB82DB0AFE000656484 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C8F873F32D5CD94A00EC2145 /* Products */;
@@ -226,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B0B2142DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B0B2132DB01B9F0043AFA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +577,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
 		C89F4FB82DB0AFE000656484 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
@@ -577,6 +596,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C84C737D2DC72E12005368D9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C84C737F2DC72E69005368D9 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		C84C73812DC72E83005368D9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C84C73832DC72E95005368D9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		C89F4FB92DB0AFE000656484 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C89F4FB82DB0AFE000656484 /* XCRemoteSwiftPackageReference "lottie-ios" */;

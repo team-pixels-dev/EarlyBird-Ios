@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
-//import Firebase
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
 
 struct InitView: View {
     @StateObject private var viewModel = InitViewModel()
     @EnvironmentObject var appStateManager: AppStateManager
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
-//    init() {
-//        FirebaseApp.configure()
-//    }
-
+    
+    @UIApplicationDelegateAdaptor var delegate: CustomAppDelegate
+    
     var body: some View {
         NavigationView {
             if viewModel.showMainView {
@@ -36,4 +37,11 @@ struct InitView: View {
 
 #Preview {
     InitView()
+}
+
+class CustomAppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+      FirebaseApp.configure()
+      return true
+    }
 }
