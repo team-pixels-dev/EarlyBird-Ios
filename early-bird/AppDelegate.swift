@@ -5,17 +5,14 @@
 //  Created by JAYOU KOO on 3/18/25.
 //
 import UIKit
-//import Firebase
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
+
 //
-//class AppDelegate: UIResponder, UIApplicationDelegate {
-//
-//  func application(
-//    _ application: UIApplication,
-//    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-//  ) -> Bool {
-//    FirebaseApp.configure()
-//    return true
-//  }
-//
-//  // ... 나머지 메서드
-//}
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+      FirebaseApp.configure()
+      return true
+    }
+}

@@ -10,13 +10,9 @@ struct MainView: View {
     @EnvironmentObject var appStateManager: AppStateManager
     @State private var gotoTimerView: Bool = false
     @State private var gotoCompleteView: Bool = false
-    @State private var showAlert = false
-    @State private var showPasswordPrompt = false
     
     // 등장 애니메이션용 상태
     @State private var isVisible = false
-    
-    private let shakePublisher = NotificationCenter.default.publisher(for: .deviceDidShakeNotification)
     
     var body: some View {
         ZStack{
@@ -68,13 +64,6 @@ struct MainView: View {
                         gotoCompleteView = true
                     }
                 }
-            }
-            .onReceive(shakePublisher) { _ in
-                showAlert = true
-            }
-            .teamMemberAlert(isPresented: $showAlert, showPasswordPrompt: $showPasswordPrompt)
-            .sheet(isPresented: $showPasswordPrompt) {
-                PasswordPromptSheet(isPresented: $showPasswordPrompt)
             }
         }.applyBackground()
     }

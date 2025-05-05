@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseAuth
 
 struct InitView: View {
     @StateObject private var viewModel = InitViewModel()
     @EnvironmentObject var appStateManager: AppStateManager
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
     
-    @UIApplicationDelegateAdaptor var delegate: CustomAppDelegate
+    @State private var showAlert = false
+    @State private var showPasswordPrompt = false
+    
+    private let shakePublisher = NotificationCenter.default.publisher(for: .deviceDidShakeNotification)
     
     var body: some View {
         NavigationView {
@@ -32,16 +32,16 @@ struct InitView: View {
                     }
             }
         }
+        .onReceive(shakePublisher) { _ in
+            showAlert = true
+        }
+        .teamMemberAlert(isPresented: $showAlert, showPasswordPrompt: $showPasswordPrompt)
+        .sheet(isPresented: $showPasswordPrompt) {
+            PasswordPromptSheet(isPresented: $showPasswordPrompt)
+        }
     }
 }
 
 #Preview {
     InitView()
-}
-
-class CustomAppDelegate: NSObject, UIApplicationDelegate {
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-      FirebaseApp.configure()
-      return true
-    }
 }

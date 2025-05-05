@@ -11,6 +11,7 @@ import FamilyControls
 @main
 struct early_birdApp: App {
     @StateObject private var appStateManager = AppStateManager()
+    @UIApplicationDelegateAdaptor var delegate: AppDelegate
     
     var body: some Scene {
         WindowGroup {
