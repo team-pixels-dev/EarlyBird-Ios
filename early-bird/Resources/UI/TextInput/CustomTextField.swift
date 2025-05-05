@@ -24,7 +24,7 @@ struct CustomTextField: View {
         if Locale.current.language.languageCode?.identifier == "ko" {
             return 13
         } else {
-            return 20
+            return 30
         }
     }
 

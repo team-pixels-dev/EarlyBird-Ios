@@ -54,15 +54,21 @@ class Onboard4ViewModel: ObservableObject {
         Task{
             if !isFamilyControlsRequested {
                 await getPermssion.requestFamilyControlsPermission()
-                self.isFamilyControlsRequested = true
+                await MainActor.run {
+                    self.isFamilyControlsRequested = true
+                }
             }
             if !isNotificationRequested {
                 await getPermssion.requestNotificationPermission()
-                self.isNotificationRequested = true
+                await MainActor.run {
+                    self.isNotificationRequested = true
+                }
             }
-            isOnboardingShown = true
-                        
-            coordinator.goToNext()
+            
+            await MainActor.run {
+                isOnboardingShown = true
+                coordinator.goToNext()
+            }
             
         }
     }

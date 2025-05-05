@@ -68,8 +68,8 @@ struct Onboard_4View: View {
                     if viewModel.screenTimeAccessClicked{
                         ShadowedRoundedImageViewWithotEffect()
                         Color.black.opacity(0.25)
-                                    .frame(width: 263*1.02, height: 198*1.02)
-                                    .cornerRadius(20) // ShadowedRoundedImageView 모양에 맞게 조절
+                                    .frame(width: 263, height: 198)
+                                    .cornerRadius(25) // ShadowedRoundedImageView 모양에 맞게 조절
                                     .padding()
                                     .allowsHitTesting(false) // 버튼 누르기는 방해 안 되도록
                         
@@ -86,7 +86,7 @@ struct Onboard_4View: View {
                                 .padding()
                         }
                     }
-                }
+                }.frame(height: 260.0)
                 
                 Spacer()
                 
