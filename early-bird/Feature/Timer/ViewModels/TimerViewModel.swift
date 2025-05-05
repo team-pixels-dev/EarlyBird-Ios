@@ -18,6 +18,8 @@ class TimerViewModel: ObservableObject {
     @Published var timerActive: Bool = false
     @Published var showNextView: Bool = false
     @Published var showPermissionErrorMsgModal: Bool = false
+    
+    @AppStorage("isHapticsEnabled") private var isHapticsDisabled: Bool = false
    
     private var dispatchTimer: DispatchSourceTimer?
     private let model = TimerModel()
@@ -92,8 +94,10 @@ class TimerViewModel: ObservableObject {
 
             if newSeconds != seconds {
                 seconds = newSeconds
-                Task{
-                    self.feedbackGenerator.impactOccurred()
+                if (!isHapticsDisabled){
+                    Task{
+                        self.feedbackGenerator.impactOccurred()
+                    }
                 }
             }
 
