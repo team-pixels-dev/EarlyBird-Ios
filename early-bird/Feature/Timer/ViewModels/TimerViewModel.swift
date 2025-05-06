@@ -19,11 +19,12 @@ class TimerViewModel: ObservableObject {
     @Published var showNextView: Bool = false
     @Published var showPermissionErrorMsgModal: Bool = false
     
-    @AppStorage("isHapticsEnabled") private var isHapticsDisabled: Bool = false
+    @AppStorage("isHapticsEnabled") var isHapticsDisabled: Bool = false
    
     private var dispatchTimer: DispatchSourceTimer?
     private let model = TimerModel()
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .soft)
+    private let firstTouchfeedbackGenerator = UIImpactFeedbackGenerator(style: .heavy)
     
     private var appStateManager: AppStateManager
     private var getPermission = GetPermission()
@@ -82,7 +83,7 @@ class TimerViewModel: ObservableObject {
         var seconds = (timeRemaining % 60000) / 1000
         timerActive = true
 
-        feedbackGenerator.impactOccurred()
+        firstTouchfeedbackGenerator.impactOccurred()
 
         let timer = DispatchSource.makeTimerSource(queue: .main)
         timer.schedule(deadline: .now(), repeating: .milliseconds(10))
@@ -120,8 +121,6 @@ class TimerViewModel: ObservableObject {
     // 🔹 2. 2분 뒤 알림 예약
     func scheduleNotification(identifier: String) {
             let content = UNMutableNotificationContent()
-//            content.title = "계속 몰입해봐요❗️❗️❗️"
-//            content.body = "그래도 다른 앱 차단을 풀고 싶다면,\n 얼리버드 앱에 접속해주세요!"
             content.title = NSLocalizedString("timer_end_noti_title", comment: "")
             content.body = NSLocalizedString("timer_end_noti_body", comment: "")
             content.sound = .default

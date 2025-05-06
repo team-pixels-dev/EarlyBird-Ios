@@ -16,4 +16,3 @@ struct ClickLogJson : Codable{
     let clickType : String
     let clickTime : String
 }
-

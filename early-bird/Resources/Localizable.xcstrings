@@ -781,13 +781,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With EarlyBird, getting started is easy!"
+            "value" : "With EarlyBird,\ngetting started is easy!"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With EarlyBird, starting is easy!"
+            "value" : "With EarlyBird,\nstarting is easy!"
           }
         },
         "ko" : {

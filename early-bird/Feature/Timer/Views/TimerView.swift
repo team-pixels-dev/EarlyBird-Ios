@@ -3,7 +3,6 @@ import SwiftUI
 struct TimerView: View {
     @EnvironmentObject var appStateManager: AppStateManager
     @StateObject private var viewModel: TimerViewModel
-    @AppStorage("isHapticsEnabled") private var isHapticsDisabled: Bool = false
     
     init(appStateManager: AppStateManager) {
         _viewModel = StateObject(wrappedValue: TimerViewModel(appStateManager: appStateManager))
@@ -17,10 +16,10 @@ struct TimerView: View {
             VStack {
                 HStack{
                     Spacer()
-                    Toggle(isOn: $isHapticsDisabled) {
-                        Image(isHapticsDisabled ? "haptic_off" : "haptic_on")
+                    Toggle(isOn: $viewModel.isHapticsDisabled) {
+                        Image(viewModel.isHapticsDisabled ? "haptic_off" : "haptic_on")
                             .resizable()
-                            .frame(width: 35, height: 35)
+                            .frame(width: 25, height: 25)
                     }
                     .padding(.trailing, 12.0)
                 }

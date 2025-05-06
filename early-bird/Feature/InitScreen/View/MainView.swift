@@ -35,6 +35,10 @@ struct MainView: View {
                 NavigationLink(destination: TimerView(appStateManager: appStateManager), isActive: $gotoTimerView){
                     EmptyView()
                 }
+                NavigationLink(destination: TimerView(appStateManager: appStateManager)){
+                    EmptyView()
+                }
+                
                 
                 // CompleteView 이동 준비
                 NavigationLink(destination: CompleteView(), isActive: $gotoCompleteView){
