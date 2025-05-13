@@ -9,17 +9,19 @@ import SwiftUI
 
 struct SplashView: View {
     // 현재 국가 코드 가져오기
-    private var regionCode: String {
-        Locale.current.region?.identifier ?? "default"
-    }
+    let preferredLanguage = Locale.preferredLanguages.first ?? "unknown"
 
     var body: some View {
-        Image("splash")
+        // 영국(en-GB) 영어에 대한 이미지 렌더를 따로 처리
+        Image(preferredLanguage == "en-GB" ? "splash_uk" : "splash")
             .resizable()
             .scaledToFit()
-            .frame(width: 214, height: 80)
+            .frame(height: 80)
             .navigationBarBackButtonHidden()
             .applyBackground()
+            .onAppear {
+                print("("+preferredLanguage+")")
+            }
     }
 }
 

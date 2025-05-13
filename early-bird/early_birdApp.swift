@@ -10,13 +10,11 @@ import FamilyControls
 
 @main
 struct early_birdApp: App {
-    @StateObject private var appStateManager = AppStateManager()
-    @UIApplicationDelegateAdaptor var delegate: AppDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
             InitView()
-            .environmentObject(appStateManager)
         }.environment(\.theme, Theme())
     }
 }

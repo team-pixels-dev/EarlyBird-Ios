@@ -26,11 +26,10 @@ class TimerViewModel: ObservableObject {
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .soft)
     private let firstTouchfeedbackGenerator = UIImpactFeedbackGenerator(style: .heavy)
     
-    private var appStateManager: AppStateManager
+    private var appStateManager = AppStateManager.shared
     private var getPermission = GetPermission()
     
-    init(appStateManager: AppStateManager) {
-        self.appStateManager = appStateManager
+    init() {
         self.timeRemaining = model.initialTime
         self.endTime = Date().addingTimeInterval(Double(model.initialTime) / 1000)
         feedbackGenerator.prepare()
@@ -57,17 +56,17 @@ class TimerViewModel: ObservableObject {
     func startTimer(autoStart: Bool) {
         dispatchTimer?.cancel()
         dispatchTimer = nil
-        
-        // 앱 차단
-        AppLimiter.shared.startBlockingAllApps(for: max(TimeInterval(model.initialTime / 1000), 900))
-        // 로컬 알림 등록
-        scheduleNotification(identifier: "timerEndNotification")
 
         if autoStart {
             // 앱 재실행 후 타이머 자동 재시작
             // AppStorage에서 타이머 종료 시간 불러오기
             self.endTime = appStateManager.timerEndTime
         } else {
+            // 앱 차단
+            AppLimiter.shared.startBlockingAllApps(for: max(TimeInterval(model.initialTime / 1000), 900))
+            // 로컬 알림 등록
+            scheduleNotification(identifier: "timerEndNotification")
+            
             // AppStorage에 타이머 종료 시간, 앱 상태 저장
             appStateManager.timerEndTime = endTime
             appStateManager.lastAppState = .timerStarted
@@ -120,24 +119,24 @@ class TimerViewModel: ObservableObject {
     
     // 🔹 2. 2분 뒤 알림 예약
     func scheduleNotification(identifier: String) {
-            let content = UNMutableNotificationContent()
-            content.title = NSLocalizedString("timer_end_noti_title", comment: "")
-            content.body = NSLocalizedString("timer_end_noti_body", comment: "")
-            content.sound = .default
+        let content = UNMutableNotificationContent()
+        content.title = NSLocalizedString("timer_end_noti_title", comment: "")
+        content.body = NSLocalizedString("timer_end_noti_body", comment: "")
+        content.sound = .default
 
-            let trigger = UNTimeIntervalNotificationTrigger(
-                timeInterval: TimeInterval(model.initialTime / 1000), repeats: false
-            )
-            let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+        let trigger = UNTimeIntervalNotificationTrigger(
+            timeInterval: TimeInterval(model.initialTime / 1000), repeats: false
+        )
+        let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
 
-            UNUserNotificationCenter.current().add(request) { error in
-                if let error = error {
-                    print("🔴 알림 예약 실패: \(error.localizedDescription)")
-                } else {
-                    print("✅ \(identifier) 알림 예약 완료")
-                }
+        UNUserNotificationCenter.current().add(request) { error in
+            if let error = error {
+                print("🔴 알림 예약 실패: \(error.localizedDescription)")
+            } else {
+                print("✅ \(identifier) 알림 예약 완료")
             }
         }
+    }
 
     
     func tryGetPermission() {

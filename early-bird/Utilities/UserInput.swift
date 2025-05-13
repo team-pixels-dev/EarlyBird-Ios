@@ -10,8 +10,6 @@
 import SwiftUI
 
 class UserInputManager: ObservableObject {
-    // 앱의 마지막 상태 저장
-    @AppStorage("lastAppState") private var lastAppStateRaw: String = AppState.home.rawValue
     // 싱글톤으로 정의
     static let shared = UserInputManager()
     

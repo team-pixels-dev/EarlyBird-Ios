@@ -21,9 +21,11 @@ struct FontText: View {
     var text: LocalizedStringKey
     var weight: FontWeightType = .regular
     var size: CGFloat = 16
+    var alignment: TextAlignment = .leading
     
     var body: some View {
         Text(text)
             .font(.custom("Pretendard-\(weight.rawValue)", size: size))
+            .multilineTextAlignment(alignment)
     }
 }

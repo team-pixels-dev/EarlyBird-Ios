@@ -9,7 +9,6 @@ import SwiftUI
 
 struct InitView: View {
     @StateObject private var viewModel = InitViewModel()
-    @EnvironmentObject var appStateManager: AppStateManager
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
     
     @State private var showAlert = false

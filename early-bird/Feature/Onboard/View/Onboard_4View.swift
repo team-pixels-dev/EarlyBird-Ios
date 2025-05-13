@@ -81,7 +81,7 @@ struct Onboard_4View: View {
                                 )
                             )
                     } else {
-                        Button(action: {viewModel.getScreenTimePermison()}){
+                        Button(action: {viewModel.getPermison()}){
                             ShadowedRoundedImageView()
                                 .padding()
                         }

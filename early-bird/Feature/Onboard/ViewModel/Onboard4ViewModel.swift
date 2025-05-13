@@ -46,8 +46,21 @@ class Onboard4ViewModel: ObservableObject {
             }
         }
     }
+    
+    // 온보딩이 완료되면, FCM 설정
+    func configureFCMIfAuthorized() {
+        print("🟡 configureFCMIfAuthorized called")
+            
+        if let delegate = AppDelegate.instance {
+            print("✅ AppDelegate.instance 접근 성공")
+            delegate.configurePushIfAuthorized(application: UIApplication.shared)
+        } else {
+            print("❌ AppDelegate.instance 접근 실패")
+        }
+    }
 
-    func getScreenTimePermison() {
+    // 스크린타임 API 권한과 알림 권한을 획득한 후 온보딩을 종료하고 메인 페이지로 이동
+    func getPermison() {
         screenTimeAccessClicked = true
         HapticFeedbackManager.triggerHapticFeedbackPattern()
         
@@ -67,6 +80,7 @@ class Onboard4ViewModel: ObservableObject {
             
             await MainActor.run {
                 isOnboardingShown = true
+                configureFCMIfAuthorized() // FCM 설정(알림 권한 허용시만 적용됨)
                 coordinator.goToNext()
             }
             

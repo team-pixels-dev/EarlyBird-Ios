@@ -4,6 +4,8 @@
 <dict>
 	<key></key>
 	<string></string>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<false/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Pretendard-Regular.ttf</string>
@@ -14,6 +16,12 @@
 		<string>Pretendard-Light.ttf</string>
 		<string>Pretendard-Medium.ttf</string>
 		<string>Pretendard-Thin.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
 	</array>
 </dict>
 </plist>

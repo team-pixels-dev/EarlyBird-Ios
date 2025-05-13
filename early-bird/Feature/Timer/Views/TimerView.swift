@@ -1,12 +1,8 @@
 import SwiftUI
 
 struct TimerView: View {
-    @EnvironmentObject var appStateManager: AppStateManager
-    @StateObject private var viewModel: TimerViewModel
-    
-    init(appStateManager: AppStateManager) {
-        _viewModel = StateObject(wrappedValue: TimerViewModel(appStateManager: appStateManager))
-    }
+    @Environment(\.dismiss) private var dismiss
+    @StateObject private var viewModel = TimerViewModel()
     
     var body: some View {
         let imageName = viewModel.timerActive ? "mascotAngryFace" : "mascotNormalFace"
@@ -15,15 +11,19 @@ struct TimerView: View {
         ZStack {
             VStack {
                 HStack{
+                    if(!viewModel.timerActive){
+                        BackButton()
+                            .padding(.leading, 12)
+                    }
                     Spacer()
                     Toggle(isOn: $viewModel.isHapticsDisabled) {
                         Image(viewModel.isHapticsDisabled ? "haptic_off" : "haptic_on")
                             .resizable()
                             .frame(width: 25, height: 25)
                     }
-                    .padding(.trailing, 12.0)
+                    .toggleStyle(.button)
                 }
-                .toggleStyle(.button)
+                .padding(.horizontal, 8.0)
                 VStack {
                     Spacer()
                     Image(imageName)
@@ -76,13 +76,5 @@ struct TimerView: View {
             Text("앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림")
         }
         .navigationBarBackButtonHidden()
-    }
-}
-
-struct TimerView_Previews: PreviewProvider {
-    static var previews: some View {
-        let dummyAppStateManager = AppStateManager()
-        TimerView(appStateManager: dummyAppStateManager)
-            .environmentObject(dummyAppStateManager)
     }
 }

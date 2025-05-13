@@ -1,34 +1,34 @@
 {
   "images" : [
     {
-      "filename" : "splash_us.png",
+      "filename" : "splash.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "splash_us@2x.png",
+      "filename" : "splash@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "splash_us@3x.png",
+      "filename" : "splash@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
     {
-      "filename" : "splash_us 1.png",
+      "filename" : "splash_us@2x.png",
       "idiom" : "universal",
       "locale" : "en",
       "scale" : "1x"
     },
     {
-      "filename" : "splash_us@2x 1.png",
+      "filename" : "splash_us.png",
       "idiom" : "universal",
       "locale" : "en",
       "scale" : "2x"
     },
     {
-      "filename" : "splash_us@3x 1.png",
+      "filename" : "splash_us@3x.png",
       "idiom" : "universal",
       "locale" : "en",
       "scale" : "3x"

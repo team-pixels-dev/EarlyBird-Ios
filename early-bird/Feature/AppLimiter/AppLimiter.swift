@@ -18,7 +18,7 @@ class AppLimiter: ObservableObject {
     private let store = ManagedSettingsStore()
     private let deviceActivityCenter = DeviceActivityCenter()
     
-    private var appStateManager = AppStateManager()
+    private var appStateManager = AppStateManager.shared
     
     private init() {} // 외부에서 인스턴스 생성 방지
     

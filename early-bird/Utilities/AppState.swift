@@ -16,6 +16,8 @@ enum AppState: String, Codable {
 }
 
 class AppStateManager: ObservableObject {
+    // 싱글톤으로 정의
+    static let shared = AppStateManager()
     // 앱의 마지막 상태 저장
     @AppStorage("lastAppState") private var lastAppStateRaw: String = AppState.home.rawValue
     

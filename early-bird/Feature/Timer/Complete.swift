@@ -11,8 +11,8 @@ struct CompleteView: View {
     @State var showNextView: Bool = false
     @State private var showNPSModal = false
     @State private var showTextFeedbackModal = false
-    @EnvironmentObject var appStateManager: AppStateManager
-    
+    private var appStateManager = AppStateManager.shared
+
     var body: some View {
         NavigationView {
             VStack {
@@ -78,10 +78,4 @@ struct CompleteView: View {
         }
     }
     
-}
-
-struct CompleteView_Previews: PreviewProvider {
-    static var previews: some View {
-        CompleteView().environmentObject(AppStateManager())
-    }
 }

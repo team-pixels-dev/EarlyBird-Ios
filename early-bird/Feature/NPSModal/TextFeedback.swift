@@ -18,7 +18,8 @@ struct TextFeedbackModal: View {
     @Binding var showModal: Bool
     @State private var submittedText: String = ""
     @State private var inputText: String = ""
-    @EnvironmentObject var appStateManager: AppStateManager
+    var appStateManager = AppStateManager.shared
+    
     
     var body: some View {
         VStack(spacing:0) {
@@ -92,30 +93,5 @@ struct TextFeedbackModal: View {
                 break
             }
         }
-    }
-}
-
-struct TextFeedbackModal_Previews: PreviewProvider {
-    static var previews: some View {
-        // 더미용 상태값과 AppStateManager 생성
-        StatefulPreviewWrapper(true) { binding in
-            TextFeedbackModal(showModal: binding)
-                .environmentObject(AppStateManager())
-        }
-    }
-}
-
-// Preview용 Binding 생성 도우미
-struct StatefulPreviewWrapper<Value>: View {
-    @State var value: Value
-    var content: (Binding<Value>) -> AnyView
-
-    init(_ initialValue: Value, content: @escaping (Binding<Value>) -> some View) {
-        _value = State(initialValue: initialValue)
-        self.content = { binding in AnyView(content(binding)) }
-    }
-
-    var body: some View {
-        content($value)
     }
 }

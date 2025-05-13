@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80B0F4C2DD0991500B75867 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C80B0F4B2DD0991500B75867 /* FirebaseMessaging */; };
 		C81655582DB03153009D5CD8 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A81ED22D9C2483005F6190 /* DeviceActivity.framework */; };
 		C84C737E2DC72E12005368D9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C84C737D2DC72E12005368D9 /* FirebaseAnalytics */; };
 		C84C73802DC72E69005368D9 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C84C737F2DC72E69005368D9 /* FirebaseCore */; };
@@ -56,13 +57,6 @@
 			);
 			target = C8F873F12D5CD94A00EC2145 /* early-bird */;
 		};
-		C84C737B2DC72C07005368D9 /* Exceptions for "early-bird" folder in "AppActivityMonitor" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"GoogleService-Info.plist",
-			);
-			target = C8A063942DA77E5F00378836 /* AppActivityMonitor */;
-		};
 		C8A063A22DA77E5F00378836 /* Exceptions for "AppActivityMonitor" folder in "AppActivityMonitor" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -85,7 +79,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C842E3512D803CE400414F23 /* Exceptions for "early-bird" folder in "early-bird" target */,
-				C84C737B2DC72C07005368D9 /* Exceptions for "early-bird" folder in "AppActivityMonitor" target */,
 			);
 			path = "early-bird";
 			sourceTree = "<group>";
@@ -105,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80B0F4C2DD0991500B75867 /* FirebaseMessaging in Frameworks */,
 				C84C737E2DC72E12005368D9 /* FirebaseAnalytics in Frameworks */,
 				C84C73842DC72E95005368D9 /* FirebaseAuth in Frameworks */,
 				C84C73822DC72E83005368D9 /* FirebaseFirestore in Frameworks */,
@@ -509,7 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "early-bird/early-birdRelease.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -596,6 +590,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C80B0F4B2DD0991500B75867 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
 		C84C737D2DC72E12005368D9 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

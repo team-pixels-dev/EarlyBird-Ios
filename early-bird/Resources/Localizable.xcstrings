@@ -152,13 +152,48 @@
         }
       }
     },
-    "Key" : {
+    "evening_noti_body" : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s start now with EarlyBird🔥"
+          }
+        },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Key"
+            "value" : "Let’s start now with EarlyBird🔥"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오늘이 1시간 남았는데 아직도 시작을 못했다면?\n얼리버드 앱에 접속해주세요!"
+          }
+        }
+      }
+    },
+    "evening_noti_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One hour left. Make it count."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Still putting it off? Now’s the time!"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여전히 미루고 있다면?"
           }
         }
       }
@@ -204,6 +239,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 2분 집중 시작"
+          }
+        }
+      }
+    },
+    "morning_noti_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s start now with EarlyBird!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s start now with EarlyBird!"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매번 소중한 아침 시간을 낭비하기 싫다면?\n얼리버드 앱에 접속해주세요!"
+          }
+        }
+      }
+    },
+    "morning_noti_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t waste your morning  🚫"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t waste your morning  🚫"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하루의 기분 좋은 시작을 도와줄게요❗️"
           }
         }
       }
@@ -291,7 +372,7 @@
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "그래도 다른 앱 차단을 풀고 싶다면,\n얼리버드 앱에 접속해주세요!"
           }
         }
@@ -314,7 +395,7 @@
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "계속 몰입해봐요❗️❗️❗️"
           }
         }
@@ -352,6 +433,9 @@
           }
         }
       }
+    },
+    "개인정보 처리방침 설정" : {
+
     },
     "개인정보는 안전하게 보호돼요" : {
       "localizations" : {
@@ -544,6 +628,9 @@
         }
       }
     },
+    "단순한 기능 제안도 좋아요!\n여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥" : {
+
+    },
     "미루기를 끝내기 위한 첫번째 약속" : {
       "localizations" : {
         "en" : {
@@ -639,6 +726,9 @@
           }
         }
       }
+    },
+    "설정" : {
+
     },
     "소중한 의견 감사합니다." : {
       "localizations" : {
@@ -737,6 +827,9 @@
           }
         }
       }
+    },
+    "얼리버드는 여러분과 함께 완성돼요" : {
+
     },
     "얼리버드를 주변에 얼마나\n추천하고 싶으신가요?" : {
       "localizations" : {
@@ -871,6 +964,9 @@
         }
       }
     },
+    "제안하기" : {
+
+    },
     "좋아! 이제 우리, 조금 가까워졌네 😊" : {
       "localizations" : {
         "en" : {
@@ -975,6 +1071,9 @@
         }
       }
     },
+    "피드백" : {
+
+    },
     "필수 권한이 없습니다." : {
       "localizations" : {
         "en" : {
@@ -993,29 +1092,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필수 권한이 없습니다."
-          }
-        }
-      }
-    },
-    "할 일을 미루지 않는" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Who gets things done"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Who gets things done"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "할 일을 미루지 않는"
           }
         }
       }
