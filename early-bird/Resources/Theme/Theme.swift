@@ -25,6 +25,7 @@ struct Theme {
     static let wrongColor = theme(light: "#FF6666", dark: "#FF6666")
     static let textLabelBgColor = theme(light: "#F6F6F6", dark: "#F6F6F6")
     
+    
     // 폰트 정의
     static let titleFont = Font.system(size: 24, weight: .bold)
     static let bodyFont = Font.system(size: 16, weight: .regular)

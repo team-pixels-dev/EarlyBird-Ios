@@ -9,19 +9,13 @@ struct MainHeaderView: View {
         HStack {
             Spacer()
             
-            Text(title)
-                .foregroundColor(Color(red: 0.30, green: 0.30, blue: 0.30))
-                .font(.custom("PretendardVariable-Regular", size: 18))
-            
-            Spacer()
-            
             Button(action: {
                 viewModel.gotoSettingView = true
             }) {
                 Image("settingIcon")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 25, height: 25)
+                    .frame(width: 26, height: 26)
             }
         }
         .padding(.horizontal, 16)

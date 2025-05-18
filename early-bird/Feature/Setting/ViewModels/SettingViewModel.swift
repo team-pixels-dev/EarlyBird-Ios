@@ -1,11 +1,13 @@
 import Foundation
 import SwiftUI
+import FirebaseAnalytics
 
 /// 설정 화면의 비즈니스 로직을 담당하는 ViewModel
 @MainActor
 class SettingViewModel: ObservableObject {
     // MARK: - Published Properties
     @Published var sections: [SettingSection]
+    @Published var privacySections: [SettingSection]
     @Published var isNotificationEnabled = true
     @Published var isTimeNotificationEnabled = true
     @Published var isDataCollectionEnabled = true
@@ -18,12 +20,14 @@ class SettingViewModel: ObservableObject {
     // MARK: - Initialization
     init() {
         self.sections = SettingModel.shared.sections
+        self.privacySections = SettingModel.shared.privacySections
+        self.isDataCollectionEnabled = settingValue.isDataCollectionEnabled
         
         Task {
             await checkNotificationPermission()
         }
         
-        self.isDataCollectionEnabled = UserDefaults.standard.bool(forKey: "isDataCollectionEnabled")
+        
     }
     
     // MARK: - Lifecycle Methods
@@ -82,7 +86,9 @@ class SettingViewModel: ObservableObject {
     // MARK: - Data Collection Methods
     func toggleDataCollection() {
         isDataCollectionEnabled.toggle()
-        // TODO: 실제 데이터 수집 설정 로직 구현
+        
+        settingValue.isDataCollectionEnabled = isDataCollectionEnabled
+        Analytics.setAnalyticsCollectionEnabled(isDataCollectionEnabled)
     }
     
     // MARK: - Navigation Methods

@@ -19,7 +19,7 @@ class SettingValue: ObservableObject {
     // 정기 알림 수신 활성화
     @AppStorage("specificTimeNotiActive") private var specificTimeNotiActiveRaw: Bool = true
     
-    // 정기 알림 수신 활성화
+    // 익명데이터 수집 활성화
     @AppStorage("isDataCollectionEnabled") private var isDataCollectionEnabledRaw: Bool = true
     
     var notiActive: Bool {

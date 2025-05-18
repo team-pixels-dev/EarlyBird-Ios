@@ -25,7 +25,7 @@ struct InitView: View {
                     OnboardContainerView()
                 }
             } else {
-                SplashView()
+                OnboardView()
                     .onAppear {
                         viewModel.handleAppLaunch()
                     }

@@ -6,12 +6,12 @@ struct SettingSectionView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(section.title)
-                .foregroundColor(Color(red: 0.70, green: 0.70, blue: 0.70))
-                .font(.custom("PretendardVariable-Regular", size: 14))
+            FontText(text: LocalizedStringKey(section.title), weight: .regular, size: 14, alignment: .leading)
+                .foregroundColor(Theme.descriptionTextColor)
                 .padding(.horizontal, 16)
                 .padding(.top, 24)
                 .padding(.bottom, 8)
+                
             
             VStack(spacing: 0) {
                 ForEach(section.items, id: \.title) { item in
@@ -24,7 +24,6 @@ struct SettingSectionView: View {
                     
                     if item != section.items.last {
                         Divider()
-                            .padding(.leading, 16)
                     }
                 }
             }

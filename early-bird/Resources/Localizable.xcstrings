@@ -74,6 +74,29 @@
     "2025년 3월" : {
 
     },
+    "catchphrase_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Struggling to start?"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Struggling to start?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작이 어려울 땐"
+          }
+        }
+      }
+    },
     "complete_done_button_text" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -824,6 +847,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림"
+          }
+        }
+      }
+    },
+    "얼리버드" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EarlyBird"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EarlyBird"
           }
         }
       }

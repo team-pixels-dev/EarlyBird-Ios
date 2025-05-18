@@ -10,9 +10,8 @@ import SwiftUI
 struct FeedbackItemView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("피드백")
-                .foregroundColor(Theme.grayColor)
-                .font(.custom("PretendardVariable-Regular", size: 14))
+            FontText(text: "피드백", weight: .regular, size: 14, alignment: .leading)
+                .foregroundColor(Theme.descriptionTextColor)
                 .padding(.horizontal, 16)
                 .padding(.top, 24)
                 .padding(.bottom, 8)

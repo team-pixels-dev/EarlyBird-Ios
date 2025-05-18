@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key></key>
-	<string></string>
 	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
-	<false/>
+	<true/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Pretendard-Regular.ttf</string>
@@ -16,6 +14,7 @@
 		<string>Pretendard-Light.ttf</string>
 		<string>Pretendard-Medium.ttf</string>
 		<string>Pretendard-Thin.ttf</string>
+		<string>ONE_Mobile_POP.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>

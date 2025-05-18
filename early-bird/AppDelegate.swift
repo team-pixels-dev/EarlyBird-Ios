@@ -22,8 +22,11 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         AppDelegate.instance = self
         
         FirebaseApp.configure()
-        // 사용자 동의 후 자동 데이터 수집 활성화
-        // Analytics.setAnalyticsCollectionEnabled(true)
+        
+        if SettingValue.shared.isDataCollectionEnabled {
+            // 사용자 동의 후 자동 데이터 수집 활성화
+            Analytics.setAnalyticsCollectionEnabled(true)
+        }
         
         // 온보딩 이후 FCM 설정
         if isOnboardingShown {
