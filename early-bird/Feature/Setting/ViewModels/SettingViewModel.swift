@@ -1,38 +1,91 @@
 import Foundation
 import SwiftUI
 
+/// 설정 화면의 비즈니스 로직을 담당하는 ViewModel
+@MainActor
 class SettingViewModel: ObservableObject {
+    // MARK: - Published Properties
     @Published var sections: [SettingSection]
-    @Published var isNotificationEnabled = false
-    @Published var isTimeNotificationEnabled = false
-    @Published var isDataCollectionEnabled = false
+    @Published var isNotificationEnabled = true
+    @Published var isTimeNotificationEnabled = true
+    @Published var isDataCollectionEnabled = true
     @Published var gotoPrivacyPolicy = false
     
+    // MARK: - Private Properties
+    private var settingValue = SettingValue.shared
+    private var getPermission = GetPermission()
+    
+    // MARK: - Initialization
     init() {
         self.sections = SettingModel.shared.sections
-        self.isNotificationEnabled = UserDefaults.standard.bool(forKey: "isNotificationEnabled")
-        self.isTimeNotificationEnabled = UserDefaults.standard.bool(forKey: "isTimeNotificationEnabled")
+        
+        Task {
+            await checkNotificationPermission()
+        }
+        
         self.isDataCollectionEnabled = UserDefaults.standard.bool(forKey: "isDataCollectionEnabled")
     }
     
+    // MARK: - Lifecycle Methods
+    func onForeground() {
+        guard isNotificationEnabled else { return }
+        
+        Task {
+            await checkNotificationPermission()
+        }
+    }
+    
+    // MARK: - Notification Methods
+    private func checkNotificationPermission() async {
+        switch await getPermission.getNofiPermissonState() {
+        case .authorized, .provisional, .ephemeral:
+            break
+        case .notDetermined, .denied:
+            settingValue.notiActive = false
+            settingValue.specificTimeNotiActive = false
+        @unknown default:
+            break
+        }
+        
+        self.isNotificationEnabled = settingValue.notiActive
+        self.isTimeNotificationEnabled = settingValue.specificTimeNotiActive
+    }
+    
     func toggleNotification() {
+        Task {
+            await getPermission.checkAndRequestNotificationPermission()
+        }
+        
         isNotificationEnabled.toggle()
-        UserDefaults.standard.set(isNotificationEnabled, forKey: "isNotificationEnabled")
-        // TODO: 실제 알림 권한 요청 및 처리 로직 구현
+        settingValue.notiActive = isNotificationEnabled
+        
+        // 알림이 비활성화되면 시간 알림도 비활성화
+        if !isNotificationEnabled {
+            isTimeNotificationEnabled = false
+        } else if !isTimeNotificationEnabled {
+            isTimeNotificationEnabled = true
+        }
+        
+        settingValue.specificTimeNotiActive = isTimeNotificationEnabled
     }
     
     func toggleTimeNotification() {
         isTimeNotificationEnabled.toggle()
-        UserDefaults.standard.set(isTimeNotificationEnabled, forKey: "isTimeNotificationEnabled")
-        // TODO: 실제 시간 알림 설정 로직 구현
+        settingValue.specificTimeNotiActive = isTimeNotificationEnabled
+        
+        // 시간 알림이 활성화되면 기본 알림도 활성화
+        if !isNotificationEnabled {
+            toggleNotification()
+        }
     }
     
+    // MARK: - Data Collection Methods
     func toggleDataCollection() {
         isDataCollectionEnabled.toggle()
-        UserDefaults.standard.set(isDataCollectionEnabled, forKey: "isDataCollectionEnabled")
         // TODO: 실제 데이터 수집 설정 로직 구현
     }
     
+    // MARK: - Navigation Methods
     func openFeedback() {
         print("open feedback")
         // TODO: 피드백 화면으로 이동하는 로직 구현
@@ -40,7 +93,6 @@ class SettingViewModel: ObservableObject {
     
     func openTerms() {
         print("open terms")
-        // TODO: 이용약관 화면으로 이동하는 로직 구현
         if let url = URL(string: "https://cubic-tax-461.notion.site/1f00c4f14a908025b95bf2f0308a8479?pvs=4") {
             UIApplication.shared.open(url)
         }

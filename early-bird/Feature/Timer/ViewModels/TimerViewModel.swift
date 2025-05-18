@@ -119,6 +119,13 @@ class TimerViewModel: ObservableObject {
     
     // 🔹 2. 2분 뒤 알림 예약
     func scheduleNotification(identifier: String) {
+        // 모든 알림 비활성화시 알림을 예약하지 않음
+        let settingValue = SettingValue.shared
+
+        if !settingValue.notiActive {
+            return
+        }
+        
         let content = UNMutableNotificationContent()
         content.title = NSLocalizedString("timer_end_noti_title", comment: "")
         content.body = NSLocalizedString("timer_end_noti_body", comment: "")
@@ -142,28 +149,7 @@ class TimerViewModel: ObservableObject {
     func tryGetPermission() {
         Task{
             await getPermission.requestFamilyControlsPermission()
-            await checkAndRequestNotificationPermission()
-        }
-    }
-    
-    func checkAndRequestNotificationPermission() async {
-        let center = UNUserNotificationCenter.current()
-        let settings = await center.notificationSettings()
-
-        switch settings.authorizationStatus {
-        case .notDetermined:
-            await getPermission.requestNotificationPermission()
-        case .denied:
-            // 이전에 거절한 경우 설정 앱으로 유도
-            print("⚠️ 알림 권한이 거부되어 설정 앱으로 유도 필요")
-            if let url = URL(string: UIApplication.openSettingsURLString),
-               UIApplication.shared.canOpenURL(url) {
-                await UIApplication.shared.open(url)
-            }
-        case .authorized, .provisional, .ephemeral:
-            print("✅ 이미 알림 권한 있음")
-        @unknown default:
-            break
+            await getPermission.checkAndRequestNotificationPermission()
         }
     }
     

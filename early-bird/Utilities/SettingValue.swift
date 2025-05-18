@@ -19,14 +19,30 @@ class SettingValue: ObservableObject {
     // 정기 알림 수신 활성화
     @AppStorage("specificTimeNotiActive") private var specificTimeNotiActiveRaw: Bool = true
     
+    // 정기 알림 수신 활성화
+    @AppStorage("isDataCollectionEnabled") private var isDataCollectionEnabledRaw: Bool = true
+    
     var notiActive: Bool {
         get { self.notiActiveRaw }
-        set { self.notiActiveRaw = newValue }
+        set {
+            self.notiActiveRaw = newValue
+            ScheduleNotification.shared.updateNotificationStatus()
+        }
     }
     
     var specificTimeNotiActive: Bool {
         get { self.specificTimeNotiActiveRaw }
-        set {self.specificTimeNotiActiveRaw = newValue }
+        set {
+            self.specificTimeNotiActiveRaw = newValue
+            ScheduleNotification.shared.updateNotificationStatus()
+        }
+    }
+    
+    var isDataCollectionEnabled: Bool {
+        get { self.isDataCollectionEnabledRaw }
+        set {
+            self.isDataCollectionEnabledRaw = newValue
+        }
     }
     
 }

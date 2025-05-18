@@ -12,9 +12,10 @@ struct BackButton: View {
     
     var body: some View {
         Button(action: { dismiss() }) {
-            Image(systemName: "chevron.left")
-                .foregroundColor(Color(red: 0.30, green: 0.30, blue: 0.30))
-                .font(.system(size: 18, weight: .medium))
+            Image("backBtn")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 13, height: 22)
         }
     }
 }

@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 struct SettingSection {
     let title: String
@@ -36,8 +37,8 @@ class SettingModel {
     
     let sections: [SettingSection] = [
         SettingSection(title: "알림 설정", items: [
-            SettingItem(title: "알림 권한", description: "앱 알림을 허용합니다.", type: .notification),
-            SettingItem(title: "특정 시간 알림", description: "특정 시간에 알림을 받습니다.", type: .timeNotification)
+//            SettingItem(title: "알림 권한", description: "앱 알림을 허용합니다.", type: .notification),
+            SettingItem(title: "특정 시간 알림", description: "하루의 시작과 끝, 얼리버드와 함께 해요.", type: .timeNotification)
         ]),
         SettingSection(title: "약관 및 정책", items: [
             SettingItem(title: "서비스 이용약관", description: "", type: .terms),

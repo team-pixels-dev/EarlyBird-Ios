@@ -36,15 +36,12 @@ private struct SettingItemContent: View {
     
     private var itemText: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(item.title)
-                .foregroundColor(Color(red: 0.30, green: 0.30, blue: 0.30))
-                .font(.custom("PretendardVariable-Regular", size: 16))
+            FontText(text: LocalizedStringKey(item.title), weight: .regular, size: 16, alignment: .leading)
+                .foregroundColor(Theme.mainTextColor2)
             
             if !item.description.isEmpty {
-                Text(item.description)
-                    .foregroundColor(Color(red: 0.70, green: 0.70, blue: 0.70))
-                    .font(.custom("PretendardVariable-Regular", size: 14))
-                    .multilineTextAlignment(.leading)
+                FontText(text: LocalizedStringKey(item.description), weight: .regular, size: 14, alignment: .leading)
+                    .foregroundColor(Theme.grayColor)
             }
         }
     }
@@ -57,7 +54,7 @@ private struct SettingItemContent: View {
                     set: { _ in onToggle?() }
                 ))
                 .labelsHidden()
-                .tint(Color(red: 0.00, green: 0.48, blue: 1.00))
+                .tint(Theme.secondaryColor)
             } else {
                 Image(systemName: "chevron.right")
                     .foregroundColor(Color(red: 0.70, green: 0.70, blue: 0.70))
