@@ -100,7 +100,7 @@ class SettingViewModel: ObservableObject {
     
     func openTerms() {
         print("open terms")
-        if let url = URL(string: "https://cubic-tax-461.notion.site/1f00c4f14a908025b95bf2f0308a8479?pvs=4") {
+        if let url = URL(string: NSLocalizedString("terms_url", comment: "")) {
             UIApplication.shared.open(url)
         }
     }
@@ -112,7 +112,7 @@ class SettingViewModel: ObservableObject {
     
     func openPrivacyPolicy() {
         print("open privacy policy")
-        if let url = URL(string: "https://cubic-tax-461.notion.site/1f00c4f14a9080bdb937e3a95a395201?pvs=4") {
+        if let url = URL(string: NSLocalizedString("privacy_policy_url", comment: "")) {
             UIApplication.shared.open(url)
         }
     }

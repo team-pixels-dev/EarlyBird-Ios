@@ -1,13 +1,14 @@
 //
-//  Onboard1.swift
+//  Onboard1View.swift
 //  early-bird
 //
 //  Created by JAYOU KOO on 4/9/25.
 //
+
 import SwiftUI
 
-struct Onboard_2View: View {
-    @ObservedObject var viewModel: Onboard2ViewModel
+struct Onboard1View: View {
+    @ObservedObject var viewModel: Onboard1ViewModel
     
     @FocusState var focusedField: Field?
 
@@ -17,21 +18,17 @@ struct Onboard_2View: View {
                 messages: viewModel.conversation,
                 visibleCount: viewModel.visibleCount
             )
-
+            
             Spacer()
 
             if viewModel.showTextInput {
                 VStack {
-                    if Locale.current.language.languageCode?.identifier == "ko" {
-                        FontText(text: "나는 더 이상 미뤄서 스트레스 받기 싫어!", weight: .bold, size: 18)
-                            .foregroundColor(Theme.mainTextColor)
-                    }
-                    FontText(text: "왜냐하면...", weight: .bold, size: 22)
+                    FontText(text: "내가 미루는 이유", weight: .bold, size: 22)
                         .foregroundColor(Theme.mainTextColor)
 
                     Spacer()
-
-                    CustomBigTextField(text: $viewModel.inputText, placeholder: "\"하루가 그냥 낭비한 것 같아 허무해서…\"\n\"생각만 하다 결국 아무것도 못 해서…\"\n\"또 못 지켰다는 생각에 자존감 하락..\"")
+                    
+                    CustomBigTextField(text: $viewModel.inputText, placeholder: "\"유튜브에 정신 팔려서…\"\n\"계획만 세우다 끝나서…\"\n\"잘할 자신이 없어서…\"")
                         .focused($focusedField, equals: .mainInput)
                         .submitLabel(.done)
                         .onSubmit {
@@ -40,9 +37,17 @@ struct Onboard_2View: View {
 
                     Spacer()
 
-                    WideButton(buttonText: "다음", buttonAction: viewModel.submit, type: .middle, disabled: viewModel.inputText.isEmpty)
+                    WideButton(
+                        buttonText: "다음",
+                        buttonAction: {
+                            viewModel.submit()
+                        },
+                        type: .middle,
+                        disabled: viewModel.inputText.isEmpty
+                    )
                 }
-                .frame(height: 340.0)
+                .frame(height: 329)
+                .padding(.bottom, 0.0)
             }
         }
         .applyBackgroundWhite()
@@ -57,7 +62,7 @@ struct Onboard_2View: View {
 
 #Preview {
     let coordinator = OnboardingCoordinator()
-    let viewModel = Onboard2ViewModel(coordinator: coordinator)
+    let viewModel = Onboard1ViewModel(coordinator: coordinator)
     viewModel.startAnimationSequence()
-    return Onboard_2View(viewModel: viewModel)
+    return Onboard1View(viewModel: viewModel)
 }

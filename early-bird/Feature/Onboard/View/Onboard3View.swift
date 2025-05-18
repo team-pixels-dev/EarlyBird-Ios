@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct Onboard_3View: View {
+struct Onboard3View: View {
     @ObservedObject var viewModel: Onboard3ViewModel
     
     @FocusState var focusedField: Field?
@@ -59,5 +59,5 @@ struct Onboard_3View: View {
     let coordinator = OnboardingCoordinator()
     let viewModel = Onboard3ViewModel(coordinator: coordinator)
 //    viewModel.startAnimationSequence()
-    return Onboard_3View(viewModel: viewModel)
+    return Onboard3View(viewModel: viewModel)
 }

@@ -21,11 +21,14 @@ struct FeedbackItemView: View {
             HStack(spacing: 0) {
                 VStack(spacing: 20) {
                     Spacer()
-                    FontText(text: "단순한 기능 제안도 좋아요!\n여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥", weight: .semiBold, size: 16, alignment: .center)
-                        .foregroundColor(Theme.mainTextColor2)
-                        .frame(width: 320)
+                    VStack(spacing: 4){
+                        FontText(text: "단순한 기능 제안도 좋아요!", weight: .bold, size: 24, alignment: .center)
+                            .foregroundColor(Theme.mainTextColor2)
+                        FontText(text: "여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥", weight: .medium, size: 14, alignment: .center)
+                            .foregroundColor(Theme.mainTextColor2)
+                    }
                     FontText(text: "얼리버드는 여러분과 함께 완성돼요", weight: .regular, size: 14)
-                        .foregroundColor(Theme.mainTextColor2)
+                        .foregroundColor(Theme.descriptionTextColor)
                     NormalButton(buttonText: "제안하기", buttonAction: {viewModel.showTextFeedbackModal = true}, type: .middle, disabled: false)
                     Spacer()
                 }

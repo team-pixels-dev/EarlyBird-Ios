@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "shouldTranslate" : false
     },
     "\"유튜브에 정신 팔려서…\"\n\"계획만 세우다 끝나서…\"\n\"잘할 자신이 없어서…\"" : {
       "localizations" : {
@@ -69,10 +69,10 @@
       }
     },
     "%lld" : {
-
+      "shouldTranslate" : false
     },
     "2025년 3월" : {
-
+      "shouldTranslate" : false
     },
     "catchphrase_1" : {
       "extractionState" : "manual",
@@ -85,7 +85,7 @@
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Struggling to start?"
           }
         },
@@ -322,6 +322,29 @@
         }
       }
     },
+    "privacy_policy_url" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/Privacy-Policy-1ee0c4f14a908068b89ced49eb53bbd4?pvs=4"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/Privacy-Policy-1ee0c4f14a908068b89ced49eb53bbd4?pvs=4"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/1f00c4f14a9080bdb937e3a95a395201?pvs=4"
+          }
+        }
+      }
+    },
     "Select a date to view schedules" : {
       "localizations" : {
         "en-GB" : {
@@ -374,6 +397,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제출완료"
+          }
+        }
+      }
+    },
+    "terms_url" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/EarlyBird-Terms-of-Service-1f00c4f14a90804eb501d8591fca4b27?pvs=4"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/EarlyBird-Terms-of-Service-1f00c4f14a90804eb501d8591fca4b27?pvs=4"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://cubic-tax-461.notion.site/1f00c4f14a908025b95bf2f0308a8479?pvs=4"
           }
         }
       }
@@ -457,6 +503,23 @@
         }
       }
     },
+    "개인정보 처리 방침" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
     "개인정보는 안전하게 보호돼요" : {
       "localizations" : {
         "en" : {
@@ -474,7 +537,20 @@
       }
     },
     "개인정보처리방침 설정" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy controls"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy preferences"
+          }
+        }
+      }
     },
     "그럼, 이제 출발이야!" : {
       "localizations" : {
@@ -531,7 +607,7 @@
       }
     },
     "나는 더 이상 미뤄서 스트레스 받기 싫어!" : {
-
+      "shouldTranslate" : false
     },
     "나는 이제 얼리버드와" : {
       "localizations" : {
@@ -651,8 +727,21 @@
         }
       }
     },
-    "단순한 기능 제안도 좋아요!\n여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥" : {
-
+    "단순한 기능 제안도 좋아요!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got a simple idea?\nWe'dlove to hear it!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Even simple suggestions\nare most welcome."
+          }
+        }
+      }
     },
     "미루기를 끝내기 위한 첫번째 약속" : {
       "localizations" : {
@@ -704,7 +793,7 @@
       }
     },
     "사람이 될거야" : {
-
+      "shouldTranslate" : false
     },
     "사람이다." : {
       "localizations" : {
@@ -724,6 +813,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사람이다."
+          }
+        }
+      }
+    },
+    "서비스 이용약관" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms of Service"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms and Conditions"
           }
         }
       }
@@ -751,7 +857,20 @@
       }
     },
     "설정" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App settings"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
     },
     "소중한 의견 감사합니다." : {
       "localizations" : {
@@ -813,6 +932,23 @@
         }
       }
     },
+    "알림 설정" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notification Settings"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notification Settings"
+          }
+        }
+      }
+    },
     "앞으로 어떤 사람이 되고 싶은지 알려줘!" : {
       "localizations" : {
         "en" : {
@@ -825,6 +961,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Who do you want to be?"
+          }
+        }
+      }
+    },
+    "앱 개선을 위해 익명 데이터를 수집해요." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We collect anonymous data to improve the app."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "We collect anonymous data to improve the app."
+          }
+        }
+      }
+    },
+    "앱 사용 데이터 수집" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Usage Data Collection"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "App Usage Data Collection"
           }
         }
       }
@@ -851,6 +1021,23 @@
         }
       }
     },
+    "약관 및 정책" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms & Policies"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Terms & Policies"
+          }
+        }
+      }
+    },
     "얼리버드" : {
       "localizations" : {
         "en" : {
@@ -868,7 +1055,20 @@
       }
     },
     "얼리버드는 여러분과 함께 완성돼요" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EarlyBird is built with you, not just for you."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EarlyBird is being developed with your input."
+          }
+        }
+      }
     },
     "얼리버드를 주변에 얼마나\n추천하고 싶으신가요?" : {
       "localizations" : {
@@ -930,6 +1130,22 @@
         }
       }
     },
+    "여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share your real struggles — it really helps! 🐥"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sharing the real issues you face helps a lot! 🐥"
+          }
+        }
+      }
+    },
     "왜냐하면..." : {
       "localizations" : {
         "en" : {
@@ -963,7 +1179,7 @@
       }
     },
     "이야." : {
-
+      "shouldTranslate" : false
     },
     "자신과의 약속을 지키는" : {
       "localizations" : {
@@ -975,7 +1191,7 @@
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "sticks to my own promises"
           }
         }
@@ -1003,8 +1219,38 @@
         }
       }
     },
+    "정보 수집" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data Collection"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Data Collection"
+          }
+        }
+      }
+    },
     "제안하기" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggest"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggest"
+          }
+        }
+      }
     },
     "좋아! 이제 우리, 조금 가까워졌네 😊" : {
       "localizations" : {
@@ -1110,8 +1356,38 @@
         }
       }
     },
+    "특정 시간 알림" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timed Reminder"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scheduled Reminder"
+          }
+        }
+      }
+    },
     "피드백" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provide feedback"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provide feedback"
+          }
+        }
+      }
     },
     "필수 권한이 없습니다." : {
       "localizations" : {
@@ -1131,6 +1407,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필수 권한이 없습니다."
+          }
+        }
+      }
+    },
+    "하루의 시작과 끝, 얼리버드와 함께 해요." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start and end your day with EarlyBird."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start and end your day with EarlyBird."
           }
         }
       }

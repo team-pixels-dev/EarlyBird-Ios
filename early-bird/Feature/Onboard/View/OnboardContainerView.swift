@@ -14,13 +14,13 @@ struct OnboardContainerView: View {
     var body: some View {
         switch coordinator.currentStep {
         case .page1:
-            Onboard_1View(viewModel: Onboard1ViewModel(coordinator: coordinator))
+            Onboard1View(viewModel: Onboard1ViewModel(coordinator: coordinator))
         case .page2:
-            Onboard_2View(viewModel: Onboard2ViewModel(coordinator: coordinator))
+            Onboard2View(viewModel: Onboard2ViewModel(coordinator: coordinator))
         case .page3:
-            Onboard_3View(viewModel: Onboard3ViewModel(coordinator: coordinator))
+            Onboard3View(viewModel: Onboard3ViewModel(coordinator: coordinator))
         case .page4:
-            Onboard_4View(viewModel: Onboard4ViewModel(coordinator: coordinator))
+            Onboard4View(viewModel: Onboard4ViewModel(coordinator: coordinator))
         case .done:
             MainView()
         }

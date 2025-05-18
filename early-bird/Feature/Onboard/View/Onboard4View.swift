@@ -8,7 +8,7 @@
 import SwiftUI
 import Lottie
 
-struct Onboard_4View: View {
+struct Onboard4View: View {
     @ObservedObject var viewModel: Onboard4ViewModel
     @FocusState var focusedField: Field?
 
@@ -117,5 +117,5 @@ struct Onboard_4View: View {
     let coordinator = OnboardingCoordinator()
     let viewModel = Onboard4ViewModel(coordinator: coordinator)
 //    viewModel.startAnimationSequence()
-    return Onboard_4View(viewModel: viewModel)
+    return Onboard4View(viewModel: viewModel)
 }
