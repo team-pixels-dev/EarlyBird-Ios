@@ -24,9 +24,9 @@ struct NormalButton: View {
         case .full:
             return (350, 64)
         case .middle:
-            return (242, 45)
+            return (160, 46)
         case .small:
-            return (115, 54)
+            return (115, 40)
         }
     }
     
@@ -37,7 +37,7 @@ struct NormalButton: View {
         case .middle:
             return 20
         case .small:
-            return 14
+            return 18
         }
     }
     
@@ -45,7 +45,7 @@ struct NormalButton: View {
         if disabled {
             return Theme.grayColor
         } else {
-            return Theme.secondaryColor
+            return Theme.primaryColor
         }
     }
     

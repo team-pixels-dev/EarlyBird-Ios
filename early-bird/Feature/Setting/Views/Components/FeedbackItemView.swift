@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FeedbackItemView: View {
+    @ObservedObject var viewModel: SettingViewModel
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             FontText(text: "피드백", weight: .regular, size: 14, alignment: .leading)
@@ -21,9 +23,10 @@ struct FeedbackItemView: View {
                     Spacer()
                     FontText(text: "단순한 기능 제안도 좋아요!\n여러분이 겪는 진짜 문제를 들려주면 더 좋아요!🐥", weight: .semiBold, size: 16, alignment: .center)
                         .foregroundColor(Theme.mainTextColor2)
+                        .frame(width: 320)
                     FontText(text: "얼리버드는 여러분과 함께 완성돼요", weight: .regular, size: 14)
                         .foregroundColor(Theme.mainTextColor2)
-                    NormalButton(buttonText: "제안하기", buttonAction: {}, type: .small, disabled: false)
+                    NormalButton(buttonText: "제안하기", buttonAction: {viewModel.showTextFeedbackModal = true}, type: .middle, disabled: false)
                     Spacer()
                 }
                 .frame(maxWidth: .infinity)

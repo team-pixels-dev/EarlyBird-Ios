@@ -12,6 +12,7 @@ class SettingViewModel: ObservableObject {
     @Published var isTimeNotificationEnabled = true
     @Published var isDataCollectionEnabled = true
     @Published var gotoPrivacyPolicy = false
+    @Published var showTextFeedbackModal = false
     
     // MARK: - Private Properties
     private var settingValue = SettingValue.shared

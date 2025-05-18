@@ -11,7 +11,7 @@ struct SettingView: View {
             
             ScrollView{
                 VStack(spacing: 0) {
-                    FeedbackItemView()
+                    FeedbackItemView(viewModel: viewModel)
                     
                     ForEach(viewModel.sections, id: \.title) { section in
                         SettingSectionView(section: section, viewModel: viewModel)
@@ -30,6 +30,9 @@ struct SettingView: View {
                 // 앱이 포어그라운드로 전환될 때 실행될 코드 - 알림권한 여부 업데이트
                 viewModel.onForeground()
             }
+        }
+        .modal(isPresented: $viewModel.showTextFeedbackModal) {
+            TextFeedbackModal(showModal: $viewModel.showTextFeedbackModal)
         }
     }
 }

@@ -20,6 +20,8 @@ struct TextFeedbackModal: View {
     @State private var inputText: String = ""
     var appStateManager = AppStateManager.shared
     
+    @FocusState var focusedField: Field?
+    
     
     var body: some View {
         VStack(spacing:0) {
@@ -39,6 +41,7 @@ struct TextFeedbackModal: View {
                         .foregroundStyle(inputText.isEmpty ? .gray : .clear)
                         .font(.custom("Pretendard-Ragular", size: 14))
                 }
+                .focused($focusedField, equals: .mainInput)
                 
             Button(action: {
                 sendTextFeedBack()
@@ -62,6 +65,11 @@ struct TextFeedbackModal: View {
             }
         } message: {
             Text("소중한 의견 감사합니다.")
+        }
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                focusedField = .mainInput
+            }
         }
     }
     
