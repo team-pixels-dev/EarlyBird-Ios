@@ -21,7 +21,7 @@ struct CustomTextField: View {
     var width: CGFloat = 249
     var height: CGFloat = 40
     var maxLength: Int {
-        if Locale.current.language.languageCode?.identifier == "ko" {
+        if isLanguageKorean() {
             return 13
         } else {
             return 30

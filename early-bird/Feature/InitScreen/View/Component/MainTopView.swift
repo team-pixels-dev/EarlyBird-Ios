@@ -19,7 +19,7 @@ struct MainTopView: View {
             Text(resolutionText)
                 .font(.custom("Pretendard-SemiBold", size: 28))
                 .foregroundColor(Theme.primaryColor)
-            if Locale.current.language.languageCode?.identifier == "ko" {
+            if isLanguageKorean() {
                 Text("사람이다.")
                     .font(.custom("Pretendard-SemiBold", size: 28))
                     .foregroundColor(Theme.mainTextColor1)

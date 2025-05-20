@@ -4,31 +4,26 @@
 //
 //  Created by JAYOU KOO on 4/17/25.
 //
-
-
-//
-//  Onboard1.swift
-//  early-bird
-//
-//  Created by JAYOU KOO on 4/9/25.
-//
 import SwiftUI
 
 struct OnboardView: View {
+    @State private var isAgree: Bool = false
+    
+    private let coordinator: OnboardingCoordinator
+    
+    init(coordinator: OnboardingCoordinator) {
+        self.coordinator = coordinator
+    }
+    
     var body: some View {
-        VStack {
-            FontText(text: "catchphrase_1", weight: .medium, size: 26, alignment: .center)
-                .foregroundColor(Theme.mainTextColor1)
-            FontText(text: "얼리버드", size: 56, alignment: .center, font: .oneMobilePop)
-                .foregroundColor(Theme.primaryColor)
-        }
-        .applyBackgroundWhite()
-        .onAppear {
-            
+        ZStack{
+            SplashView()
+            VStack {
+                Spacer()
+                TermText(isChecked: $isAgree)
+                    .padding(.bottom, 24)
+                WideButton(buttonText: "시작", buttonAction: {coordinator.goToNext()}, type: .middle, disabled: !isAgree)
+            }
         }
     }
-}
-
-#Preview {
-    OnboardView()
 }

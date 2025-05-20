@@ -18,6 +18,8 @@ class MainViewModel: ObservableObject {
     
     @Published var appStateManager = AppStateManager.shared
     
+    @Published var resolutionText: String = UserInputManager.shared.resolutionText
+    
     func handleOnAppear() {
         isVisible = true
         

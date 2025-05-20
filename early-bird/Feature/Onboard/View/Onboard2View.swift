@@ -22,7 +22,7 @@ struct Onboard2View: View {
 
             if viewModel.showTextInput {
                 VStack {
-                    if Locale.current.language.languageCode?.identifier == "ko" {
+                    if isLanguageKorean() {
                         FontText(text: "나는 더 이상 미뤄서 스트레스 받기 싫어!", weight: .bold, size: 18)
                             .foregroundColor(Theme.mainTextColor)
                     }

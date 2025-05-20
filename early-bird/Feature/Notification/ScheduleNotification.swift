@@ -78,8 +78,8 @@ class ScheduleNotification {
             // 09시 알림 예약
             scheduleNotifications(
                 for: [1,2,3,4,5,6,7],
-                hour: 14,
-                minute: 35,
+                hour: 09,
+                minute: 00,
                 noti_title: "morning_noti_title",
                 noti_body: "morning_noti_body",
                 type: "morning"

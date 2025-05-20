@@ -33,7 +33,7 @@ struct Onboard3View: View {
                             focusedField = nil // ✅ 키보드 내려가기!
                         }
                     
-                    if Locale.current.language.languageCode?.identifier == "ko"{
+                    if isLanguageKorean(){
                         FontText(text: "사람이 될거야", weight: .bold, size: 28)
                             .foregroundColor(Theme.mainTextColor)
                     }

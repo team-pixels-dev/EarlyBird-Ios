@@ -8,26 +8,22 @@
 import SwiftUI
 
 struct SplashView: View {
-    // 현재 국가 코드 가져오기
-    let preferredLanguage = Locale.preferredLanguages.first ?? "unknown"
-
     var body: some View {
-        // 영국(en-GB) 영어에 대한 이미지 렌더를 따로 처리
-        Image(preferredLanguage == "en-GB" ? "splash_uk" : "splash")
-            .resizable()
-            .scaledToFit()
-            .frame(height: 80)
-            .navigationBarBackButtonHidden()
-            .applyBackground()
-            .onAppear {
-                print("("+preferredLanguage+")")
-            }
+        VStack {
+            Spacer()
+            FontText(text: "catchphrase_1", weight: .medium, size: 26, alignment: .center)
+                .foregroundColor(Theme.mainTextColor1)
+            FontText(text: "얼리버드", size: 56, alignment: .center, font: .oneMobilePop)
+                .foregroundColor(Theme.primaryColor)
+            Spacer()
+        }
+        .applyBackgroundWhite()
+        .onAppear {
+            
+        }
     }
 }
 
-
-struct SplashView_Previews: PreviewProvider {
-    static var previews: some View {
-        SplashView()
-    }
+#Preview {
+    SplashView()
 }

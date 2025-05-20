@@ -9,6 +9,7 @@ import SwiftUI
 
 enum WideButtonType {
     case full
+    case middleFull
     case middle
 }
 
@@ -22,6 +23,8 @@ struct WideButton: View {
         switch type {
         case .full:
             return (350, 64)
+        case .middleFull:
+            return (303, 51)
         case .middle:
             return (242, 45)
         }
@@ -31,6 +34,8 @@ struct WideButton: View {
         switch type {
         case .full:
             return 30
+        case .middleFull:
+            return 24
         case .middle:
             return 20
         }

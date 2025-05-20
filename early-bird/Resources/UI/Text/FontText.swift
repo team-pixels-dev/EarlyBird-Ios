@@ -35,10 +35,12 @@ struct FontText: View {
         Text(text)
             .font(.custom("Pretendard-\(weight.rawValue)", size: size))
             .multilineTextAlignment(alignment)
+            .padding(0)
         case .oneMobilePop:
             Text(text)
                 .font(.custom("ONE Mobile POP", size: size))
                 .multilineTextAlignment(alignment)
+                .padding(0)
         }
         
     }

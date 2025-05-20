@@ -1,9 +1,7 @@
 import SwiftUI
 
 struct MainHeaderView: View {
-    @Environment(\.dismiss) private var dismiss
     @ObservedObject var viewModel: MainViewModel
-    let title: LocalizedStringKey
     
     var body: some View {
         HStack {
