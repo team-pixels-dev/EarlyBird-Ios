@@ -647,18 +647,18 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am a person"
+            "value" : "I am a person who"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am a person"
+            "value" : "I am a person who"
           }
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "나는"
           }
         }

@@ -1,34 +1,34 @@
 {
   "images" : [
     {
-      "filename" : "mainPageMascot_en 1.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "mainPageMascot_en@2x 1.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "mainPageMascot_en@3x 1.png",
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
       "filename" : "mainPageMascot_en.png",
       "idiom" : "universal",
-      "locale" : "en",
       "scale" : "1x"
     },
     {
       "filename" : "mainPageMascot_en@2x.png",
       "idiom" : "universal",
-      "locale" : "en",
       "scale" : "2x"
     },
     {
       "filename" : "mainPageMascot_en@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "mainPageMascot_en 1.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "mainPageMascot_en@2x 1.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "mainPageMascot_en@3x 1.png",
       "idiom" : "universal",
       "locale" : "en",
       "scale" : "3x"
