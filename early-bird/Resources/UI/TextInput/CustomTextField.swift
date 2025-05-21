@@ -20,12 +20,16 @@ struct CustomTextField: View {
     var placeholderColor: Color = Theme.mainTextColor2
     var width: CGFloat = 249
     var height: CGFloat = 40
-    var maxLength: Int {
-        if isLanguageKorean() {
-            return 13
-        } else {
-            return 30
-        }
+    private let koreanMaxLength = 19
+    private let otherMaxLength = 34
+
+    private func isKorean(_ text: String) -> Bool {
+        let pattern = "[가-힣]"
+        return text.range(of: pattern, options: .regularExpression) != nil
+    }
+
+    private func getMaxLength(for text: String) -> Int {
+        return isKorean(text) ? koreanMaxLength : otherMaxLength
     }
 
     var body: some View {
@@ -52,6 +56,7 @@ struct CustomTextField: View {
                         .stroke(borderColor, lineWidth: 2)
                 )
                 .onChange(of: text) { newValue in
+                    let maxLength = getMaxLength(for: newValue)
                     if newValue.count > maxLength {
                         text = String(newValue.prefix(maxLength))
                     }

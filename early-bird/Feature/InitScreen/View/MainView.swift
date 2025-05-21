@@ -16,30 +16,35 @@ struct MainView: View {
                     Image("mainPageTop")
                         .resizable()
                         .scaledToFit()
-                        .frame(height:95)
+                        .frame(height:112)
                     
                     VStack(alignment: .leading){
                         Spacer()
                         FontText(text: LocalizedStringKey(formatDateText(Date())), weight: .bold, size: 16, alignment: .center)
                             .foregroundStyle(Theme.mainTextColor2)
-                            .padding(.bottom, 10)
                             .padding(.leading, 70)
-                        HStack{
-                            HStack{
-                                FontText(text: "나는", weight: .bold, size: 16, alignment: .center)
-                                    .foregroundStyle(Theme.brightTextColor)
-                                FontText(text: LocalizedStringKey( viewModel.resolutionText), weight: .bold, size: 16, alignment: .center)
-                                    .foregroundStyle(Theme.brightTextColor)
-                                if isLanguageKorean() {
-                                    FontText(text: "사람이 될거야!", weight: .bold, size: 16, alignment: .center)
+                        
+                        VStack{
+                            if isLanguageKorean(){
+                                HStack{
+                                    FontText(text: "나는", weight: .bold, size: 15, alignment: .center)
+                                        .foregroundStyle(Theme.brightTextColor)
+                                    FontText(text: LocalizedStringKey( viewModel.resolutionText), weight: .bold, size: 15, alignment: .center)
                                         .foregroundStyle(Theme.brightTextColor)
                                 }
+                                FontText(text: "사람이 될거야!", weight: .bold, size: 16, alignment: .center)
+                                    .foregroundStyle(Theme.brightTextColor)
+                                
+                            } else {
+                                FontText(text: "나는", weight: .bold, size: 15, alignment: .center)
+                                    .foregroundStyle(Theme.brightTextColor)
+                                FontText(text: LocalizedStringKey( viewModel.resolutionText), weight: .bold, size: 15, alignment: .center)
+                                    .foregroundStyle(Theme.brightTextColor)
                             }
-                            .frame(width: 297)
-                            .padding(.bottom, 12)
                         }
-                        .padding(.bottom, 12)
-                        .padding(.leading, 56)
+                        .frame(width: 300, height: 37)
+                        .padding(.bottom, 24)
+                        .padding(.leading, 54)
                         
                     }
                     .frame(maxWidth: .infinity, maxHeight: 95, alignment: .leading)

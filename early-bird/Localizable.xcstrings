@@ -607,10 +607,6 @@
       "shouldTranslate" : false
     },
     "그럼, 이제 시작할게!" : {
-      "shouldTranslate" : false
-    },
-    "그럼, 이제 출발이야!" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -620,7 +616,7 @@
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Then let’s get started! 🚀"
           }
         }
@@ -647,13 +643,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am a person who"
+            "value" : "I’m gonna be someone who"
           }
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "I am a person who"
+            "state" : "needs_review",
+            "value" : "I’m gonna be someone who"
           }
         },
         "ko" : {
@@ -1209,13 +1205,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Earlybird!"
+            "value" : "With EarlyBird!"
           }
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "With Earlybird!"
+            "state" : "translated",
+            "value" : "With EarlyBird!"
           }
         }
       }
