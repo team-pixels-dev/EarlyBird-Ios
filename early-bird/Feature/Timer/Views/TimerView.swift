@@ -49,19 +49,6 @@ struct TimerView: View {
                 Spacer()
             }
 
-//            if !viewModel.timerActive {
-//                VStack {
-//                    Spacer()
-//                    WideButton(
-//                        buttonText: "timer_start_button_text",
-//                        buttonAction: { viewModel.checkPermissionsAndStartTimer(autoStart: false) },
-//                        disabled: false
-//                    )
-//                    .disabled(viewModel.timerActive)
-//                    .padding(.bottom, 40)
-//                }
-//            }
-
             NavigationLink(destination: CompleteView(), isActive: $viewModel.showNextView) {
                 EmptyView()
             }
@@ -76,9 +63,6 @@ struct TimerView: View {
             Text("앱 잠금 기능을 위해 필수 권한이 필요해요.\n권한 : FamilyControls, 알림")
         }
         .navigationBarBackButtonHidden()
-        .onAppear{
-            viewModel.checkPermissionsAndStartTimer(autoStart: false)
-        }
     }
 }
 

@@ -36,7 +36,9 @@ class TimerViewModel: ObservableObject {
         
         Task{
             if(appStateManager.lastAppState == .timerStarted) {
-                checkPermissionsAndStartTimer(autoStart: true)
+                await checkPermissionsAndStartTimer(autoStart: true)
+            } else {
+                await checkPermissionsAndStartTimer(autoStart: false)
             }
         }
     }
@@ -53,7 +55,7 @@ class TimerViewModel: ObservableObject {
     }
     
     // 타이머 시작
-    func startTimer(autoStart: Bool) {
+    func startTimer(autoStart: Bool) async {
         dispatchTimer?.cancel()
         dispatchTimer = nil
 
@@ -63,7 +65,7 @@ class TimerViewModel: ObservableObject {
             self.endTime = appStateManager.timerEndTime
         } else {
             // 앱 차단
-            AppLimiter.shared.startBlockingAllApps(for: max(TimeInterval(model.initialTime / 1000), 900))
+            await AppLimiter.shared.startBlockingAllApps(for: max(TimeInterval(model.initialTime / 1000), 900))
             // 로컬 알림 등록
             scheduleNotification(identifier: "timerEndNotification")
             
@@ -153,32 +155,26 @@ class TimerViewModel: ObservableObject {
         }
     }
     
-    func checkPermissionsAndStartTimer(autoStart: Bool) {
-        UNUserNotificationCenter.current().getNotificationSettings { settings in
-            
-            // Check familyControls permission.
-            guard AppLimiter.shared.isAuthorized else {
-                print("Family controls permission not granted")
-                DispatchQueue.main.async {
-                    self.showPermissionErrorMsgModal = true
-                }
-                return
-            }
-            
-            // Check Notification permissions
-            guard settings.authorizationStatus == .authorized else {
-                print("Notification permission not granted")
-                DispatchQueue.main.async {
-                    self.showPermissionErrorMsgModal = true
-                }
-                return
-            }
-            
-            // If both permissions are granted, start the timer on the main thread.
-            DispatchQueue.main.async {
-                self.startTimer(autoStart: autoStart)
-            }
+    func checkPermissionsAndStartTimer(autoStart: Bool) async {
+        print("🔍 권한 체크 시작")
+
+        // 1) Notification permission
+        let notifState = await getPermission.getNofiPermissonState()
+        guard notifState == .authorized else {
+            print("❌ 알림 권한 없음")
+            showPermissionErrorMsgModal = true
+            return
         }
+
+        // 2) FamilyControls permission
+        if await AppLimiter.shared.isNotAuthorized() {
+            print("❌ FamilyControls 권한 없음")
+            showPermissionErrorMsgModal = true
+            return
+        }
+
+        // 3) All permissions OK — start the timer
+        await startTimer(autoStart: autoStart)
     }
     
     func clickLog(){
