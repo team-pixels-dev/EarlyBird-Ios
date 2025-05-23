@@ -24,7 +24,6 @@ class TimerViewModel: ObservableObject {
     private var dispatchTimer: DispatchSourceTimer?
     private let model = TimerModel()
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .soft)
-    private let firstTouchfeedbackGenerator = UIImpactFeedbackGenerator(style: .heavy)
     
     private var appStateManager = AppStateManager.shared
     private var getPermission = GetPermission()
@@ -83,8 +82,6 @@ class TimerViewModel: ObservableObject {
         timeRemaining = max(Int(self.endTime.timeIntervalSince(Date()) * 1000), 0)
         var seconds = (timeRemaining % 60000) / 1000
         timerActive = true
-
-        firstTouchfeedbackGenerator.impactOccurred()
 
         let timer = DispatchSource.makeTimerSource(queue: .main)
         timer.schedule(deadline: .now(), repeating: .milliseconds(10))

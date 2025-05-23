@@ -70,7 +70,8 @@ struct MainView: View {
                         .foregroundStyle(Theme.mainTextColor2)
                         .padding(.top, 45)
                         .padding(.bottom, 20)
-                    NavigationLink(destination: TimerView()) {
+                    
+                    Button(action: viewModel.onStartRightNowTapped){
                         Image("mainPageButton")
                             .resizable()
                             .scaledToFit()

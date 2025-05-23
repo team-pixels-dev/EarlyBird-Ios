@@ -20,6 +20,11 @@ class MainViewModel: ObservableObject {
     
     @Published var resolutionText: String = UserInputManager.shared.resolutionText
     
+    func onStartRightNowTapped() {
+        HapticFeedbackManager.mediumImpact()
+        gotoTimerView = true
+    }
+    
     func handleOnAppear() {
         isVisible = true
         

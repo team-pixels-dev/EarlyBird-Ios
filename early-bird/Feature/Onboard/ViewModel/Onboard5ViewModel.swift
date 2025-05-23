@@ -76,6 +76,15 @@ class Onboard5ViewModel: ObservableObject {
             
             await MainActor.run {
                 isOnboardingShown = true
+                
+                Task{
+                    if await getPermssion.getNofiPermissonState() == .authorized {
+                        // 로컬 알림 예약
+                        ScheduleNotification.shared.scheduleMorningNoti()
+                        ScheduleNotification.shared.scheduleNightNoti()
+                    }
+                }
+                
                 configureFCMIfAuthorized() // FCM 설정(알림 권한 허용시만 적용됨)
                 coordinator.goToNext()
             }

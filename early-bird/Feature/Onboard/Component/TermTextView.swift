@@ -16,8 +16,14 @@ struct TermText: View {
             if isEuropeanRegion() {
                 Toggle("", isOn: $isChecked)
                     .toggleStyle(CheckBoxToggleStyle())
-                TermTextEU()
-                    .padding(.leading, 10)
+                if (isLanguageKorean()) {
+                    TermTextKO()
+                        .padding(.leading, 10)
+                } else {
+                    TermTextEN()
+                        .padding(.leading, 10)
+                }
+                    
             } else {
                 if (isLanguageKorean()) {
                     TermTextKO()
