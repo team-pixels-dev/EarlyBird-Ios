@@ -6,7 +6,7 @@ struct PrivacySettingView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            SettingHeaderView(title: "개인정보처리방침 설정")
+            HeaderView(title: "개인정보처리방침 설정")
             
             ScrollView{
                 ForEach(viewModel.privacySections, id: \.title) { section in

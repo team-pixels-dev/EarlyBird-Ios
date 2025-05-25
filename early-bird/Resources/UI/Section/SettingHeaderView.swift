@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SettingHeaderView: View {
+struct HeaderView: View {
     @Environment(\.dismiss) private var dismiss
     let title: LocalizedStringKey
     

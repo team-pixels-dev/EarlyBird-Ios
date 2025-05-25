@@ -7,7 +7,7 @@ struct SettingView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            SettingHeaderView(title: "설정")
+            HeaderView(title: "설정")
             
             ScrollView{
                 VStack(spacing: 0) {

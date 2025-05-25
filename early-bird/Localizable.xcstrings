@@ -390,6 +390,9 @@
         }
       }
     },
+    "ScheduleView" : {
+
+    },
     "Select a date to view schedules" : {
       "localizations" : {
         "en-GB" : {
@@ -542,6 +545,7 @@
       }
     },
     "tint" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en-GB" : {
           "stringUnit" : {
@@ -853,6 +857,7 @@
 
     },
     "사람이다." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1305,6 +1310,9 @@
         }
       }
     },
+    "원하는 시간에 시작하기" : {
+
+    },
     "이야." : {
       "shouldTranslate" : false
     },
@@ -1397,6 +1405,9 @@
           }
         }
       }
+    },
+    "지금 당장 시작하기" : {
+
     },
     "추천 안해요" : {
       "localizations" : {
