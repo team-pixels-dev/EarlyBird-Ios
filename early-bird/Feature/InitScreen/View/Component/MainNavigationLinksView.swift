@@ -11,6 +11,8 @@ struct MainNavigationLinksView: View {
     
     var body: some View {
         Group {
+            NavigationLink(destination: ScheduleView(), isActive: $viewModel.gotoScheduleView){
+                EmptyView() }
             NavigationLink(destination: TimerView(), isActive: $viewModel.gotoTimerView) { EmptyView() }
             NavigationLink(destination: CompleteView(), isActive: $viewModel.gotoCompleteView) { EmptyView() }
             NavigationLink(destination: SettingView(), isActive: $viewModel.gotoSettingView) { EmptyView() }

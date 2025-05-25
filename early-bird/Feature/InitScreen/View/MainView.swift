@@ -15,7 +15,7 @@ struct MainView: View {
                 MainTopSectionView(viewModel: viewModel)
                 Spacer()
                 MainMascotView()
-                MainBottomActionView(onStartTapped: viewModel.onStartRightNowTapped)
+                MainBottomActionView(viewModel: viewModel)
                 MainNavigationLinksView(viewModel: viewModel)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)

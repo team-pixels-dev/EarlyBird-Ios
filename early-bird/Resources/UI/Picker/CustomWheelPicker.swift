@@ -187,7 +187,7 @@ private struct ItemView<T: Hashable>: View {
                 size: 40,
                 alignment: .center
             )
-            .foregroundColor(Theme.mainTextColor)
+            .foregroundStyle(Theme.mainTextColor)
             .scaleEffect(scale)
             .opacity(opacity)
             .frame(maxWidth: .infinity, maxHeight: .infinity)

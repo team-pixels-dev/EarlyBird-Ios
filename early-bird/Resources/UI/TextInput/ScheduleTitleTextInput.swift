@@ -7,11 +7,7 @@
 
 import SwiftUI
 
-enum Field {
-    case mainInput
-}
-
-struct CustomTextField: View {
+struct ScheduleTitleTextInput: View {
     @Binding var text: String
     var placeholder: LocalizedStringKey
     var fontSize: CGFloat = 18
@@ -20,7 +16,7 @@ struct CustomTextField: View {
     var placeholderColor: Color = Theme.mainTextColor2
     var width: CGFloat = 249
     var height: CGFloat = 40
-    private let koreanMaxLength = 19
+    private let koreanMaxLength = 25
     private let otherMaxLength = 34
 
     private func isKorean(_ text: String) -> Bool {
@@ -34,16 +30,6 @@ struct CustomTextField: View {
 
     var body: some View {
         ZStack {
-            if text.isEmpty {
-                // 가운데 정렬 placeholder
-                HStack {
-                    Spacer()
-                    FontText(text: placeholder, weight: .semiBold, size: fontSize)
-                        .foregroundStyle(placeholderColor)
-                    Spacer()
-                }
-            }
-
             TextField("", text: $text)
                 .textFieldStyle(PlainTextFieldStyle())
                 .font(.custom("Pretendard-SemiBold", size: fontSize))
@@ -51,6 +37,10 @@ struct CustomTextField: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 16)
                 .frame(height: height)
+                .background(
+                        RoundedRectangle(cornerRadius: cornerRadius)
+                            .fill(Theme.backgroundColor)
+                )
                 .overlay(
                     RoundedRectangle(cornerRadius: cornerRadius)
                         .stroke(borderColor, lineWidth: 2)
@@ -61,6 +51,16 @@ struct CustomTextField: View {
                         text = String(newValue.prefix(maxLength))
                     }
                 }
+            
+            if text.isEmpty {
+                // 가운데 정렬 placeholder
+                HStack {
+                    Spacer()
+                    FontText(text: placeholder, weight: .semiBold, size: fontSize)
+                        .foregroundStyle(placeholderColor)
+                    Spacer()
+                }
+            }
         }
         .frame(width: width, height: height)
     }

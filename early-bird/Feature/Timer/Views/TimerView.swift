@@ -40,10 +40,10 @@ struct TimerView: View {
                 HStack(alignment: .bottom, spacing: 0) {
                     Text(viewModel.formattedTime)
                         .font(.custom("Pretendard-ExtraBold", size: 72))
-                        .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
+                        .foregroundStyle(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
                     Text(viewModel.formattedTimeMs)
                         .font(.custom("Pretendard-ExtraBold", size: 36))
-                        .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
+                        .foregroundStyle(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
                         .padding(.bottom, 10)
                 }
                 Spacer()

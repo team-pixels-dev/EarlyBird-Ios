@@ -17,7 +17,7 @@ struct NPSModal: View {
         VStack(alignment: .leading) {
             Text("얼리버드를 주변에 얼마나\n추천하고 싶으신가요?")
                 .font(.custom("Pretendard-SemiBold", size: 16))
-                .foregroundColor(Theme.mainTextColor2)
+                .foregroundStyle(Theme.mainTextColor2)
                 .font(.headline)
                 .multilineTextAlignment(.leading)
                 .padding(.top, 20)
@@ -26,7 +26,7 @@ struct NPSModal: View {
             HStack {
                 Text("추천 안해요")
                     .font(.custom("Pretendard-Medium", size: 12))
-                    .foregroundColor(.gray)
+                    .foregroundStyle(.gray)
                 Spacer()
             }
             .padding(.horizontal, 20)
@@ -54,7 +54,7 @@ struct NPSModal: View {
                 Spacer()
                 Text("정말 추천 해요")
                     .font(.custom("Pretendard-Medium", size: 12))
-                    .foregroundColor(.gray)
+                    .foregroundStyle(.gray)
             }
             .padding(.horizontal, 20)
             Spacer()
@@ -69,7 +69,7 @@ struct NPSModal: View {
                     .font(.headline)
                     .frame(maxWidth: .infinity, minHeight: 54)
                     .background(selectedRating != -1 ? Theme.primaryColor : Theme.disabledColor)
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
             }.disabled(selectedRating == -1)
         }
         .frame(width: 270, height: 380)
@@ -87,7 +87,7 @@ struct NPSModal: View {
                 .fontWeight(.bold)
                 .frame(width: 48, height: 48) // 버튼 크기 고정
                 .background(selectedRating == rating ? Theme.primaryColor : Theme.notSelectedColor)
-                .foregroundColor(selectedRating == rating ? Theme.brightTextColor : Theme.mainTextColor)
+                .foregroundStyle(selectedRating == rating ? Theme.brightTextColor : Theme.mainTextColor)
                 .clipShape(Circle())
         }
         .padding(0) // 내부 여백 제거

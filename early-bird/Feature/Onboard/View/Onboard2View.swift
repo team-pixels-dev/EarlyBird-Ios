@@ -24,10 +24,10 @@ struct Onboard2View: View {
                 VStack {
                     if isLanguageKorean() {
                         FontText(text: "나는 더 이상 미뤄서 스트레스 받기 싫어!", weight: .bold, size: 18)
-                            .foregroundColor(Theme.mainTextColor)
+                            .foregroundStyle(Theme.mainTextColor)
                     }
                     FontText(text: "왜냐하면...", weight: .bold, size: 22)
-                        .foregroundColor(Theme.mainTextColor)
+                        .foregroundStyle(Theme.mainTextColor)
 
                     Spacer()
 
@@ -40,7 +40,7 @@ struct Onboard2View: View {
 
                     Spacer()
 
-                    WideButton(buttonText: "다음", buttonAction: viewModel.submit, type: .middle, disabled: viewModel.inputText.isEmpty)
+                    RoundedButton(buttonText: "다음", buttonAction: viewModel.submit, type: .middle, disabled: viewModel.inputText.isEmpty)
                 }
                 .frame(height: 340.0)
             }

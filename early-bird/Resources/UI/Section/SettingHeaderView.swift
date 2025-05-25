@@ -23,7 +23,7 @@ struct HeaderView: View {
             .overlay(
                 Rectangle()
                     .frame(height: 1)
-                    .foregroundColor(Color(red: 0.90, green: 0.90, blue: 0.90)),
+                    .foregroundStyle(Color(red: 0.90, green: 0.90, blue: 0.90)),
                 alignment: .bottom
             )
             
@@ -31,7 +31,7 @@ struct HeaderView: View {
                 Spacer()
                 
                 FontText(text: title, weight: .regular, size: 18, alignment: .center)
-                    .foregroundColor(Theme.mainTextColor2)
+                    .foregroundStyle(Theme.mainTextColor2)
                 
                 Spacer()
             }

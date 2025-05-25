@@ -7,7 +7,7 @@ struct SettingSectionView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             FontText(text: LocalizedStringKey(section.title), weight: .regular, size: 14, alignment: .leading)
-                .foregroundColor(Theme.descriptionTextColor)
+                .foregroundStyle(Theme.descriptionTextColor)
                 .padding(.horizontal, 16)
                 .padding(.top, 24)
                 .padding(.bottom, 8)

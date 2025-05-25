@@ -1,5 +1,5 @@
 //
-//  WideButton.swift
+//  RoundedButton.swift
 //  early-bird
 //
 //  Created by JAYOU KOO on 3/11/25.
@@ -15,12 +15,12 @@ enum RectangleButtonType {
 
 struct RectangleButton: View {
     var buttonText: LocalizedStringKey
-    var buttonTextColor: Color
+    var buttonTextColor: Color = Theme.brightTextColor
     var buttonAction : () -> Void
     var type: RectangleButtonType = .full
-    var disabled: Bool
-    var backgroundColor: Color
-    var showdowColor: Color
+    var disabled: Bool = false
+    var backgroundColor: Color = Theme.primaryColor
+    var showdowColor: Color = Theme.secondaryColor
     
     private var buttonSize: (width: CGFloat, height: CGFloat) {
         switch type {
@@ -48,18 +48,18 @@ struct RectangleButton: View {
         Button(action: buttonAction){
             ZStack {
                 RoundedRectangle(cornerRadius: 11)
-                    .foregroundColor(backgroundColor) // fill 대신 foregroundColor 사용
+                    .foregroundStyle(backgroundColor) // fill 대신 foregroundStyle 사용
                     .frame(width: buttonSize.width, height: buttonSize.height)
                     .shadow(color: showdowColor, radius: 8, x: 0, y: 5)
                 HStack{
                     Text(buttonText)
                         .font(.custom("Pretendard-Bold", size: textSize))
-                        .foregroundColor(buttonTextColor)
+                        .foregroundStyle(buttonTextColor)
                     Image("rightVector")
                         .renderingMode(.template)
                         .resizable()
                         .scaledToFit()
-                        .foregroundColor(buttonTextColor)
+                        .foregroundStyle(buttonTextColor)
                         .frame(height: 22)
                         
                 }
@@ -69,5 +69,5 @@ struct RectangleButton: View {
 }
 
 #Preview {
-    WideButton(buttonText: "test", buttonAction: {}, disabled: false)
+    RoundedButton(buttonText: "test", buttonAction: {}, disabled: false)
 }

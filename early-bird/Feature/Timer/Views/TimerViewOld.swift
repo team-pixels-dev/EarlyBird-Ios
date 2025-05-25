@@ -40,10 +40,10 @@
 //                HStack(alignment: .bottom, spacing: 0) {
 //                    Text(viewModel.formattedTime)
 //                        .font(.custom("Pretendard-ExtraBold", size: 72))
-//                        .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
+//                        .foregroundStyle(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
 //                    Text(viewModel.formattedTimeMs)
 //                        .font(.custom("Pretendard-ExtraBold", size: 36))
-//                        .foregroundColor(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
+//                        .foregroundStyle(viewModel.timerActive ? Theme.wrongColor : Theme.mainTextColor2)
 //                        .padding(.bottom, 10)
 //                }
 //                Spacer()
@@ -52,7 +52,7 @@
 //            if !viewModel.timerActive {
 //                VStack {
 //                    Spacer()
-//                    WideButton(
+//                    RoundedButton(
 //                        buttonText: "timer_start_button_text",
 //                        buttonAction: { viewModel.checkPermissionsAndStartTimer(autoStart: false) },
 //                        disabled: false

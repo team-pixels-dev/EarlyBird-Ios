@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct MainBottomActionView: View {
-    let onStartTapped: () -> Void
+    @ObservedObject var viewModel: MainViewModel
     
     var body: some View {
         VStack {
@@ -16,9 +16,9 @@ struct MainBottomActionView: View {
                 .padding(.top, 30)
                 .padding(.bottom, 20)
             
-            RectangleButton(buttonText: "원하는 시간에 시작하기", buttonTextColor: Theme.brightTextColor, buttonAction: {}, disabled: false, backgroundColor: Theme.primaryColor, showdowColor: Color.black.opacity(0.25))
+            RectangleButton(buttonText: "원하는 시간에 시작하기", buttonTextColor: Theme.brightTextColor, buttonAction: viewModel.onScheduleTapped, disabled: false, backgroundColor: Theme.primaryColor, showdowColor: Color.black.opacity(0.25))
             
-            RectangleButton(buttonText: "지금 당장 시작하기", buttonTextColor: Theme.primaryColor, buttonAction: onStartTapped, disabled: false, backgroundColor: Theme.brightTextColor, showdowColor: Color.black.opacity(0.25))
+            RectangleButton(buttonText: "지금 당장 시작하기", buttonTextColor: Theme.primaryColor, buttonAction: viewModel.onStartRightNowTapped, disabled: false, backgroundColor: Theme.brightTextColor, showdowColor: Color.black.opacity(0.25))
             
             Spacer()
         }

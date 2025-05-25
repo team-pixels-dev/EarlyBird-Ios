@@ -23,7 +23,7 @@ struct Onboard3View: View {
             if viewModel.showTextInput {
                 VStack {
                     FontText(text: "나는 이제 얼리버드와", weight: .bold, size: 28)
-                        .foregroundColor(Theme.mainTextColor)
+                        .foregroundStyle(Theme.mainTextColor)
                         .padding(.top, 20)
                     
                     CustomTextField(text: $viewModel.inputText, placeholder: "자신과의 약속을 지키는")
@@ -35,12 +35,12 @@ struct Onboard3View: View {
                     
                     if isLanguageKorean(){
                         FontText(text: "사람이 될거야", weight: .bold, size: 28)
-                            .foregroundColor(Theme.mainTextColor)
+                            .foregroundStyle(Theme.mainTextColor)
                     }
                     
                     Spacer()
 
-                    WideButton(buttonText: "다음", buttonAction: viewModel.submit, type: .middle, disabled: viewModel.inputText.isEmpty)
+                    RoundedButton(buttonText: "다음", buttonAction: viewModel.submit, type: .middle, disabled: viewModel.inputText.isEmpty)
                 }
                 .frame(height: 340.0)
             }

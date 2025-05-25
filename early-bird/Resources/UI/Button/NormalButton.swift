@@ -61,16 +61,16 @@ struct NormalButton: View {
         Button(action: buttonAction){
             ZStack {
                 RoundedRectangle(cornerRadius: 20)
-                    .foregroundColor(backgroundColor) // fill 대신 foregroundColor 사용
+                    .foregroundStyle(backgroundColor) // fill 대신 foregroundStyle 사용
                     .frame(width: buttonSize.width, height: buttonSize.height)
                     Text(buttonText)
                     .font(.custom("Pretendard-Bold", size: textSize))
-                    .foregroundColor(Theme.brightTextColor)
+                    .foregroundStyle(Theme.brightTextColor)
             }
         }.disabled(disabled)
     }
 }
 
 #Preview {
-    WideButton(buttonText: "test", buttonAction: {}, disabled: false)
+    RoundedButton(buttonText: "test", buttonAction: {}, disabled: false)
 }

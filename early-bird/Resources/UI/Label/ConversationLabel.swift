@@ -14,7 +14,7 @@ struct ConversationLabel: View {
         FontText(text: text, weight: .semiBold, size: 18)
             .padding(10.0)
             .background(Theme.textLabelBgColor)
-            .foregroundColor(color)
+            .foregroundStyle(color)
             .cornerRadius(5.0)
     }
 }

@@ -30,7 +30,7 @@ struct TextFeedbackModal: View {
                 .font(.custom("Pretendard-Regular", size: 18))
                 .frame(maxHeight: .infinity)
                 .scrollContentBackground(.hidden)
-                .foregroundColor(Theme.mainTextColor)
+                .foregroundStyle(Theme.mainTextColor)
                 .background(Theme.notSelectedColor)
                 .padding(.leading, 20.0)
                 .padding(.top, 16.0)
@@ -50,7 +50,7 @@ struct TextFeedbackModal: View {
                     .frame(maxWidth: .infinity)
                     .frame(height: 48.0)
                     .background(Theme.primaryColor)
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
             }
             
         }

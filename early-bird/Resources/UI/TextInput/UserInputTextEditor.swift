@@ -20,7 +20,7 @@ struct CustomBigTextField: View {
                     .padding(.leading, 25)
                     .padding(.top, 23)
                     .scrollContentBackground(.hidden)
-                    .foregroundColor(Theme.mainTextColor)
+                    .foregroundStyle(Theme.mainTextColor)
                     .onChange(of: text) { newValue in
                         if newValue.count > maxLength {
                             text = String(newValue.prefix(maxLength))

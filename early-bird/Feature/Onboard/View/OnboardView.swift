@@ -22,7 +22,7 @@ struct OnboardView: View {
                 Spacer()
                 TermText(isChecked: $isAgree)
                     .padding(.bottom, 24)
-                WideButton(buttonText: "시작", buttonAction: {coordinator.goToNext()}, type: .middle, disabled: !isAgree)
+                RoundedButton(buttonText: "시작", buttonAction: {coordinator.goToNext()}, type: .middle, disabled: !isAgree)
             }
         }
     }

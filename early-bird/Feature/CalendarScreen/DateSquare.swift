@@ -26,10 +26,10 @@ struct DateSquare: View {
             VStack(spacing: -2) {
                 Text(dayText)
                     .font(.system(size: 12))
-                    .foregroundColor(isSelected ? .black : (isSelectable ? .black: .gray))
+                    .foregroundStyle(isSelected ? .black : (isSelectable ? .black: .gray))
                 Text("\(Calendar.current.component(.day, from: date))")
                     .font(.system(size: 24, weight: .bold))
-                    .foregroundColor(isSelected ? .white : (isSelectable ? Theme.grayTextColor: .gray))
+                    .foregroundStyle(isSelected ? .white : (isSelectable ? Theme.grayTextColor: .gray))
             }
             .frame(width: squareWidth, height: 47)
             .background(isSelected ? Theme.primaryColor : (isSelectable ? Theme.grayColor : Color.gray.opacity(0.1)))

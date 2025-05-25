@@ -31,9 +31,9 @@ struct CompleteView: View {
                 Text("얼리버드와 함께라면\n혼자선 어려운 일도\n쉽게 시작할 수 있어요!")
                     .font(.custom("Pretendard-SemiBold", size: 28))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(Theme.mainTextColor2)
+                    .foregroundStyle(Theme.mainTextColor2)
                 Spacer()
-                WideButton(buttonText: "complete_done_button_text", buttonAction: {complete()}, disabled: false)
+                RoundedButton(buttonText: "complete_done_button_text", buttonAction: {complete()}, disabled: false)
                     .padding(.bottom, 40)
                 
                 NavigationLink(destination: MainView(), isActive: $showNextView) {

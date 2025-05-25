@@ -37,15 +37,15 @@ struct Onboard5View: View {
             
             if viewModel.showBlock1 {
                 FontText(text: "얼리버드와의 두 번째 약속!", weight: .semiBold, size: 20)
-                    .foregroundColor(Theme.mainTextColor)
+                    .foregroundStyle(Theme.mainTextColor)
                     .padding(.bottom, 24)
             }
             
             if viewModel.showBlock2 {
                 FontText(text: "알림을 켜면, 얼리버드가 함께할게요.", weight: .semiBold, size: fontSize)
-                    .foregroundColor(Theme.mainTextColor)
+                    .foregroundStyle(Theme.mainTextColor)
                 FontText(text: "혼자서 미루는 걱정은 이제 그만!", weight: .semiBold, size: fontSize)
-                    .foregroundColor(Theme.primaryColor)
+                    .foregroundStyle(Theme.primaryColor)
                 
             }
             if viewModel.showBlock3 {
@@ -79,15 +79,15 @@ struct Onboard5View: View {
                     
                     if viewModel.showBlock4 {
                         FontText(text: "나랑 약속한거지?", weight: .semiBold, size: 23)
-                            .foregroundColor(Theme.mainTextColor)
+                            .foregroundStyle(Theme.mainTextColor)
                         FontText(text: "그럼, 이제 시작할게!", weight: .semiBold, size: 23)
-                            .foregroundColor(Theme.mainTextColor)
+                            .foregroundStyle(Theme.mainTextColor)
                     }
                     
                     Spacer()
                     
                     FontText(text: "개인정보는 안전하게 보호돼요", weight: .semiBold, size: 14)
-                        .foregroundColor(Theme.grayColor)
+                        .foregroundStyle(Theme.grayColor)
                 }
             }
             Spacer()

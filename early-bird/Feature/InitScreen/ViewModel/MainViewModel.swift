@@ -13,6 +13,7 @@ class MainViewModel: ObservableObject {
     @Published var gotoTimerView = false
     @Published var gotoCompleteView = false
     @Published var gotoSettingView = false
+    @Published var gotoScheduleView = false
     
     @Published var isVisible = false
     
@@ -23,6 +24,11 @@ class MainViewModel: ObservableObject {
     func onStartRightNowTapped() {
         HapticFeedbackManager.mediumImpact()
         gotoTimerView = true
+    }
+    
+    func onScheduleTapped() {
+        HapticFeedbackManager.mediumImpact()
+        gotoScheduleView = true
     }
     
     func handleOnAppear() {

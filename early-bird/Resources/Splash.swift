@@ -12,9 +12,9 @@ struct SplashView: View {
         VStack {
             Spacer()
             FontText(text: "catchphrase_1", weight: .medium, size: 26, alignment: .center)
-                .foregroundColor(Theme.mainTextColor1)
+                .foregroundStyle(Theme.mainTextColor1)
             FontText(text: "얼리버드", size: 56, alignment: .center, font: .oneMobilePop)
-                .foregroundColor(Theme.primaryColor)
+                .foregroundStyle(Theme.primaryColor)
             Spacer()
         }
         .applyBackgroundWhite()

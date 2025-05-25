@@ -29,11 +29,11 @@ struct CalendarScreenView: View {
                     }
                 } else {
                     Text("No schedules for this week")
-                        .foregroundColor(.gray)
+                        .foregroundStyle(.gray)
                 }
             } else {
                 Text("Select a date to view schedules")
-                    .foregroundColor(.gray)
+                    .foregroundStyle(.gray)
             }
 
             Spacer()

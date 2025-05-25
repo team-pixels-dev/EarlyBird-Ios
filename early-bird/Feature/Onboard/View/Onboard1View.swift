@@ -37,7 +37,7 @@ struct Onboard1View: View {
 
                     Spacer()
 
-                    WideButton(
+                    RoundedButton(
                         buttonText: "다음",
                         buttonAction: {
                             viewModel.submit()

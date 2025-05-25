@@ -40,20 +40,20 @@ struct Onboard4View: View {
             
             if viewModel.showBlock1 {
                 FontText(text: "얼리버드야, 나 이제부터 진짜 약속할게.", weight: .semiBold, size: 20)
-                    .foregroundColor(Theme.mainTextColor)
+                    .foregroundStyle(Theme.mainTextColor)
                     .padding(.bottom, 24)
             }
             
             if viewModel.showBlock2 {
                 FontText(text: "스크린타임 설정은 우리 둘 사이, ", weight: .semiBold, size: fontSize)
-                    .foregroundColor(Theme.mainTextColor)
+                    .foregroundStyle(Theme.mainTextColor)
                 HStack(spacing: 0.0){
                     Spacer()
                     FontText(text: "미루기를 끝내기 위한 첫번째 약속", weight: .semiBold, size: fontSize)
-                        .foregroundColor(Theme.primaryColor)
+                        .foregroundStyle(Theme.primaryColor)
                     if isLanguageKorean(){
                         FontText(text: "이야.", weight: .semiBold, size: fontSize)
-                            .foregroundColor(Theme.mainTextColor)
+                            .foregroundStyle(Theme.mainTextColor)
                     }
                     Spacer()
                 }
@@ -91,7 +91,7 @@ struct Onboard4View: View {
                     Spacer()
                     
                     FontText(text: "개인정보는 안전하게 보호돼요", weight: .semiBold, size: 14)
-                        .foregroundColor(Theme.grayColor)
+                        .foregroundStyle(Theme.grayColor)
                 }
                 .frame(maxHeight: .infinity)
             }

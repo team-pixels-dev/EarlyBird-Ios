@@ -37,11 +37,11 @@ private struct SettingItemContent: View {
     private var itemText: some View {
         VStack(alignment: .leading, spacing: 4) {
             FontText(text: LocalizedStringKey(item.title), weight: .regular, size: 16, alignment: .leading)
-                .foregroundColor(Theme.mainTextColor2)
+                .foregroundStyle(Theme.mainTextColor2)
             
             if !item.description.isEmpty {
                 FontText(text: LocalizedStringKey(item.description), weight: .regular, size: 14, alignment: .leading)
-                    .foregroundColor(Theme.grayColor)
+                    .foregroundStyle(Theme.grayColor)
             }
         }
     }
@@ -49,15 +49,13 @@ private struct SettingItemContent: View {
     private var trailingView: some View {
         Group {
             if isToggleEnabled.wrappedValue != nil {
-                Toggle("", isOn: Binding(
-                    get: { isToggleEnabled.wrappedValue ?? false },
-                    set: { _ in onToggle?() }
-                ))
-                .labelsHidden()
-                .tint(Theme.secondaryColor)
+                CustomToggle(
+                    isEnabled: isToggleEnabled,
+                    onToggle: onToggle
+                )
             } else {
                 Image(systemName: "chevron.right")
-                    .foregroundColor(Color(red: 0.70, green: 0.70, blue: 0.70))
+                    .foregroundStyle(Color(red: 0.70, green: 0.70, blue: 0.70))
                     .font(.system(size: 14, weight: .medium))
             }
         }
