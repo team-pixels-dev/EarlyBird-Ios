@@ -466,7 +466,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-bird.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;
@@ -506,7 +506,7 @@
 				CODE_SIGN_ENTITLEMENTS = "early-bird/early-birdRelease.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"early-bird/Preview Content\"";
 				DEVELOPMENT_TEAM = 8KH5U6PJ48;
 				ENABLE_PREVIEWS = YES;

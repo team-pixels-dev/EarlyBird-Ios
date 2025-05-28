@@ -164,7 +164,7 @@ class TimerViewModel: ObservableObject {
         }
 
         // 2) FamilyControls permission
-        if await AppLimiter.shared.isNotAuthorized() {
+        if await !AppLimiter.shared.isAuthorized() {
             print("❌ FamilyControls 권한 없음")
             showPermissionErrorMsgModal = true
             return

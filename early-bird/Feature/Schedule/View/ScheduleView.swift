@@ -25,7 +25,7 @@ struct ScheduleView: View {
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: now)      // 0~23
         let minute = calendar.component(.minute, from: now)  // 0~59
-
+        
         selectedHour = hour % 12 // 0~12
         selectedMinute = minute  // 0~59
         selectedPeriod = hour < 12 ? 1 : 0
@@ -36,9 +36,10 @@ struct ScheduleView: View {
     let periods = ["AM", "PM"]
     
     var body: some View {
-        GeometryReader { _ in
+        GeometryReader { geometry in
             VStack(spacing:0){
                 HeaderView(title: "")
+                    .id("header") // ScrollView 앵커 포인트
                 
                 Image(imageName)
                   .resizable()
@@ -120,27 +121,25 @@ struct ScheduleView: View {
                     .padding(.top, 31)
                 
                 Spacer()
-                
             }
-            .applyBackground()
-            .navigationBarBackButtonHidden()
-            .onAppear {
-                // 1) 1초 동안 왼쪽에서 중앙으로 이동
-                withAnimation(.easeOut(duration: 1)) {
-                    offsetX = 0
+        }
+        .navigationBarBackButtonHidden()
+        .onAppear {
+            // 1) 1초 동안 왼쪽에서 중앙으로 이동
+            withAnimation(.easeOut(duration: 1.5)) {
+                offsetX = 0
+            }
+            
+            // 2) 1초 이동 완료 + 0.5초 후에 이미지 교체 및 햅틱
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.7) {
+                withAnimation(.easeIn(duration: 0.1)) {
+                    imageName = "mascotSchedule2"
                 }
+                // 햅틱 피드백
+                HapticFeedbackManager.mediumImpact()
                 
-                // 2) 1초 이동 완료 + 0.5초 후에 이미지 교체 및 햅틱
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    withAnimation(.easeIn(duration: 0.1)) {
-                        imageName = "mascotSchedule2"
-                    }
-                    // 햅틱 피드백
-                    HapticFeedbackManager.mediumImpact()
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                            focusedField = .mainInput
-                        }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                    focusedField = .mainInput
                 }
             }
         }

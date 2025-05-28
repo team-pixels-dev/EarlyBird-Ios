@@ -9,6 +9,7 @@ import FamilyControls
 import ManagedSettings
 import DeviceActivity
 
+@MainActor
 class AppLimiter: ObservableObject {
     static let shared = AppLimiter()
     
@@ -18,12 +19,12 @@ class AppLimiter: ObservableObject {
     
     private var appStateManager = AppStateManager.shared
     
+    @Published private(set) var authStatus: AuthorizationStatus = AuthorizationCenter.shared.authorizationStatus
+    
     private init() {}
     
-    func isNotAuthorized() async -> Bool {
-        let status = AuthorizationCenter.shared.authorizationStatus
-        print("🔍 FamilyControls 현재 상태: \(status)")
-        return status == .denied
+    func isAuthorized() async -> Bool {
+        return await refreshAuthorizationStatus()
     }
     
     // 개선된 권한 요청 메서드
@@ -59,19 +60,21 @@ class AppLimiter: ObservableObject {
         }
     }
     
-    // 권한 상태를 강제로 새로고침하는 메서드
-    func refreshAuthorizationStatus() -> Bool {
-        // 잠시 대기 후 상태 재확인
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            let status = self.familyCenter.authorizationStatus
-            print("🔄 권한 상태 새로고침: \(status)")
+    /// 잠깐 대기 후 권한 상태를 새로고침하고 Published로 방출
+    @discardableResult
+    func refreshAuthorizationStatus() async -> Bool {
+        // 포그라운드 복귀 직후라면 살짝 대기
+        try? await Task.sleep(nanoseconds: 300_000_000)
+        let status = familyCenter.authorizationStatus
+        DispatchQueue.main.async {
+            self.authStatus = status
         }
-        return familyCenter.authorizationStatus == .approved
+        return status == .approved
     }
     
     // 앱 차단 메서드도 권한 체크 추가
     func startBlockingAllApps(for duration: TimeInterval) async {
-        if await isNotAuthorized() {
+        if await !isAuthorized() {
             print("❌ FamilyControls 권한이 없어서 앱 차단 불가")
             return
         }
