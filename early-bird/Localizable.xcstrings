@@ -1317,7 +1317,20 @@
       }
     },
     "원하는 시간에 시작하기" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready when you are! ⏰🐥"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ready when you are! ⏰🐥"
+          }
+        }
+      }
     },
     "이야." : {
       "shouldTranslate" : false
@@ -1413,7 +1426,20 @@
       }
     },
     "지금 당장 시작하기" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s get started!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Let’s get started!"
+          }
+        }
+      }
     },
     "진동" : {
 

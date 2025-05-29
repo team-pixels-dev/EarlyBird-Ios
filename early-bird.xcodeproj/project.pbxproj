@@ -15,6 +15,7 @@
 		C84C73842DC72E95005368D9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C84C73832DC72E95005368D9 /* FirebaseAuth */; };
 		C89F4FBA2DB0AFE000656484 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C89F4FB92DB0AFE000656484 /* Lottie */; };
 		C8A0639E2DA77E5F00378836 /* AppActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8A063952DA77E5F00378836 /* AppActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8E7D4B62DE853C200A2CC25 /* AmplitudeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C8E7D4B52DE853C200A2CC25 /* AmplitudeSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 				C84C73842DC72E95005368D9 /* FirebaseAuth in Frameworks */,
 				C84C73822DC72E83005368D9 /* FirebaseFirestore in Frameworks */,
 				C84C73802DC72E69005368D9 /* FirebaseCore in Frameworks */,
+				C8E7D4B62DE853C200A2CC25 /* AmplitudeSwift in Frameworks */,
 				C89F4FBA2DB0AFE000656484 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +218,7 @@
 			packageReferences = (
 				C89F4FB82DB0AFE000656484 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				C84C737C2DC72E12005368D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C8E7D4B42DE853C200A2CC25 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C8F873F32D5CD94A00EC2145 /* Products */;
@@ -587,6 +590,14 @@
 				minimumVersion = 4.5.1;
 			};
 		};
+		C8E7D4B42DE853C200A2CC25 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -619,6 +630,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C89F4FB82DB0AFE000656484 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		C8E7D4B52DE853C200A2CC25 /* AmplitudeSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8E7D4B42DE853C200A2CC25 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */;
+			productName = AmplitudeSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

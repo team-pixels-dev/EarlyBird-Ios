@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct RadioButtonGroup: View {
+    @Binding var selection: Int
+    
     enum Option: String, CaseIterable {
             case first  = "반복 알람"
             case second = "한 번 알람"
