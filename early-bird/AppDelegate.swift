@@ -26,6 +26,8 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         if SettingValue.shared.isDataCollectionEnabled {
             // 사용자 동의 후 자동 데이터 수집 활성화
             Analytics.setAnalyticsCollectionEnabled(true)
+        } else {
+            Analytics.setAnalyticsCollectionEnabled(false)
         }
         
         // 온보딩 이후 FCM 설정

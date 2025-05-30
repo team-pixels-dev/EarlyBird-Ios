@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftUI
+import FirebaseAnalytics
 
 class Onboard5ViewModel: ObservableObject {
     @Published var visibleCount = 0
@@ -18,6 +19,7 @@ class Onboard5ViewModel: ObservableObject {
     @Published var notiAccessClicked = false
     @AppStorage("isNotificationRequested") private var isNotificationRequested: Bool = false
     @AppStorage("isOnboardingShown") private var isOnboardingShown: Bool = false
+    @AppStorage("isTeamMember") private var isTeamMember: Bool = false
     
     private var getPermssion = GetPermission()
 
@@ -83,6 +85,16 @@ class Onboard5ViewModel: ObservableObject {
                         ScheduleNotification.shared.scheduleMorningNoti()
                         ScheduleNotification.shared.scheduleNightNoti()
                     }
+                }
+                
+                if isTeamMember {
+                    Analytics.setAnalyticsCollectionEnabled(false)
+                } else {
+                    // 온보딩 이후 즉시 visitLog 전송
+                    sendVisitLog()
+                    
+                    // Amplitude 설정
+                    AmplitudeManager.shared.configureAfterOnboarding(isTeamMember: isTeamMember)
                 }
                 
                 configureFCMIfAuthorized() // FCM 설정(알림 권한 허용시만 적용됨)
